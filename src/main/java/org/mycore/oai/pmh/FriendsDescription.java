@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jdom.Element;
-import org.jdom.Namespace;
 
 /**
  * Implementation of the friends container description. 
@@ -12,10 +11,6 @@ import org.jdom.Namespace;
  * @author Matthias Eichner
  */
 public class FriendsDescription implements Description {
-
-    final static Namespace NS_XSI = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
-	final static Namespace NS_FRIENDS = Namespace.getNamespace("http://www.openarchives.org/OAI/2.0/friends/");
-    final static String SCHEMA_LOC_FRIENDS = "http://www.openarchives.org/OAI/2.0/friends/ http://www.openarchives.org/OAI/2.0/friends.xsd";
 
     private List<String> friendsList = null;
 
@@ -28,11 +23,11 @@ public class FriendsDescription implements Description {
 
 	@Override
 	public Element toXML() {
-		Element friends = new Element("friends", NS_FRIENDS);
-		friends.setAttribute("schemaLocation", SCHEMA_LOC_FRIENDS, NS_XSI);
-		friends.addNamespaceDeclaration(NS_XSI);
+		Element friends = new Element("friends", OAIConstants.NS_OAI_FRIENDS);
+		friends.setAttribute("schemaLocation", OAIConstants.SCHEMA_LOC_OAI_FRIENDS, OAIConstants.NS_XSI);
+		friends.addNamespaceDeclaration(OAIConstants.NS_XSI);
 		for(String friendURL : friendsList) {
-			friends.addContent(new Element("baseURL", NS_FRIENDS).setText(friendURL));
+			friends.addContent(new Element("baseURL", OAIConstants.NS_OAI_FRIENDS).setText(friendURL));
 		}
 		return friends;
 	}
