@@ -11,6 +11,8 @@ public class CannotDisseminateFormatException extends OAIException {
     private String metadataPrefix;
 
     private String id;
+    
+    private String message;
 
     public CannotDisseminateFormatException setId(String id) {
         this.id = id;
@@ -19,6 +21,11 @@ public class CannotDisseminateFormatException extends OAIException {
 
     public CannotDisseminateFormatException setMetadataPrefix(String metadataPrefix) {
         this.metadataPrefix = metadataPrefix;
+        return this;
+    }
+    
+    public CannotDisseminateFormatException setMessage(String message) {
+        this.message = message;
         return this;
     }
 
@@ -37,7 +44,9 @@ public class CannotDisseminateFormatException extends OAIException {
 
     @Override
     public String getMessage() {
-        if (id != null && id.length() > 0 && metadataPrefix != null && id.length() > 0) {
+        if(this.message != null) {
+            return this.message;
+        } if (id != null && id.length() > 0 && metadataPrefix != null && id.length() > 0) {
             return "The item " + this.id + " does not support the metadata format " + metadataPrefix;
         } else if (metadataPrefix != null) {
             return "The metadata prefix argument is not supported by the repository: " + metadataPrefix;

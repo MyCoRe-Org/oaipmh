@@ -82,17 +82,33 @@ public class Header {
     }
 
     /**
+     * Sets the deleted status.
+     * 
+     * @param deleted if the header/record is deleted
+     */
+    public void setDeleted(boolean deleted) {
+        this.status = deleted ? Status.deleted : null;
+    }
+
+    /**
      * Is the item is deleted.
      * 
      * @return true if deleted, otherwise false
      */
     public boolean isDeleted() {
-        return status != null && status.equals(Status.deleted);
+        return this.status != null && this.status.equals(Status.deleted);
     }
 
     @Override
     public int hashCode() {
-        return id.hashCode() + datestamp.hashCode() + status.hashCode();
+        int statusCode = this.status != null ? this.status.hashCode() : 0;
+        return this.id.hashCode() + this.datestamp.hashCode() + statusCode;
+    }
+
+    @Override
+    public String toString() {
+        String deleted = isDeleted() ? " (deleted)" : "";
+        return this.id + deleted;
     }
 
 }

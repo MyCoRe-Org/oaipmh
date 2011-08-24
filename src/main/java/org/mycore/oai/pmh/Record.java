@@ -88,6 +88,10 @@ public class Record {
         return this.header;
     }
 
+    public void setMetadata(Metadata metadata) {
+        this.metadata = metadata;
+    }
+
     public Metadata getMetadata() {
         return this.metadata;
     }
@@ -107,5 +111,10 @@ public class Record {
         if (!(obj instanceof Record))
             return false;
         return ((Record) obj).getHeader().equals(this.getHeader());
+    }
+
+    @Override
+    public String toString() {
+        return this.header.toString();
     }
 }

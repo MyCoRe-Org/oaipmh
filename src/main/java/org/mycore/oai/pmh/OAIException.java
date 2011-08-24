@@ -19,7 +19,7 @@ public abstract class OAIException extends Exception {
 	public OAIException() {
 		super();
 	}
-	
+
 	public OAIException(String message) {
 		super(message);
 	}
@@ -27,7 +27,7 @@ public abstract class OAIException extends Exception {
 	public OAIException(Throwable cause) {
 		super(cause);
 	}
-	
+
 	public OAIException(String message, Throwable cause) {
 		super(message, cause);
 	}

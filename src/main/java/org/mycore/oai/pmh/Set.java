@@ -18,6 +18,16 @@ public class Set {
     private List<Description> descriptionList;
 
     /**
+     * Creates a new Set by spec.
+     * 
+     * @param spec
+     *            a colon [:] separated list indicating the path from the root of the set hierarchy to the respective node (e.g. institution:nebraska:lincoln)
+     */
+    public Set(String spec) {
+        this(spec, "");
+    }
+
+    /**
      * Creates a new Set by spec and name.
      * 
      * @param spec
@@ -52,11 +62,35 @@ public class Set {
     }
 
     /**
+     * Sets a short human-readable string naming the set.
+     * 
+     * @param name name of set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
      * Returns a short human-readable string naming the set.
      * 
      * @return name of the set
      */
     public String getName() {
         return name;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null)
+            return false;
+        if (!(obj instanceof Set))
+            return false;
+        return this.spec.equals(((Set) obj).getSpec());
+    }
+
+    @Override
+    public String toString() {
+        String name = this.name != null ? " (" + this.name + ")" : "";        
+        return this.spec + name;
     }
 }

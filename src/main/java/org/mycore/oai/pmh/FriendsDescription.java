@@ -14,6 +14,10 @@ public class FriendsDescription implements Description {
 
     private List<String> friendsList = null;
 
+    public FriendsDescription() {
+        this.friendsList = new ArrayList<String>();
+    }
+
     public FriendsDescription(String... friends) {
     	this.friendsList = new ArrayList<String>();
     	for(String friend : friends) {
@@ -30,6 +34,15 @@ public class FriendsDescription implements Description {
 			friends.addContent(new Element("baseURL", OAIConstants.NS_OAI_FRIENDS).setText(friendURL));
 		}
 		return friends;
+	}
+
+	@Override
+	@SuppressWarnings("unchecked")
+	public void fromXML(Element friends) {
+        List<Element> friendList = friends.getChildren("baseURL", OAIConstants.NS_OAI_FRIENDS);
+        for(Element friend : friendList) {
+            this.friendsList.add(friend.getText());
+        }
 	}
 
 	public List<String> getFriendsList() {

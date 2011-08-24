@@ -23,6 +23,11 @@ public interface Identify {
         public String value() {
             return this.name().toLowerCase();
         }
+        public static DeletedRecordPolicy get(String drp) {
+            String lower = drp.toLowerCase();
+            String first = lower.substring(0, 1).toUpperCase();
+            return DeletedRecordPolicy.valueOf(first + lower.substring(1));
+        }
     }
 
     /**

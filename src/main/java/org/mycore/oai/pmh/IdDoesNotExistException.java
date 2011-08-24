@@ -11,6 +11,12 @@ public class IdDoesNotExistException extends OAIException {
 
 	private String id;
 
+	private String message;
+	
+	public IdDoesNotExistException() {
+	    this("");
+    }
+
 	public IdDoesNotExistException(String id) {
 		this.id = id;
 	}
@@ -19,9 +25,17 @@ public class IdDoesNotExistException extends OAIException {
 	public ErrorCode getCode() {
 		return ErrorCode.idDoesNotExist;
 	}
+	
+	public IdDoesNotExistException setMessage(String message) {
+	    this.message = message;
+	    return this;
+	}
 
 	@Override
 	public String getMessage() {
+	    if(this.message != null) {
+	        return this.message;
+	    }
 	    return "Unknown or illegal id: " + this.id;
 	}
 

@@ -18,6 +18,10 @@ public class OAIIdentifierDescription implements Description {
 
     private String sampleId;
 
+    public OAIIdentifierDescription() {
+        this("", "");
+    }
+
     public OAIIdentifierDescription(String repositoryIdentifier, String sampleId) {
         this.repositoryIdentifier = repositoryIdentifier;
         this.sampleId = sampleId;
@@ -33,6 +37,12 @@ public class OAIIdentifierDescription implements Description {
         oaiIdentifier.addContent(new Element("delimiter", OAIConstants.NS_OAI_ID).setText(DELIMITER));
         oaiIdentifier.addContent(new Element("sampleIdentifier", OAIConstants.NS_OAI_ID).setText(getSampleIdentifier()));
         return oaiIdentifier;
+    }
+
+    @Override
+    public void fromXML(Element oaiIdentifier) {
+        this.repositoryIdentifier = oaiIdentifier.getChildText("repositoryIdentifier", OAIConstants.NS_OAI_ID);
+        this.sampleId = oaiIdentifier.getChildText("sampleIdentifier", OAIConstants.NS_OAI_ID);
     }
 
     public String getPrefix() {

@@ -8,13 +8,23 @@ package org.mycore.oai.pmh;
 public class NoSetHierarchyException extends OAIException {
     private static final long serialVersionUID = 1L;
 
-	@Override
-	public ErrorCode getCode() {
-		return ErrorCode.noSetHierarchy;
-	}
+    private String message;
 
-	@Override
-	public String getMessage() {
-	    return "The repository doesn't support sets.";
-	}
+    public NoSetHierarchyException setMessage(String message) {
+        this.message = message;
+        return this;
+    }
+
+    @Override
+    public ErrorCode getCode() {
+        return ErrorCode.noSetHierarchy;
+    }
+
+    @Override
+    public String getMessage() {
+        if (this.message != null) {
+            return this.message;
+        }
+        return "The repository doesn't support sets.";
+    }
 }

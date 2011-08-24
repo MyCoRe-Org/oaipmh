@@ -19,4 +19,12 @@ public interface Description {
      */
     public Element toXML();
 
+    /**
+     * Builds the description by the given {@link Element}.
+     * 
+     * @param descriptionElement
+     *            desciption as jdom element
+     */
+    public void fromXML(Element descriptionElement);
+
 }

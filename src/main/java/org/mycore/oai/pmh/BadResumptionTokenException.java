@@ -12,6 +12,8 @@ public class BadResumptionTokenException extends OAIException {
 
 	private String resumptionToken;
 
+	private String message;
+
 	public BadResumptionTokenException() {
 	    this("");
     }
@@ -24,9 +26,17 @@ public class BadResumptionTokenException extends OAIException {
 		return resumptionToken;
 	}
 
+	public BadResumptionTokenException setMessage(String message) {
+	    this.message = message;
+	    return this;
+	}
+
 	@Override
 	public String getMessage() {
-	    return "The value of the resumptionToken argument is invalid or expired " + resumptionToken;
+	    if(this.message != null) {
+	        return this.message;
+	    }
+	    return "The value of the resumptionToken argument is invalid or expired " + this.resumptionToken;
 	}
 
 	@Override

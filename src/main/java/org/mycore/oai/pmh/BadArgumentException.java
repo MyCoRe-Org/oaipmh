@@ -36,8 +36,8 @@ public class BadArgumentException extends OAIException {
     @Override
     public String getMessage() {
         StringBuffer ba = new StringBuffer("Bad argument: ");
-        if (message != null) {
-            return ba.append(message).toString();
+        if (this.message != null) {
+            return this.message;
         } else {
             if (Type.invalid.equals(type)) {
                 return ba.append("following argument(s) are invalid ").append(idsAsString()).toString();

@@ -44,9 +44,9 @@ public class DefaultResumptionToken extends SimpleResumptionToken {
     }
 
     /**
-     * Size of the list.
+     * Returns the size of the whole list.
      * 
-     * @return
+     * @return size of the list
      */
     public int getCompleteListSize() {
         return completeListSize;
