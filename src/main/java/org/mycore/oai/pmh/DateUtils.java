@@ -19,7 +19,7 @@ public abstract class DateUtils {
 
     private static Calendar CALENDAR = Calendar.getInstance();
 
-    public static Granularity currentGranularity = Granularity.YYYY_MM_DD;
+    public static ThreadLocal<Granularity> currentGranularity;
 
     public static DateFormat utcDay;
 
@@ -28,38 +28,82 @@ public abstract class DateUtils {
     static {
         utcDay = new SimpleDateFormat("yyyy-MM-dd");
         utcSecond = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+        currentGranularity = new ThreadLocal<Granularity>();
+        currentGranularity.set(Granularity.YYYY_MM_DD);
     }
 
     /**
-     * Sets a new static date granularity.
+     * Sets a thread local date granularity.
      * 
      * @param granularity
      *            the granularity to set
      */
     public static void setGranularity(Granularity granularity) {
-        currentGranularity = granularity;
+        currentGranularity.set(granularity);
     }
 
     /**
-     * Returns the static date granularity.
+     * Returns the thread local date granularity.
      * 
      * @return the date granularity
      */
     public static Granularity getGranularity() {
-        return currentGranularity;
+        return currentGranularity.get();
     }
 
     /**
-     * Formats a Date into a date/time string.
+     * Formats to YYYY-MM-DDThh:mm:ssZ.
+     * 
+     * @param date date to format
+     * @return the formatted time string
+     */
+    public static String formatUTCSecond(Date date) {
+        return utcSecond.format(date);
+    }
+
+    /**
+     * Formats to YYYY-MM-DD.
+     * 
+     * @param date date to format
+     * @return the formatted time string
+     */
+    public static String formatUTCDay(Date date) {
+        return utcDay.format(date);
+    }
+
+    /**
+     * Formats a Date into a date/time string. The format depends on the {@link Granularity}
+     * declared by {@link #setGranularity(Granularity)}.
      * 
      * @param date
      *            the time value to be formatted into a time string.
      * @return the formatted time string. In YYYY-MM-DDThh:mm:ssZ or YYYY-MM-DD
      */
     public static String formatUTC(Date date) {
-        if (date == null)
+        if (date == null) {
             return null;
-        if (Granularity.YYYY_MM_DD.equals(currentGranularity)) {
+        }
+        if (Granularity.YYYY_MM_DD.equals(getGranularity())) {
+            return utcDay.format(date);
+        } else {
+            return utcSecond.format(date);
+        }
+    }
+
+    /**
+     * Formats a date into the given {@link Granularity} date string.
+     * 
+     * @param date
+     *            date to be formatted
+     * @param granularity
+     *            granularity of the date
+     * @return the formatted time string. In YYYY-MM-DDThh:mm:ssZ or YYYY-MM-DD
+     */
+    public static String formatUTC(Date date, Granularity granularity) {
+        if(date == null) {
+            return null;
+        }
+        if (Granularity.YYYY_MM_DD.equals(granularity)) {
             return utcDay.format(date);
         } else {
             return utcSecond.format(date);
