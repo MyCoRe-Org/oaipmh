@@ -7,6 +7,6 @@ package org.mycore.oai.pmh;
  */
 public enum Granularity {
 
-    YYYY_MM_DD, YYYY_MM_DD_THH_MM_SS_Z;
+    YYYY_MM_DD, YYYY_MM_DD_THH_MM_SS_Z, AUTO;
 
 }

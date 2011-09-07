@@ -83,7 +83,11 @@ public abstract class DateUtils {
         if (date == null) {
             return null;
         }
-        if (Granularity.YYYY_MM_DD.equals(getGranularity())) {
+        Granularity g = getGranularity();
+        if(Granularity.AUTO.equals(g)) {
+            g = getGranularity(date);
+        }
+        if (Granularity.YYYY_MM_DD.equals(g)) {
             return utcDay.format(date);
         } else {
             return utcSecond.format(date);
