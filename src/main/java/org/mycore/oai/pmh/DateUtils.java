@@ -139,7 +139,7 @@ public abstract class DateUtils {
     }
 
     /**
-     * Returns the most likely granularity of a date. If hour, minute, second and milisecond of the date are zero, the day granularity is returned.
+     * Returns the most likely granularity of a date. If hour, minute, second and millisecond of the date are zero, the day granularity is returned.
      * 
      * @param date
      *            date to check
@@ -184,6 +184,154 @@ public abstract class DateUtils {
             cal.setTime(new Date(System.currentTimeMillis()));
             return cal.getTime();
         }
+    }
+
+
+    /**
+     * Returns the last second of the specified date.
+     *
+     * @param date Date to calculate end of day from
+     * @return Last second of <code>date</code>
+     */
+    public static Date endOfDay(Date date) {
+        Calendar cal = CALENDAR;
+        synchronized (cal) {
+            cal.setTime(date);
+            cal.set(Calendar.HOUR_OF_DAY, 23);
+            cal.set(Calendar.SECOND, 59);
+            cal.set(Calendar.MINUTE, 59);
+            return cal.getTime();            
+        }
+    }
+
+    /**
+     * Returns a new Date with the hours, milliseconds, seconds and minutes
+     * set to 0.
+     *
+     * @param date Date used in calculating start of day
+     * @return Start of <code>date</code>
+     */
+    public static Date startOfDay(Date date) {
+        Calendar calendar = CALENDAR;
+        synchronized(calendar) {
+            calendar.setTime(date);
+            calendar.set(Calendar.HOUR_OF_DAY, 0);
+            calendar.set(Calendar.MILLISECOND, 0);
+            calendar.set(Calendar.SECOND, 0);
+            calendar.set(Calendar.MINUTE, 0);
+            return calendar.getTime();
+        }
+    }
+
+    /**
+     * Returns the day after <code>date</code>.
+     *
+     * @param date Date used in calculating next day
+     * @return Day after <code>date</code>.
+     */
+    public static Date nextDay(Date date) {
+        return addDays(date, 1);
+    }
+
+    /**
+     * Returns the day before <code>date</code>.
+     *
+     * @param date Date used in calculating previous day
+     * @return Day before <code>date</code>.
+     */
+    public static Date previousDay(Date date) {
+        return addDays(date, -1);
+    }
+
+    /**
+     * Adds <code>amount</code> days to <code>time</code> and returns
+     * the resulting time. A negative amount is allowed.
+     *
+     * @param date used in calculating days
+     * @param amount Amount of increment.
+     * 
+     * @return the <var>time</var> + <var>amount</var> days
+     */
+    public static Date addDays(Date date, int amount) {
+        Calendar calendar = CALENDAR;
+        synchronized(calendar) {
+            calendar.setTimeInMillis(date.getTime());
+            calendar.add(Calendar.DAY_OF_MONTH, amount);
+            return calendar.getTime();
+        }
+    }
+
+    /**
+     * Adds <code>amount</code> seconds to <code>time</code> and returns
+     * the resulting time.
+     *
+     * @param date used in calculating seconds
+     * @param amount Amount of increment.
+     * 
+     * @return the <var>time</var> + <var>amount</var> days
+     */
+    public static Date addSeconds(Date date, int amount) {
+        Calendar calendar = CALENDAR;
+        synchronized(calendar) {
+            calendar.setTimeInMillis(date.getTime());
+            calendar.add(Calendar.SECOND, amount);
+            return calendar.getTime();
+        }
+    }
+
+    /**
+     * Return the former date.
+     * 
+     * @param dates array of dates
+     * @return the former date or null if all arguments are null
+     */
+    public static Date min(Date... dates) {
+        Date minDate = null;
+        for(Date d : dates) {
+            if(minDate == null) {
+                minDate = d;
+            } else if(d != null && d.compareTo(minDate) < 0) {
+                minDate = d;
+            }
+        }
+        return minDate;
+    }
+
+    /**
+     * Return the later date.
+     * 
+     * @param dates array of dates
+     * @return the latest date or null if all arguments are null
+     */
+    public static Date max(Date... dates) {
+        Date maxDate = null;
+        for(Date d : dates) {
+            if(maxDate == null) {
+                maxDate = d;
+            } else if(d != null && d.compareTo(maxDate) > 0) {
+                maxDate = d;
+            }
+        }
+        return maxDate;
+    }
+
+    /**
+     * Checks if a date is between from and until. If from or until are null, then they are
+     * defined as infinity.
+     * 
+     * @param isBetween
+     * @param from
+     * @param until
+     * @return
+     */
+    public static boolean between(Date isBetween, Date from, Date until) {
+        if(isBetween == null)
+            return false;
+
+        if((from == null || isBetween.getTime() >= from.getTime()) &&
+           (until == null || isBetween.getTime() <= until.getTime()))
+            return true;
+        return false;
     }
 
 }

@@ -46,7 +46,7 @@ public class BadArgumentException extends OAIException {
             } else if (Type.repeated.equals(type)) {
                 return ba.append("following argument(s) are repeated ").append(idsAsString()).toString();
             } else if (Type.illegalSyntax.equals(type)) {
-                return ba.append("following argument(s) has an illegal syntax ").append(idsAsString()).toString();
+                return ba.append("following argument(s) have an illegal syntax ").append(idsAsString()).toString();
             }
             return ba.append("reason unknown").toString();
         }
