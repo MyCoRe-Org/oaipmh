@@ -19,18 +19,23 @@ public abstract class DateUtils {
 
     private static Calendar CALENDAR = Calendar.getInstance();
 
-    public static ThreadLocal<Granularity> currentGranularity;
+    public static ThreadLocal<Granularity> currentGranularity = new ThreadLocal<Granularity>() {
+        protected Granularity initialValue() {
+            return Granularity.YYYY_MM_DD;
+        };
+    };
 
-    public static DateFormat utcDay;
+    public static final ThreadLocal<DateFormat> utcDay = new ThreadLocal<DateFormat>() {
+        protected DateFormat initialValue() {
+            return new SimpleDateFormat("yyyy-MM-dd");
+        };
+    };
 
-    public static DateFormat utcSecond;
-
-    static {
-        utcDay = new SimpleDateFormat("yyyy-MM-dd");
-        utcSecond = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
-        currentGranularity = new ThreadLocal<Granularity>();
-        currentGranularity.set(Granularity.YYYY_MM_DD);
-    }
+    public static final ThreadLocal<DateFormat> utcSecond = new ThreadLocal<DateFormat>() {
+        protected DateFormat initialValue() {
+            return new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+        };
+    };
 
     /**
      * Sets a thread local date granularity.
@@ -58,7 +63,7 @@ public abstract class DateUtils {
      * @return the formatted time string
      */
     public static String formatUTCSecond(Date date) {
-        return utcSecond.format(date);
+        return utcSecond.get().format(date);
     }
 
     /**
@@ -68,7 +73,7 @@ public abstract class DateUtils {
      * @return the formatted time string
      */
     public static String formatUTCDay(Date date) {
-        return utcDay.format(date);
+        return utcDay.get().format(date);
     }
 
     /**
@@ -88,9 +93,9 @@ public abstract class DateUtils {
             g = getGranularity(date);
         }
         if (Granularity.YYYY_MM_DD.equals(g)) {
-            return utcDay.format(date);
+            return utcDay.get().format(date);
         } else {
-            return utcSecond.format(date);
+            return utcSecond.get().format(date);
         }
     }
 
@@ -108,9 +113,9 @@ public abstract class DateUtils {
             return null;
         }
         if (Granularity.YYYY_MM_DD.equals(granularity)) {
-            return utcDay.format(date);
+            return utcDay.get().format(date);
         } else {
-            return utcSecond.format(date);
+            return utcSecond.get().format(date);
         }
     }
 
@@ -134,8 +139,8 @@ public abstract class DateUtils {
         if (date == null)
             return null;
         if (date.contains("T") && date.endsWith("Z"))
-            return utcSecond.parse(date);
-        return utcDay.parse(date);
+            return utcSecond.get().parse(date);
+        return utcDay.get().parse(date);
     }
 
     /**
