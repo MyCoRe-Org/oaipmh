@@ -63,7 +63,10 @@ public abstract class DateUtils {
      * @return the formatted time string
      */
     public static String formatUTCSecond(Date date) {
-        return utcSecond.get().format(date);
+        if(date != null) {
+            return utcSecond.get().format(date);
+        }
+        return null;
     }
 
     /**
@@ -73,7 +76,10 @@ public abstract class DateUtils {
      * @return the formatted time string
      */
     public static String formatUTCDay(Date date) {
-        return utcDay.get().format(date);
+        if(date != null) {
+            return utcDay.get().format(date);
+        }
+        return null;
     }
 
     /**
