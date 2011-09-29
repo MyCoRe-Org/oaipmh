@@ -330,10 +330,10 @@ public abstract class DateUtils {
      * Checks if a date is between from and until. If from or until are null, then they are
      * defined as infinity.
      * 
-     * @param isBetween
-     * @param from
-     * @param until
-     * @return
+     * @param isBetween the date to check
+     * @param from the earlier date
+     * @param until the later date
+     * @return true if the date is between
      */
     public static boolean between(Date isBetween, Date from, Date until) {
         if(isBetween == null)

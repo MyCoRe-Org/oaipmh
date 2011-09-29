@@ -1,6 +1,7 @@
 package org.mycore.oai.pmh;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
