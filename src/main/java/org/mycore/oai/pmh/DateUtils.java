@@ -5,6 +5,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.TimeZone;
 
 import org.apache.log4j.Logger;
 
@@ -27,13 +28,17 @@ public abstract class DateUtils {
 
     public static final ThreadLocal<DateFormat> utcDay = new ThreadLocal<DateFormat>() {
         protected DateFormat initialValue() {
-            return new SimpleDateFormat("yyyy-MM-dd");
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+            return sdf;
         };
     };
 
     public static final ThreadLocal<DateFormat> utcSecond = new ThreadLocal<DateFormat>() {
         protected DateFormat initialValue() {
-            return new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+            sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+            return sdf;
         };
     };
 
