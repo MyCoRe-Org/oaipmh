@@ -18,29 +18,41 @@ public abstract class DateUtils {
 
     private static Logger LOGGER = Logger.getLogger(DateUtils.class);
 
-    private static Calendar CALENDAR = Calendar.getInstance();
+    private static TimeZone TIMEZONE;
 
-    public static ThreadLocal<Granularity> currentGranularity = new ThreadLocal<Granularity>() {
-        protected Granularity initialValue() {
-            return Granularity.YYYY_MM_DD;
-        };
-    };
+    private static Calendar CALENDAR;
 
-    public static final ThreadLocal<DateFormat> utcDay = new ThreadLocal<DateFormat>() {
-        protected DateFormat initialValue() {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
-            return sdf;
-        };
-    };
+    public static ThreadLocal<Granularity> currentGranularity;
 
-    public static final ThreadLocal<DateFormat> utcSecond = new ThreadLocal<DateFormat>() {
-        protected DateFormat initialValue() {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
-            sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
-            return sdf;
+    public static final ThreadLocal<DateFormat> utcDay;
+
+    public static final ThreadLocal<DateFormat> utcSecond;
+
+    static {
+        TIMEZONE = TimeZone.getTimeZone("UTC");
+        CALENDAR = Calendar.getInstance();
+        CALENDAR.setTimeZone(TIMEZONE);
+        currentGranularity = new ThreadLocal<Granularity>() {
+            protected Granularity initialValue() {
+                return Granularity.YYYY_MM_DD;
+            };
         };
-    };
+        utcDay = new ThreadLocal<DateFormat>() {
+            protected DateFormat initialValue() {
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                sdf.setTimeZone(TIMEZONE);
+                return sdf;
+            };
+        };
+        utcSecond = new ThreadLocal<DateFormat>() {
+            protected DateFormat initialValue() {
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+                sdf.setTimeZone(TIMEZONE);
+                return sdf;
+            };
+        };
+
+    }
 
     /**
      * Sets a thread local date granularity.
@@ -68,7 +80,7 @@ public abstract class DateUtils {
      * @return the formatted time string
      */
     public static String formatUTCSecond(Date date) {
-        if(date != null) {
+        if (date != null) {
             return utcSecond.get().format(date);
         }
         return null;
@@ -81,7 +93,7 @@ public abstract class DateUtils {
      * @return the formatted time string
      */
     public static String formatUTCDay(Date date) {
-        if(date != null) {
+        if (date != null) {
             return utcDay.get().format(date);
         }
         return null;
@@ -100,7 +112,7 @@ public abstract class DateUtils {
             return null;
         }
         Granularity g = getGranularity();
-        if(Granularity.AUTO.equals(g)) {
+        if (Granularity.AUTO.equals(g)) {
             g = getGranularity(date);
         }
         if (Granularity.YYYY_MM_DD.equals(g)) {
@@ -120,7 +132,7 @@ public abstract class DateUtils {
      * @return the formatted time string. In YYYY-MM-DDThh:mm:ssZ or YYYY-MM-DD
      */
     public static String formatUTC(Date date, Granularity granularity) {
-        if(date == null) {
+        if (date == null) {
             return null;
         }
         if (Granularity.YYYY_MM_DD.equals(granularity)) {
@@ -202,7 +214,6 @@ public abstract class DateUtils {
         }
     }
 
-
     /**
      * Returns the last second of the specified date.
      *
@@ -216,7 +227,7 @@ public abstract class DateUtils {
             cal.set(Calendar.HOUR_OF_DAY, 23);
             cal.set(Calendar.SECOND, 59);
             cal.set(Calendar.MINUTE, 59);
-            return cal.getTime();            
+            return cal.getTime();
         }
     }
 
@@ -229,7 +240,7 @@ public abstract class DateUtils {
      */
     public static Date startOfDay(Date date) {
         Calendar calendar = CALENDAR;
-        synchronized(calendar) {
+        synchronized (calendar) {
             calendar.setTime(date);
             calendar.set(Calendar.HOUR_OF_DAY, 0);
             calendar.set(Calendar.MILLISECOND, 0);
@@ -270,7 +281,7 @@ public abstract class DateUtils {
      */
     public static Date addDays(Date date, int amount) {
         Calendar calendar = CALENDAR;
-        synchronized(calendar) {
+        synchronized (calendar) {
             calendar.setTimeInMillis(date.getTime());
             calendar.add(Calendar.DAY_OF_MONTH, amount);
             return calendar.getTime();
@@ -288,7 +299,7 @@ public abstract class DateUtils {
      */
     public static Date addSeconds(Date date, int amount) {
         Calendar calendar = CALENDAR;
-        synchronized(calendar) {
+        synchronized (calendar) {
             calendar.setTimeInMillis(date.getTime());
             calendar.add(Calendar.SECOND, amount);
             return calendar.getTime();
@@ -303,10 +314,10 @@ public abstract class DateUtils {
      */
     public static Date min(Date... dates) {
         Date minDate = null;
-        for(Date d : dates) {
-            if(minDate == null) {
+        for (Date d : dates) {
+            if (minDate == null) {
                 minDate = d;
-            } else if(d != null && d.compareTo(minDate) < 0) {
+            } else if (d != null && d.compareTo(minDate) < 0) {
                 minDate = d;
             }
         }
@@ -321,10 +332,10 @@ public abstract class DateUtils {
      */
     public static Date max(Date... dates) {
         Date maxDate = null;
-        for(Date d : dates) {
-            if(maxDate == null) {
+        for (Date d : dates) {
+            if (maxDate == null) {
                 maxDate = d;
-            } else if(d != null && d.compareTo(maxDate) > 0) {
+            } else if (d != null && d.compareTo(maxDate) > 0) {
                 maxDate = d;
             }
         }
@@ -341,11 +352,10 @@ public abstract class DateUtils {
      * @return true if the date is between
      */
     public static boolean between(Date isBetween, Date from, Date until) {
-        if(isBetween == null)
+        if (isBetween == null)
             return false;
 
-        if((from == null || isBetween.getTime() >= from.getTime()) &&
-           (until == null || isBetween.getTime() <= until.getTime()))
+        if ((from == null || isBetween.getTime() >= from.getTime()) && (until == null || isBetween.getTime() <= until.getTime()))
             return true;
         return false;
     }
