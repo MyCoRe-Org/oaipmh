@@ -3,14 +3,13 @@ package org.mycore.oai.pmh;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * OAI-PMH Data container, contains a {@link List} with a {@link ResumptionToken}. This is needed for ListSets, ListRecords and ListIdentifiers.
  * 
  * @author Matthias Eichner
  * @param <T> type of Data (e.g. {@link Record})
  */
-public class OAIDataList<T> extends ArrayList<T> {
+public class OAIDataList<T> extends ArrayList<T> implements Cloneable {
 
     private static final long serialVersionUID = 3081555510128912877L;
 
@@ -53,6 +52,20 @@ public class OAIDataList<T> extends ArrayList<T> {
      */
     public boolean isResumptionTokenSet() {
         return this.resumptionToken != null;
+    }
+
+    /**
+     * Returns a shallow copy of this <tt>OAIDataList</tt> instance.  (The
+     * elements themselves are not copied.)
+     *
+     * @return a clone of this <tt>OAIDataList</tt> instance
+     */
+    @Override
+    public Object clone() {
+        OAIDataList<T> copy = new OAIDataList<T>();
+        copy.addAll(this);
+        copy.setResumptionToken(this.resumptionToken);
+        return copy;
     }
 
 }
