@@ -83,4 +83,10 @@ public class MetadataFormat {
             return ((MetadataFormat) obj).namespace.equals(this.namespace);
     }
 
+    /* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    public String toString() {
+        return namespace.getPrefix() + " (" + this.namespace.getURI().toString() + ")";
+    }
 }
