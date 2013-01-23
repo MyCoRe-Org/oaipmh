@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 /**
  * Simple implementation of the {@link Metadata} interface.

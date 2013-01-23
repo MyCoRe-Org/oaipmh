@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh.dc;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 import org.mycore.oai.pmh.Metadata;
 import org.mycore.oai.pmh.OAIConstants;
 

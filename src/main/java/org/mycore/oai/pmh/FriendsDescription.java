@@ -3,7 +3,7 @@ package org.mycore.oai.pmh;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 /**
  * Implementation of the friends container description. 
@@ -37,7 +37,6 @@ public class FriendsDescription implements Description {
 	}
 
 	@Override
-	@SuppressWarnings("unchecked")
 	public void fromXML(Element friends) {
         List<Element> friendList = friends.getChildren("baseURL", OAIConstants.NS_OAI_FRIENDS);
         for(Element friend : friendList) {

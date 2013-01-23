@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 /**
  * An extensible mechanism for communities to describe their repositories. For example, the description container could be used to include collection-level

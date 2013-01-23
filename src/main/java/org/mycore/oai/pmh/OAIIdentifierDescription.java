@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 /**
  * The OAI identifier format is intended to provide persistent resource identifiers for items in repositories that implement OAI-PMH. This is just one possible

@@ -1,10 +1,10 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Document;
-import org.jdom.Element;
-import org.jdom.JDOMException;
-import org.jdom.input.DOMBuilder;
-import org.jdom.output.DOMOutputter;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.DOMBuilder;
+import org.jdom2.output.DOMOutputter;
 
 /**
  * Provides some usefull OAI-PMH util methods.
@@ -60,7 +60,7 @@ public abstract class OAIUtils {
     }
 
     /**
-     * Converts a org.w3c.dom.Element element to a org.jdom.Element.
+     * Converts a org.w3c.dom.Element element to a org.jdom2.Element.
      * 
      * @param domElement org.w3c.dom.Element object
      * @return Element - JDOM Element object

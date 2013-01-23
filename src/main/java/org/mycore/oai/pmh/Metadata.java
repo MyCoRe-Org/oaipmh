@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 /**
  * The internal metadata representation of a OAI-PMH xml response. At a minimum, repositories must be able to return records with metadata expressed in the

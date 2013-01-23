@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Namespace;
+import org.jdom2.Namespace;
 
 /**
  * Contains some usefull constants.

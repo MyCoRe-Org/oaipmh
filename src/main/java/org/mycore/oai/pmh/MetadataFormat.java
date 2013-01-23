@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import org.jdom.Namespace;
+import org.jdom2.Namespace;
 import org.mycore.oai.pmh.dc.DCMetadataFormat;
 
 /**
