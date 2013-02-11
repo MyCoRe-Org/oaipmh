@@ -8,14 +8,10 @@
   <artifactId>oaipmh</artifactId>
   <version>0.2-SNAPSHOT</version>
 
-  <properties>
-    <java.target.version>1.6</java.target.version>
-  </properties>
-
   <scm>
-    <connection>scm:svn:http://server.mycore.de/svn/maven/${artifactId}/trunk</connection>
-    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${artifactId}/trunk</developerConnection>
-    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${artifactId}/</url>
+    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/trunk</connection>
+    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/trunk</developerConnection>
+    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/</url>
   </scm>
   <repositories>
     <repository>
@@ -36,6 +32,24 @@
       </snapshots>
     </repository>
   </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>jar-no-fork</goal>
+              <goal>test-jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 
   <dependencies>
     <dependency>
