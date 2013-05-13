@@ -6,12 +6,12 @@
     <version>13</version>
   </parent>
   <artifactId>oaipmh</artifactId>
-  <version>0.2</version>
+  <version>0.3-SNAPSHOT</version>
 
   <scm>
-    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/tags/oaipmh-0.2</connection>
-    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/tags/oaipmh-0.2</developerConnection>
-    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/tags/oaipmh-0.2</url>
+    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/trunk</connection>
+    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/trunk</developerConnection>
+    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/</url>
   </scm>
   <repositories>
     <repository>
