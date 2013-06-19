@@ -3,7 +3,7 @@
   <parent>
     <artifactId>mycore-parent</artifactId>
     <groupId>org.mycore</groupId>
-    <version>13</version>
+    <version>15-SNAPSHOT</version>
   </parent>
   <artifactId>oaipmh</artifactId>
   <version>0.3-SNAPSHOT</version>
