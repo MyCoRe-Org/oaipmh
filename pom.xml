@@ -3,15 +3,15 @@
   <parent>
     <artifactId>mycore-parent</artifactId>
     <groupId>org.mycore</groupId>
-    <version>15-SNAPSHOT</version>
+    <version>15</version>
   </parent>
   <artifactId>oaipmh</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.3</version>
 
   <scm>
-    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/trunk</connection>
-    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/trunk</developerConnection>
-    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/</url>
+    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/tags/oaipmh-0.3</connection>
+    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/tags/oaipmh-0.3</developerConnection>
+    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/tags/oaipmh-0.3</url>
   </scm>
   <repositories>
     <repository>
