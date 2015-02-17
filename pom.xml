@@ -3,16 +3,18 @@
   <parent>
     <artifactId>mycore-parent</artifactId>
     <groupId>org.mycore</groupId>
-    <version>16-SNAPSHOT</version>
+    <version>24-SNAPSHOT</version>
   </parent>
   <artifactId>oaipmh</artifactId>
   <version>0.4-SNAPSHOT</version>
-
   <properties>
     <java.target.version>1.7</java.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <issueManagement>
+    <system>JIRA</system>
+    <url>https://mycore.atlassian.net/browse/OAI</url>
+  </issueManagement>
   <scm>
     <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/trunk</connection>
     <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/trunk</developerConnection>
@@ -37,7 +39,6 @@
       </snapshots>
     </repository>
   </repositories>
-
   <build>
     <plugins>
       <plugin>
