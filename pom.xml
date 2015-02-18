@@ -3,10 +3,10 @@
   <parent>
     <artifactId>mycore-parent</artifactId>
     <groupId>org.mycore</groupId>
-    <version>25-SNAPSHOT</version>
+    <version>24-SNAPSHOT</version>
   </parent>
   <artifactId>oaipmh</artifactId>
-  <version>0.5-SNAPSHOT</version>
+  <version>0.4-SNAPSHOT</version>
   <properties>
     <java.target.version>1.7</java.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
