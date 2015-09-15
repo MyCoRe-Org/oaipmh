@@ -7,7 +7,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Contains util methods to support the ISO8601 UTC date format.
@@ -16,7 +17,7 @@ import org.apache.log4j.Logger;
  */
 public abstract class DateUtils {
 
-    private static Logger LOGGER = Logger.getLogger(DateUtils.class);
+    private static Logger LOGGER = LogManager.getLogger(DateUtils.class);
 
     private static TimeZone TIMEZONE;
 
