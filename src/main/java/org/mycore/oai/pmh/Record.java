@@ -82,6 +82,7 @@ public class Record {
     public Record(Header header, Metadata metadata) {
         this.header = header;
         this.metadata = metadata;
+        this.aboutList = new ArrayList<Element>();
     }
 
     public Header getHeader() {
