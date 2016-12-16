@@ -3,10 +3,10 @@
   <parent>
     <artifactId>mycore-parent</artifactId>
     <groupId>org.mycore</groupId>
-    <version>30</version>
+    <version>31-SNAPSHOT</version>
   </parent>
   <artifactId>oaipmh</artifactId>
-  <version>0.7</version>
+  <version>0.8-SNAPSHOT</version>
   <properties>
     <java.target.version>1.8</java.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,9 +16,9 @@
     <url>https://mycore.atlassian.net/browse/OAI</url>
   </issueManagement>
   <scm>
-    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/tags/oaipmh-0.7</connection>
-    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/tags/oaipmh-0.7</developerConnection>
-    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/tags/oaipmh-0.7</url>
+    <connection>scm:svn:http://server.mycore.de/svn/maven/${project.artifactId}/trunk</connection>
+    <developerConnection>scm:svn:https://server.mycore.de/svn/maven/${project.artifactId}/trunk</developerConnection>
+    <url>http://www.mycore.de/viewvc/viewvc.cgi/maven/${project.artifactId}/</url>
   </scm>
   <repositories>
     <repository>
