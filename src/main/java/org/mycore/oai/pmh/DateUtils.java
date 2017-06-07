@@ -1,14 +1,13 @@
 package org.mycore.oai.pmh;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.TimeZone;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 /**
  * Contains util methods to support the ISO8601 UTC date format.
@@ -17,42 +16,23 @@ import org.apache.logging.log4j.Logger;
  */
 public abstract class DateUtils {
 
-    private static Logger LOGGER = LogManager.getLogger(DateUtils.class);
-
-    private static TimeZone TIMEZONE;
-
-    private static Calendar CALENDAR;
-
     public static ThreadLocal<Granularity> currentGranularity;
 
-    public static final ThreadLocal<DateFormat> utcDay;
+    public static ZoneId UTC_ZONE;
 
-    public static final ThreadLocal<DateFormat> utcSecond;
+    public static DateTimeFormatter UTC_DAY;
+
+    public static DateTimeFormatter UTC_SECOND;
 
     static {
-        TIMEZONE = TimeZone.getTimeZone("UTC");
-        CALENDAR = Calendar.getInstance();
-        CALENDAR.setTimeZone(TIMEZONE);
         currentGranularity = new ThreadLocal<Granularity>() {
             protected Granularity initialValue() {
                 return Granularity.YYYY_MM_DD;
             };
         };
-        utcDay = new ThreadLocal<DateFormat>() {
-            protected DateFormat initialValue() {
-                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-                sdf.setTimeZone(TIMEZONE);
-                return sdf;
-            };
-        };
-        utcSecond = new ThreadLocal<DateFormat>() {
-            protected DateFormat initialValue() {
-                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
-                sdf.setTimeZone(TIMEZONE);
-                return sdf;
-            };
-        };
-
+        UTC_ZONE = ZoneId.of("UTC").normalized();
+        UTC_DAY = DateTimeFormatter.ofPattern("yyyy-MM-dd").withZone(UTC_ZONE);
+        UTC_SECOND = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'").withZone(UTC_ZONE);
     }
 
     /**
@@ -77,12 +57,12 @@ public abstract class DateUtils {
     /**
      * Formats to YYYY-MM-DDThh:mm:ssZ.
      * 
-     * @param date date to format
+     * @param instant instant to format
      * @return the formatted time string
      */
-    public static String formatUTCSecond(Date date) {
-        if (date != null) {
-            return utcSecond.get().format(date);
+    public static String formatUTCSecond(Instant instant) {
+        if (instant != null) {
+            return UTC_SECOND.format(instant);
         }
         return null;
     }
@@ -90,12 +70,12 @@ public abstract class DateUtils {
     /**
      * Formats to YYYY-MM-DD.
      * 
-     * @param date date to format
+     * @param instant instant to format
      * @return the formatted time string
      */
-    public static String formatUTCDay(Date date) {
-        if (date != null) {
-            return utcDay.get().format(date);
+    public static String formatUTCDay(Instant instant) {
+        if (instant != null) {
+            return UTC_DAY.format(instant);
         }
         return null;
     }
@@ -104,132 +84,92 @@ public abstract class DateUtils {
      * Formats a Date into a date/time string. The format depends on the {@link Granularity}
      * declared by {@link #setGranularity(Granularity)}.
      * 
-     * @param date
-     *            the time value to be formatted into a time string.
+     * @param instant
+     *            the instant to be formatted into a time string.
      * @return the formatted time string. In YYYY-MM-DDThh:mm:ssZ or YYYY-MM-DD
      */
-    public static String formatUTC(Date date) {
-        if (date == null) {
+    public static String format(Instant instant) {
+        if (instant == null) {
             return null;
         }
-        Granularity g = getGranularity();
-        if (Granularity.AUTO.equals(g)) {
-            g = getGranularity(date);
+        Granularity granularity = getGranularity();
+        if (Granularity.AUTO.equals(granularity)) {
+            granularity = guessGranularity(instant);
         }
-        if (Granularity.YYYY_MM_DD.equals(g)) {
-            return utcDay.get().format(date);
-        } else {
-            return utcSecond.get().format(date);
-        }
+        return format(instant, granularity);
     }
 
     /**
      * Formats a date into the given {@link Granularity} date string.
      * 
-     * @param date
-     *            date to be formatted
+     * @param instant
+     *            instant to be formatted
      * @param granularity
      *            granularity of the date
      * @return the formatted time string. In YYYY-MM-DDThh:mm:ssZ or YYYY-MM-DD
      */
-    public static String formatUTC(Date date, Granularity granularity) {
-        if (date == null) {
+    public static String format(Instant instant, Granularity granularity) {
+        if (instant == null) {
             return null;
         }
         if (Granularity.YYYY_MM_DD.equals(granularity)) {
-            return utcDay.get().format(date);
+            return UTC_DAY.format(instant);
         } else {
-            return utcSecond.get().format(date);
+            return UTC_SECOND.format(instant);
         }
     }
 
     /**
-     * Parses text from the beginning of the given string to produce a date.
+     * Parses text from the beginning of the given string to produce an instant.
      * 
      * @param date
      *            a string to parse
-     * @return A Date parsed from the string.
+     * @return A Instant parsed from the string.
      */
-    public static Date parseUTC(String date) {
-        try {
-            return parse(date);
-        } catch (ParseException pExc) {
-            LOGGER.error("while parsing date " + date, pExc);
-        }
-        return null;
-    }
-
-    public static Date parse(String date) throws ParseException {
-        if (date == null)
+    public static Instant parse(String date) {
+        if (date == null) {
             return null;
-        if (date.contains("T") && date.endsWith("Z"))
-            return utcSecond.get().parse(date);
-        return utcDay.get().parse(date);
+        }
+        if (date.contains("T") && date.endsWith("Z")) {
+            return LocalDateTime.from(UTC_SECOND.parse(date)).toInstant(ZoneOffset.UTC);
+        }
+        return LocalDate.parse(date).atStartOfDay().toInstant(ZoneOffset.UTC);
     }
 
     /**
-     * Returns the most likely granularity of a date. If hour, minute, second and millisecond of the date are zero, the day granularity is returned.
+     * Returns the most likely granularity of an instant. If hour, minute,
+     * second and nanoseconds of the instant are zero, the day granularity
+     * is returned.
      * 
-     * @param date
-     *            date to check
+     * @param instant
+     *            instant to check
      * @return the most likely granularity of the date
      */
-    public static Granularity getGranularity(Date date) {
-        Calendar calendar = CALENDAR;
-        synchronized (calendar) {
-            calendar.setTime(date);
-            if (calendar.get(Calendar.HOUR_OF_DAY) == 0 && calendar.get(Calendar.MINUTE) == 0 && calendar.get(Calendar.SECOND) == 0
-                    && calendar.get(Calendar.MILLISECOND) == 0) {
-                return Granularity.YYYY_MM_DD;
-            }
-            return Granularity.YYYY_MM_DD_THH_MM_SS_Z;
-        }
+    public static Granularity guessGranularity(Instant instant) {
+        ZonedDateTime zonedDateTime = ZonedDateTime.ofInstant(instant, UTC_ZONE);
+        boolean isStartOfDay = zonedDateTime.getHour() == 0 && zonedDateTime.getMinute() == 0
+            && zonedDateTime.getSecond() == 0 && zonedDateTime.getNano() == 0;
+        return isStartOfDay ? Granularity.YYYY_MM_DD : Granularity.YYYY_MM_DD_THH_MM_SS_Z;
     }
 
     /**
      * Returns the granularity of a UTC date.
      * 
-     * @param date
+     * @param date date string to guess
      * @return the granularity of the given date
-     * @throws ParseException
-     *             if the date is not in UTC format
      */
-    public static Granularity getGranularity(String date) throws ParseException {
-        parse(date);
-        if (date.contains("T") && date.contains("Z")) {
-            return Granularity.YYYY_MM_DD_THH_MM_SS_Z;
-        }
-        return Granularity.YYYY_MM_DD;
+    public static Granularity guessGranularity(String date) {
+        return guessGranularity(parse(date));
     }
 
     /**
-     * Returns the current date.
-     * 
-     * @return date at current time
-     */
-    public static Date getCurrentDate() {
-        Calendar cal = CALENDAR;
-        synchronized (cal) {
-            cal.setTime(new Date(System.currentTimeMillis()));
-            return cal.getTime();
-        }
-    }
-
-    /**
-     * Returns the last second of the specified date.
+     * Returns a instant at the end of the day.
      *
-     * @param date Date to calculate end of day from
-     * @return Last second of <code>date</code>
+     * @param instant Instant to calculate end of day from
+     * @return instant at the end of the day
      */
-    public static Date endOfDay(Date date) {
-        Calendar cal = CALENDAR;
-        synchronized (cal) {
-            cal.setTime(date);
-            cal.set(Calendar.HOUR_OF_DAY, 23);
-            cal.set(Calendar.SECOND, 59);
-            cal.set(Calendar.MINUTE, 59);
-            return cal.getTime();
-        }
+    public static Instant endOfDay(Instant instant) {
+        return LocalDate.from(instant).atTime(LocalTime.MAX).toInstant(ZoneOffset.UTC);
     }
 
     /**
@@ -239,126 +179,86 @@ public abstract class DateUtils {
      * @param date Date used in calculating start of day
      * @return Start of <code>date</code>
      */
-    public static Date startOfDay(Date date) {
-        Calendar calendar = CALENDAR;
-        synchronized (calendar) {
-            calendar.setTime(date);
-            calendar.set(Calendar.HOUR_OF_DAY, 0);
-            calendar.set(Calendar.MILLISECOND, 0);
-            calendar.set(Calendar.SECOND, 0);
-            calendar.set(Calendar.MINUTE, 0);
-            return calendar.getTime();
-        }
+    public static Instant startOfDay(Instant instant) {
+        return LocalDate.from(instant).atStartOfDay().toInstant(ZoneOffset.UTC);
     }
 
     /**
-     * Returns the day after <code>date</code>.
-     *
-     * @param date Date used in calculating next day
-     * @return Day after <code>date</code>.
-     */
-    public static Date nextDay(Date date) {
-        return addDays(date, 1);
-    }
-
-    /**
-     * Returns the day before <code>date</code>.
-     *
-     * @param date Date used in calculating previous day
-     * @return Day before <code>date</code>.
-     */
-    public static Date previousDay(Date date) {
-        return addDays(date, -1);
-    }
-
-    /**
-     * Adds <code>amount</code> days to <code>time</code> and returns
+     * Adds <code>amount</code> days to the <code>instant</code> and returns
      * the resulting time. A negative amount is allowed.
      *
-     * @param date used in calculating days
+     * @param instant used in calculating days
      * @param amount Amount of increment.
      * 
      * @return the <var>time</var> + <var>amount</var> days
      */
-    public static Date addDays(Date date, int amount) {
-        Calendar calendar = CALENDAR;
-        synchronized (calendar) {
-            calendar.setTimeInMillis(date.getTime());
-            calendar.add(Calendar.DAY_OF_MONTH, amount);
-            return calendar.getTime();
-        }
+    public static Instant addDays(Instant instant, int amount) {
+        return LocalDateTime.ofInstant(instant, ZoneOffset.UTC).plusDays(amount).toInstant(ZoneOffset.UTC);
     }
 
     /**
      * Adds <code>amount</code> seconds to <code>time</code> and returns
      * the resulting time.
      *
-     * @param date used in calculating seconds
+     * @param instant used in calculating seconds
      * @param amount Amount of increment.
      * 
      * @return the <var>time</var> + <var>amount</var> days
      */
-    public static Date addSeconds(Date date, int amount) {
-        Calendar calendar = CALENDAR;
-        synchronized (calendar) {
-            calendar.setTimeInMillis(date.getTime());
-            calendar.add(Calendar.SECOND, amount);
-            return calendar.getTime();
-        }
+    public static Instant addSeconds(Instant instant, int amount) {
+        return LocalDateTime.ofInstant(instant, ZoneOffset.UTC).plusSeconds(amount).toInstant(ZoneOffset.UTC);
     }
 
     /**
-     * Return the former date.
+     * Return the former instant.
      * 
-     * @param dates array of dates
-     * @return the former date or null if all arguments are null
+     * @param instants array of instant
+     * @return the former instant or null if all arguments are null
      */
-    public static Date min(Date... dates) {
-        Date minDate = null;
-        for (Date d : dates) {
-            if (minDate == null) {
-                minDate = d;
-            } else if (d != null && d.compareTo(minDate) < 0) {
-                minDate = d;
+    public static Instant min(Instant... instants) {
+        Instant minInstant = null;
+        for (Instant instant : instants) {
+            if (minInstant == null) {
+                minInstant = instant;
+            } else if (instant != null && instant.isBefore(minInstant)) {
+                minInstant = instant;
             }
         }
-        return minDate;
+        return minInstant;
     }
 
     /**
-     * Return the later date.
+     * Return the later instant.
      * 
-     * @param dates array of dates
-     * @return the latest date or null if all arguments are null
+     * @param instants array of instant
+     * @return the latest instant or null if all arguments are null
      */
-    public static Date max(Date... dates) {
-        Date maxDate = null;
-        for (Date d : dates) {
-            if (maxDate == null) {
-                maxDate = d;
-            } else if (d != null && d.compareTo(maxDate) > 0) {
-                maxDate = d;
+    public static Instant max(Instant... instants) {
+        Instant maxInstant = null;
+        for (Instant instant : instants) {
+            if (maxInstant == null) {
+                maxInstant = instant;
+            } else if (instant != null && instant.isAfter(maxInstant)) {
+                maxInstant = instant;
             }
         }
-        return maxDate;
+        return maxInstant;
     }
 
     /**
-     * Checks if a date is between from and until. If from or until are null, then they are
+     * Checks if an instant is between from and until. If from or until are null, then they are
      * defined as infinity.
      * 
-     * @param isBetween the date to check
-     * @param from the earlier date
-     * @param until the later date
-     * @return true if the date is between
+     * @param isBetween the instant to check
+     * @param from the earlier instant
+     * @param until the later instant
+     * @return true if the instant is between
      */
-    public static boolean between(Date isBetween, Date from, Date until) {
-        if (isBetween == null)
+    public static boolean between(Instant isBetween, Instant from, Instant until) {
+        if (isBetween == null) {
             return false;
-
-        if ((from == null || isBetween.getTime() >= from.getTime()) && (until == null || isBetween.getTime() <= until.getTime()))
-            return true;
-        return false;
+        }
+        return (from == null || isBetween.isAfter(from)) && (until == null | isBetween.isBefore(until));
     }
 
 }

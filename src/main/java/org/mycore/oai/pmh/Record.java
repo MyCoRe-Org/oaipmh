@@ -1,7 +1,7 @@
 package org.mycore.oai.pmh;
 
+import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.jdom2.Element;
@@ -28,7 +28,7 @@ public class Record {
      * @param datestamp
      *            the date of creation, modification or deletion
      */
-    public Record(String id, Date datestamp) {
+    public Record(String id, Instant datestamp) {
         this.header = new Header(id, datestamp, null);
         this.aboutList = new ArrayList<Element>();
     }
@@ -43,7 +43,7 @@ public class Record {
      * @param status
      *            status attribute with a value of deleted indicates the withdrawal of availability of the specified metadata format for the item
      */
-    public Record(String id, Date datestamp, Status status) {
+    public Record(String id, Instant datestamp, Status status) {
         this.header = new Header(id, datestamp, status);
         this.aboutList = new ArrayList<Element>();
     }
@@ -58,7 +58,7 @@ public class Record {
      * @param metadata
      *            contains metadata of the record - mods, oai_dc etc.
      */
-    public Record(String id, Date datestamp, Metadata metadata) {
+    public Record(String id, Instant datestamp, Metadata metadata) {
         this.header = new Header(id, datestamp, null);
         this.metadata = metadata;
         this.aboutList = new ArrayList<Element>();

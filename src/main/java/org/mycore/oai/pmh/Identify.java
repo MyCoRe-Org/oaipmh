@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import java.util.Date;
+import java.time.Instant;
 import java.util.List;
 
 /**
@@ -65,7 +65,7 @@ public interface Identify {
      * 
      * @return earliest date in repository
      */
-    public Date getEarliestDatestamp();
+    public Instant getEarliestDatestamp();
 
     /**
      * The finest harvesting granularity supported by the repository. The legitimate values are YYYY-MM-DD and

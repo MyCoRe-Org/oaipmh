@@ -1,18 +1,30 @@
 package org.mycore.oai.pmh;
 
+import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
+/**
+ * Simple getter/setter implementation of the {@link Identify} interface.
+ * 
+ * @author Matthias Eichner
+ */
 public class SimpleIdentify implements Identify {
 
     protected String baseURL;
+
     protected List<String> adminEmailList = new ArrayList<String>();
+
     protected List<Description> descriptionList = new ArrayList<Description>();
+
     protected DeletedRecordPolicy deletedRecordPolicy;
-    protected Date earliestDatestamp;
+
+    protected Instant earliestDatestamp;
+
     protected Granularity granularity;
+
     protected String repositoryName;
+
     protected String protocolVersion = "2.0";
 
     @Override
@@ -31,7 +43,7 @@ public class SimpleIdentify implements Identify {
     }
 
     @Override
-    public Date getEarliestDatestamp() {
+    public Instant getEarliestDatestamp() {
         return this.earliestDatestamp;
     }
 
@@ -58,24 +70,31 @@ public class SimpleIdentify implements Identify {
     public void setAdminEmailList(List<String> adminEmailList) {
         this.adminEmailList = adminEmailList;
     }
+
     public void setBaseURL(String baseURL) {
         this.baseURL = baseURL;
     }
+
     public void setDeletedRecordPolicy(DeletedRecordPolicy deletedRecordPolicy) {
         this.deletedRecordPolicy = deletedRecordPolicy;
     }
+
     public void setDescriptionList(List<Description> descriptionList) {
         this.descriptionList = descriptionList;
     }
-    public void setEarliestDatestamp(Date earliestDatestamp) {
+
+    public void setEarliestDatestamp(Instant earliestDatestamp) {
         this.earliestDatestamp = earliestDatestamp;
     }
+
     public void setGranularity(Granularity granularity) {
         this.granularity = granularity;
     }
+
     public void setProtocolVersion(String protocolVersion) {
         this.protocolVersion = protocolVersion;
     }
+
     public void setRepositoryName(String repositoryName) {
         this.repositoryName = repositoryName;
     }

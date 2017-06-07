@@ -1,6 +1,6 @@
 package org.mycore.oai.pmh;
 
-import java.util.Date;
+import java.time.Instant;
 
 /**
  * The default resumption token implemenation described <a href="http://www.openarchives.org/OAI/openarchivesprotocol.html#FlowControl">here</a>.
@@ -9,17 +9,17 @@ import java.util.Date;
  */
 public class DefaultResumptionToken extends SimpleResumptionToken {
 
-    private Date expirationDate;
+    private Instant expirationDate;
 
-    private int completeListSize;
+    private Integer completeListSize;
 
-    private int cursor;
+    private Integer cursor;
 
     /**
      * Creates an empty resumption token.
      */
     public DefaultResumptionToken() {
-        this(null, null, -1, -1);
+        this(null, null, null, null);
     }
 
     /**
@@ -36,7 +36,7 @@ public class DefaultResumptionToken extends SimpleResumptionToken {
      * @param cursor
      *            a count of the number of elements of the complete list thus far returned (i.e. cursor starts at 0).
      */
-    public DefaultResumptionToken(String token, Date expirationDate, int completeListSize, int cursor) {
+    public DefaultResumptionToken(String token, Instant expirationDate, Integer completeListSize, Integer cursor) {
         super(token);
         this.setExpirationDate(expirationDate);
         this.setCompleteListSize(completeListSize);
@@ -48,27 +48,32 @@ public class DefaultResumptionToken extends SimpleResumptionToken {
      * 
      * @return size of the list
      */
-    public int getCompleteListSize() {
+    public Integer getCompleteListSize() {
         return completeListSize;
     }
 
-    public void setCompleteListSize(int completeListSize) {
+    public void setCompleteListSize(Integer completeListSize) {
         this.completeListSize = completeListSize;
     }
 
-    public int getCursor() {
+    /**
+     * Returns the current cursor position.
+     * 
+     * @return the cursor position
+     */
+    public Integer getCursor() {
         return cursor;
     }
 
-    public void setCursor(int cursor) {
+    public void setCursor(Integer cursor) {
         this.cursor = cursor;
     }
 
-    public Date getExpirationDate() {
+    public Instant getExpirationDate() {
         return expirationDate;
     }
-    
-    public void setExpirationDate(Date expirationDate) {
+
+    public void setExpirationDate(Instant expirationDate) {
         this.expirationDate = expirationDate;
     }
 

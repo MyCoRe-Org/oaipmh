@@ -1,7 +1,7 @@
 package org.mycore.oai.pmh;
 
+import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -17,7 +17,7 @@ public class Header {
 
     private String id;
 
-    private Date datestamp;
+    private Instant datestamp;
 
     private List<Set> setList;
 
@@ -32,7 +32,7 @@ public class Header {
      * @param datestamp
      *            the date of creation, modification or deletion
      */
-    public Header(String id, Date datestamp) {
+    public Header(String id, Instant datestamp) {
         this(id, datestamp, null);
     }
 
@@ -47,7 +47,7 @@ public class Header {
      * @param status
      *            status attribute with a value of deleted indicates the withdrawal of availability of the specified metadata format for the item
      */
-    public Header(String id, Date datestamp, Status status) {
+    public Header(String id, Instant datestamp, Status status) {
         this.id = id;
         this.datestamp = datestamp;
         this.status = status;
@@ -68,7 +68,7 @@ public class Header {
      * 
      * @return date
      */
-    public Date getDatestamp() {
+    public Instant getDatestamp() {
         return datestamp;
     }
 
