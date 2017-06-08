@@ -79,6 +79,10 @@ public class DateUtilsTest {
         assertFalse(
             DateUtils.between(Instant.ofEpochMilli(1500), Instant.ofEpochMilli(50), Instant.ofEpochMilli(1000)));
         assertFalse(DateUtils.between(Instant.ofEpochMilli(25), Instant.ofEpochMilli(50), Instant.ofEpochMilli(1000)));
+        assertFalse(DateUtils.between(Instant.ofEpochMilli(25), Instant.ofEpochMilli(50), null));
+        assertTrue(DateUtils.between(Instant.ofEpochMilli(100), Instant.ofEpochMilli(50), null));
+        assertTrue(DateUtils.between(Instant.ofEpochMilli(25), null, Instant.ofEpochMilli(50)));
+        assertFalse(DateUtils.between(Instant.ofEpochMilli(100), null, Instant.ofEpochMilli(50)));
     }
 
     private Instant daySampleInstant() {

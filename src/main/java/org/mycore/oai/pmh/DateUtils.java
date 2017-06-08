@@ -258,7 +258,7 @@ public abstract class DateUtils {
         if (isBetween == null) {
             return false;
         }
-        return (from == null || isBetween.isAfter(from)) && (until == null | isBetween.isBefore(until));
+        return (from == null || isBetween.isAfter(from)) && (until == null || isBetween.isBefore(until));
     }
 
 }
