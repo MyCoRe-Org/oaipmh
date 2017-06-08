@@ -33,8 +33,8 @@ public class MetadataFormat {
     /**
      * Creates a new metadata format.
      * 
-     * @param namespace
-     * @param schema
+     * @param namespace jdom namespace
+     * @param schema the schema
      */
     public MetadataFormat(Namespace namespace, String schema) {
         this.schema = schema;
@@ -45,6 +45,8 @@ public class MetadataFormat {
      * Returns the unique metadata prefix, a string to specify the metadata format in OAI-PMH requests issued to the repository. The prefix consists of any
      * valid URI unreserved characters. metadataPrefix arguments are used in ListRecords, ListIdentifiers, and GetRecord requests to retrieve records, or the
      * headers of records that include metadata in the format specified by the metadataPrefix
+     * 
+     * @return prefix of the namespace
      */
     public String getPrefix() {
         return this.namespace.getPrefix();

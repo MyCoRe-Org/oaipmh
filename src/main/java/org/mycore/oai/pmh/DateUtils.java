@@ -176,7 +176,7 @@ public abstract class DateUtils {
      * Returns a new Date with the hours, milliseconds, seconds and minutes
      * set to 0.
      *
-     * @param date Date used in calculating start of day
+     * @param instant Instant used in calculating start of day
      * @return Start of <code>date</code>
      */
     public static Instant startOfDay(Instant instant) {

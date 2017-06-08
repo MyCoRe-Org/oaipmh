@@ -67,7 +67,7 @@ public class Record {
     /**
      * Creates a new record without metadata.
      * 
-     * @param header
+     * @param header the header data
      */
     public Record(Header header) {
         this(header, null);
@@ -76,8 +76,8 @@ public class Record {
     /**
      * Creates a new record.
      * 
-     * @param header
-     * @param metadata
+     * @param header the header data
+     * @param metadata the metadata
      */
     public Record(Header header, Metadata metadata) {
         this.header = header;
