@@ -7,6 +7,7 @@ import static org.junit.Assert.assertTrue;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.ZoneOffset;
 
 import org.junit.Test;
@@ -41,6 +42,17 @@ public class DateUtilsTest {
     public void guessGranularity() {
         assertEquals(Granularity.YYYY_MM_DD_THH_MM_SS_Z, DateUtils.guessGranularity(secondSampleInstant()));
         assertEquals(Granularity.YYYY_MM_DD, DateUtils.guessGranularity(daySampleInstant()));
+    }
+
+    @Test
+    public void endOfDay() {
+        assertEquals(LocalDate.of(2000, 10, 10).atTime(LocalTime.MAX).toInstant(ZoneOffset.UTC),
+            DateUtils.endOfDay(secondSampleInstant()));
+    }
+
+    @Test
+    public void startOfDay() {
+        assertEquals(daySampleInstant(), DateUtils.startOfDay(secondSampleInstant()));
     }
 
     @Test

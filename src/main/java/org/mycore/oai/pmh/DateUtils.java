@@ -169,7 +169,7 @@ public abstract class DateUtils {
      * @return instant at the end of the day
      */
     public static Instant endOfDay(Instant instant) {
-        return LocalDate.from(instant).atTime(LocalTime.MAX).toInstant(ZoneOffset.UTC);
+        return LocalDateTime.ofInstant(instant, UTC_ZONE).toLocalDate().atTime(LocalTime.MAX).toInstant(ZoneOffset.UTC);
     }
 
     /**
@@ -180,7 +180,7 @@ public abstract class DateUtils {
      * @return Start of <code>date</code>
      */
     public static Instant startOfDay(Instant instant) {
-        return LocalDate.from(instant).atStartOfDay().toInstant(ZoneOffset.UTC);
+        return LocalDateTime.ofInstant(instant, UTC_ZONE).toLocalDate().atStartOfDay().toInstant(ZoneOffset.UTC);
     }
 
     /**
