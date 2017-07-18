@@ -2,6 +2,7 @@ package org.mycore.oai.pmh;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * OAI-PMH Data container, contains a {@link List} with a {@link ResumptionToken}. This is needed for ListSets, ListRecords and ListIdentifiers.
@@ -41,17 +42,46 @@ public class OAIDataList<T> extends ArrayList<T> implements Cloneable {
         return resumptionToken;
     }
 
+    /**
+     * Sets the resumption token for this list.
+     * 
+     * @param resumptionToken the new resumption token
+     */
     public void setResumptionToken(ResumptionToken resumptionToken) {
         this.resumptionToken = resumptionToken;
     }
 
     /**
-     * Checks if a resumption token is set.
+     * <p>Checks if the resumptionToken element exists AND if the token
+     * value is set.</p>
+     * <p>
+     *  From the protocol:
+     *  <li>
+     *  <b>the response containing the incomplete list that completes the list
+     *  must include an empty resumptionToken element;</b>
+     *  </li>
+     * </p>
+     * <p>
+     * The last page should have an resumptionToken element but NO token value,
+     * but the expirationDate, completeListSize and/or the cursor.
+     * </p>
      * 
      * @return true if set, otherwise false
      */
     public boolean isResumptionTokenSet() {
-        return this.resumptionToken != null;
+        return this.resumptionToken != null && this.resumptionToken.getToken() != null;
+    }
+
+    /**
+     * Returns the resumption token value if available.
+     * 
+     * @return optional resumption token
+     */
+    public Optional<String> getToken() {
+        if (isResumptionTokenSet()) {
+            return Optional.of(this.resumptionToken.getToken());
+        }
+        return Optional.empty();
     }
 
     /**

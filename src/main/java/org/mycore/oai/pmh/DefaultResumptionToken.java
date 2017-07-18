@@ -3,7 +3,7 @@ package org.mycore.oai.pmh;
 import java.time.Instant;
 
 /**
- * The default resumption token implemenation described <a href="http://www.openarchives.org/OAI/openarchivesprotocol.html#FlowControl">here</a>.
+ * The default resumption token implementation described <a href="http://www.openarchives.org/OAI/openarchivesprotocol.html#FlowControl">here</a>.
  * 
  * @author Matthias Eichner
  */
@@ -69,6 +69,11 @@ public class DefaultResumptionToken extends SimpleResumptionToken {
         this.cursor = cursor;
     }
 
+    /**
+     * Gets the expiration date for this resumption token
+     * 
+     * @return the expiration date
+     */
     public Instant getExpirationDate() {
         return expirationDate;
     }

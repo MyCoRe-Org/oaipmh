@@ -98,6 +98,13 @@ public interface Identify {
      */
     public List<Description> getDescriptionList();
 
-    // TODO: compression
+    /**
+     * A compression encoding supported by the repository. The recommended values are those defined for the
+     * Content-Encoding header in Section 14.11 of RFC 2616 describing HTTP 1.1. A compression element should not be
+     * included for the identity encoding, which is implied.
+     * 
+     * @return compression as string
+     */
+    public String getCompression();
 
 }

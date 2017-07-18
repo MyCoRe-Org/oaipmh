@@ -25,6 +25,8 @@ public class SimpleIdentify implements Identify {
 
     protected String repositoryName;
 
+    protected String compression;
+
     protected String protocolVersion = "2.0";
 
     @Override
@@ -67,6 +69,11 @@ public class SimpleIdentify implements Identify {
         return this.descriptionList;
     }
 
+    @Override
+    public String getCompression() {
+        return this.compression;
+    }
+
     public void setAdminEmailList(List<String> adminEmailList) {
         this.adminEmailList = adminEmailList;
     }
@@ -93,6 +100,10 @@ public class SimpleIdentify implements Identify {
 
     public void setProtocolVersion(String protocolVersion) {
         this.protocolVersion = protocolVersion;
+    }
+
+    public void setCompression(String compression) {
+        this.compression = compression;
     }
 
     public void setRepositoryName(String repositoryName) {
