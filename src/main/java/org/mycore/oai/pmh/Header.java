@@ -51,7 +51,7 @@ public class Header {
         this.id = id;
         this.datestamp = datestamp;
         this.status = status;
-        this.setList = new ArrayList<Set>();
+        this.setList = new ArrayList<>();
     }
 
     /**

@@ -30,7 +30,7 @@ public class Record {
      */
     public Record(String id, Instant datestamp) {
         this.header = new Header(id, datestamp, null);
-        this.aboutList = new ArrayList<Element>();
+        this.aboutList = new ArrayList<>();
     }
 
     /**
@@ -45,7 +45,7 @@ public class Record {
      */
     public Record(String id, Instant datestamp, Status status) {
         this.header = new Header(id, datestamp, status);
-        this.aboutList = new ArrayList<Element>();
+        this.aboutList = new ArrayList<>();
     }
 
     /**
@@ -61,7 +61,7 @@ public class Record {
     public Record(String id, Instant datestamp, Metadata metadata) {
         this.header = new Header(id, datestamp, null);
         this.metadata = metadata;
-        this.aboutList = new ArrayList<Element>();
+        this.aboutList = new ArrayList<>();
     }
 
     /**
@@ -82,7 +82,7 @@ public class Record {
     public Record(Header header, Metadata metadata) {
         this.header = header;
         this.metadata = metadata;
-        this.aboutList = new ArrayList<Element>();
+        this.aboutList = new ArrayList<>();
     }
 
     public Header getHeader() {
@@ -107,11 +107,7 @@ public class Record {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj == null)
-            return false;
-        if (!(obj instanceof Record))
-            return false;
-        return ((Record) obj).getHeader().equals(this.getHeader());
+        return obj != null && obj instanceof Record && ((Record) obj).getHeader().equals(this.getHeader());
     }
 
     @Override

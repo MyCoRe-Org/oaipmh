@@ -81,11 +81,7 @@ public class Set {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj == null)
-            return false;
-        if (!(obj instanceof Set))
-            return false;
-        return this.spec.equals(((Set) obj).getSpec());
+        return obj != null && obj instanceof Set && this.spec.equals(((Set) obj).getSpec());
     }
 
     @Override

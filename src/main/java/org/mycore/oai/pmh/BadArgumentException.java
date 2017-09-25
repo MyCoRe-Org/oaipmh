@@ -35,7 +35,7 @@ public class BadArgumentException extends OAIException {
 
     @Override
     public String getMessage() {
-        StringBuffer ba = new StringBuffer("Bad argument: ");
+        StringBuilder ba = new StringBuilder("Bad argument: ");
         if (this.message != null) {
             return this.message;
         } else {
@@ -53,7 +53,7 @@ public class BadArgumentException extends OAIException {
     }
 
     private String idsAsString() {
-        StringBuffer idBuf = new StringBuffer();
+        StringBuilder idBuf = new StringBuilder();
         for (int i = 0; i < arguments.length; i++) {
             idBuf.append("'").append(arguments[i]).append("'");
             if (i != arguments.length - 1)

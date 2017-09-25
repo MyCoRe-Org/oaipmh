@@ -89,6 +89,6 @@ public class MetadataFormat {
      * @see java.lang.Object#toString()
      */
     public String toString() {
-        return namespace.getPrefix() + " (" + this.namespace.getURI().toString() + ")";
+        return namespace.getPrefix() + " (" + this.namespace.getURI() + ")";
     }
 }

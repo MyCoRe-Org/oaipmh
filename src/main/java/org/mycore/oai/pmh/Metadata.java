@@ -18,6 +18,6 @@ public interface Metadata {
      * 
      * @return metadata as jdom
      */
-    public Element toXML();
+    Element toXML();
 
 }

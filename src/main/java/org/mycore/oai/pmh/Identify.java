@@ -23,7 +23,7 @@ public interface Identify {
      * consistently. A repository that indicates this level of support may reveal a deleted status for records.</li>
      * </ol>
      */
-    public enum DeletedRecordPolicy {
+    enum DeletedRecordPolicy {
         No, Persistent, Transient;
         public String value() {
             return this.name().toLowerCase();
@@ -41,14 +41,14 @@ public interface Identify {
      * 
      * @return list of emails
      */
-    public List<String> getAdminEmailList();
+    List<String> getAdminEmailList();
 
     /**
      * The base URL of the repository. e.g. http://memory.loc.gov/cgi-bin/oai
      * 
      * @return base url as string
      */
-    public String getBaseURL();
+    String getBaseURL();
 
     /**
      * The manner in which the repository supports the notion of deleted records. Legitimate values are no, transient,
@@ -56,7 +56,7 @@ public interface Identify {
      * 
      * @return policy of deleted records
      */
-    public DeletedRecordPolicy getDeletedRecordPolicy();
+    DeletedRecordPolicy getDeletedRecordPolicy();
 
     /**
      * A date that is the guaranteed lower limit of all datestamps recording changes, modifications, or deletions in the
@@ -65,7 +65,7 @@ public interface Identify {
      * 
      * @return earliest date in repository
      */
-    public Instant getEarliestDatestamp();
+    Instant getEarliestDatestamp();
 
     /**
      * The finest harvesting granularity supported by the repository. The legitimate values are YYYY-MM-DD and
@@ -73,21 +73,21 @@ public interface Identify {
      * 
      * @return granularity of the repository
      */
-    public Granularity getGranularity();
+    Granularity getGranularity();
 
     /**
      * The version of the oai protocol. This should be "2.0".
      * 
      * @return protocoal version as string
      */
-    public String getProtocolVersion();
+    String getProtocolVersion();
 
     /**
      * The human readable name of the repository.
      * 
      * @return name of the repository
      */
-    public String getRepositoryName();
+    String getRepositoryName();
 
     /**
      * An extensible mechanism for communities to describe their repositories. For example, the description list could
@@ -96,7 +96,7 @@ public interface Identify {
      * 
      * @return a list of descriptions
      */
-    public List<Description> getDescriptionList();
+    List<Description> getDescriptionList();
 
     /**
      * A compression encoding supported by the repository. The recommended values are those defined for the
@@ -105,6 +105,6 @@ public interface Identify {
      * 
      * @return compression as string
      */
-    public String getCompression();
+    String getCompression();
 
 }

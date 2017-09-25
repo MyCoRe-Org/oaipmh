@@ -25,11 +25,7 @@ public abstract class DateUtils {
     public static DateTimeFormatter UTC_SECOND;
 
     static {
-        currentGranularity = new ThreadLocal<Granularity>() {
-            protected Granularity initialValue() {
-                return Granularity.YYYY_MM_DD;
-            };
-        };
+        currentGranularity = ThreadLocal.withInitial(() -> Granularity.YYYY_MM_DD);
         UTC_ZONE = ZoneId.of("UTC").normalized();
         UTC_DAY = DateTimeFormatter.ofPattern("yyyy-MM-dd").withZone(UTC_ZONE);
         UTC_SECOND = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'").withZone(UTC_ZONE);

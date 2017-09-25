@@ -17,7 +17,7 @@ public interface Description {
      * 
      * @return description as jdom
      */
-    public Element toXML();
+    Element toXML();
 
     /**
      * Builds the description by the given {@link Element}.
@@ -25,6 +25,6 @@ public interface Description {
      * @param descriptionElement
      *            desciption as jdom element
      */
-    public void fromXML(Element descriptionElement);
+    void fromXML(Element descriptionElement);
 
 }

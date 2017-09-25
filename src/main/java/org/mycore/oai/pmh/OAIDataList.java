@@ -56,10 +56,12 @@ public class OAIDataList<T> extends ArrayList<T> implements Cloneable {
      * value is set.</p>
      * <p>
      *  From the protocol:
+     *  <ul>
      *  <li>
      *  <b>the response containing the incomplete list that completes the list
      *  must include an empty resumptionToken element;</b>
      *  </li>
+     *  </ul>
      * </p>
      * <p>
      * The last page should have an resumptionToken element but NO token value,
@@ -92,7 +94,7 @@ public class OAIDataList<T> extends ArrayList<T> implements Cloneable {
      */
     @Override
     public Object clone() {
-        OAIDataList<T> copy = new OAIDataList<T>();
+        OAIDataList<T> copy = new OAIDataList<>();
         copy.addAll(this);
         copy.setResumptionToken(this.resumptionToken);
         return copy;

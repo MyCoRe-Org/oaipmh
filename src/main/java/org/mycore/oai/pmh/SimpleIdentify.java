@@ -13,9 +13,9 @@ public class SimpleIdentify implements Identify {
 
     protected String baseURL;
 
-    protected List<String> adminEmailList = new ArrayList<String>();
+    protected List<String> adminEmailList = new ArrayList<>();
 
-    protected List<Description> descriptionList = new ArrayList<Description>();
+    protected List<Description> descriptionList = new ArrayList<>();
 
     protected DeletedRecordPolicy deletedRecordPolicy;
 

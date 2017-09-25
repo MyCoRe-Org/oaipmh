@@ -46,15 +46,11 @@ public class OAIIdentifierDescription implements Description {
     }
 
     public String getPrefix() {
-        StringBuffer prefix = new StringBuffer(SCHEME).append(DELIMITER);
-        prefix.append(this.repositoryIdentifier).append(DELIMITER);
-        return prefix.toString();
+        return SCHEME + DELIMITER + this.repositoryIdentifier + DELIMITER;
     }
 
     public String getSampleIdentifier() {
-        StringBuffer sId = new StringBuffer(getPrefix());
-        sId.append(this.sampleId);
-        return sId.toString();
+        return getPrefix() + this.sampleId;
     }
 
     public String getRepositoryIdentifier() {

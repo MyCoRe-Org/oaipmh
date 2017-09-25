@@ -24,6 +24,6 @@ public interface ResumptionToken {
      * 
      * @return token as string
      */
-    public String getToken();
+    String getToken();
 
 }

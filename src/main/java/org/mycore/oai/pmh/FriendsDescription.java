@@ -1,6 +1,7 @@
 package org.mycore.oai.pmh;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.jdom2.Element;
@@ -15,14 +16,12 @@ public class FriendsDescription implements Description {
     private List<String> friendsList = null;
 
     public FriendsDescription() {
-        this.friendsList = new ArrayList<String>();
+        this.friendsList = new ArrayList<>();
     }
 
     public FriendsDescription(String... friends) {
-    	this.friendsList = new ArrayList<String>();
-    	for(String friend : friends) {
-    		friendsList.add(friend);    		
-    	}
+    	this.friendsList = new ArrayList<>();
+		Collections.addAll(friendsList, friends);
     }
 
 	@Override
