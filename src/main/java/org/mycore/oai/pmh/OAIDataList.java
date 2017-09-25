@@ -54,15 +54,13 @@ public class OAIDataList<T> extends ArrayList<T> implements Cloneable {
     /**
      * <p>Checks if the resumptionToken element exists AND if the token
      * value is set.</p>
-     * <p>
      *  From the protocol:
-     *  <ul>
-     *  <li>
-     *  <b>the response containing the incomplete list that completes the list
-     *  must include an empty resumptionToken element;</b>
-     *  </li>
-     *  </ul>
-     * </p>
+     * <ul>
+     *   <li>
+     *   <b>the response containing the incomplete list that completes the list
+     *      must include an empty resumptionToken element</b>
+     *   </li>
+     * </ul>
      * <p>
      * The last page should have an resumptionToken element but NO token value,
      * but the expirationDate, completeListSize and/or the cursor.
