@@ -155,7 +155,7 @@ public abstract class DateUtils {
      * @return the granularity of the given date
      */
     public static Granularity guessGranularity(String date) {
-        return guessGranularity(parse(date));
+        return date.endsWith("Z") ? Granularity.YYYY_MM_DD_THH_MM_SS_Z : Granularity.YYYY_MM_DD;
     }
 
     /**
@@ -251,10 +251,8 @@ public abstract class DateUtils {
      * @return true if the instant is between
      */
     public static boolean between(Instant isBetween, Instant from, Instant until) {
-        if (isBetween == null) {
-            return false;
-        }
-        return (from == null || isBetween.isAfter(from)) && (until == null || isBetween.isBefore(until));
+        return isBetween != null && (from == null || isBetween.isAfter(from)) && (until == null || isBetween
+                .isBefore(until));
     }
 
 }

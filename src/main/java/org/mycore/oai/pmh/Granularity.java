@@ -7,6 +7,11 @@ package org.mycore.oai.pmh;
  */
 public enum Granularity {
 
-    YYYY_MM_DD, YYYY_MM_DD_THH_MM_SS_Z, AUTO
+    YYYY_MM_DD, YYYY_MM_DD_THH_MM_SS_Z, AUTO;
+
+    @Override
+    public String toString() {
+        return this.equals(YYYY_MM_DD) ? "YYYY-MM-DD" : "YYYY-MM-DD'T'HH:MM:SS'Z";
+    }
 
 }
