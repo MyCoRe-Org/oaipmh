@@ -2,6 +2,7 @@ package org.mycore.oai.pmh;
 
 import java.time.Instant;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * This class is used to retrieve information about a repository.
@@ -26,12 +27,12 @@ public interface Identify {
     enum DeletedRecordPolicy {
         No, Persistent, Transient;
         public String value() {
-            return this.name().toLowerCase();
+            return this.name().toLowerCase(Locale.ENGLISH);
         }
 
         public static DeletedRecordPolicy get(String drp) {
-            String lower = drp.toLowerCase();
-            String first = lower.substring(0, 1).toUpperCase();
+            String lower = drp.toLowerCase(Locale.ENGLISH);
+            String first = lower.substring(0, 1).toUpperCase(Locale.ENGLISH);
             return DeletedRecordPolicy.valueOf(first + lower.substring(1));
         }
     }
