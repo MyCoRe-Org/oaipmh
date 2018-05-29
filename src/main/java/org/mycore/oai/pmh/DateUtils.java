@@ -8,6 +8,7 @@ import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 /**
  * Contains util methods to support the ISO8601 UTC date format.
@@ -27,8 +28,8 @@ public abstract class DateUtils {
     static {
         currentGranularity = ThreadLocal.withInitial(() -> Granularity.YYYY_MM_DD);
         UTC_ZONE = ZoneId.of("UTC").normalized();
-        UTC_DAY = DateTimeFormatter.ofPattern("yyyy-MM-dd").withZone(UTC_ZONE);
-        UTC_SECOND = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'").withZone(UTC_ZONE);
+        UTC_DAY = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ROOT).withZone(UTC_ZONE);
+        UTC_SECOND = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.ROOT).withZone(UTC_ZONE);
     }
 
     /**
