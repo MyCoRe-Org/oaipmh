@@ -13,7 +13,7 @@ import org.jdom2.Element;
  */
 public class FriendsDescription implements Description {
 
-    private List<String> friendsList = null;
+    private List<String> friendsList;
 
     public FriendsDescription() {
         this.friendsList = new ArrayList<>();

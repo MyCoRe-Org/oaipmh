@@ -7,7 +7,7 @@ import org.jdom2.input.DOMBuilder;
 import org.jdom2.output.DOMOutputter;
 
 /**
- * Provides some usefull OAI-PMH util methods.
+ * Provides some useful OAI-PMH util methods.
  * 
  * @author Matthias Eichner
  */
@@ -23,11 +23,7 @@ public abstract class OAIUtils {
      */
     public static boolean checkIdentifier(String identifier, Identify identify) {
         OAIIdentifierDescription idDescription = getIdentifierDescription(identify);
-        if (idDescription != null) {
-            return idDescription.isValid(identifier);
-        } else {
-            return identifier.startsWith("oai:");
-        }
+        return idDescription != null ? idDescription.isValid(identifier) : identifier.startsWith("oai:");
     }
 
     /**

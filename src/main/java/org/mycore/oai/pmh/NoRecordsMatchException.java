@@ -10,6 +10,14 @@ public class NoRecordsMatchException extends OAIException {
 
     private String message;
 
+    public NoRecordsMatchException() {
+        this(null);
+    }
+
+    public NoRecordsMatchException(String message) {
+        this.message = message;
+    }
+
     public NoRecordsMatchException setMessage(String message) {
         this.message = message;
         return this;
