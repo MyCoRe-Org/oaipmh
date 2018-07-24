@@ -107,7 +107,7 @@ public class Record {
 
     @Override
     public boolean equals(Object obj) {
-        return obj != null && obj instanceof Record && ((Record) obj).getHeader().equals(this.getHeader());
+        return obj instanceof Record && ((Record) obj).getHeader().equals(this.getHeader());
     }
 
     @Override

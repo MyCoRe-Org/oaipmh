@@ -3,16 +3,16 @@ package org.mycore.oai.pmh;
 import org.jdom2.Element;
 
 /**
- * The OAI identifier format is intended to provide persistent resource identifiers for items in repositories that implement OAI-PMH. This is just one possible
- * format that may be used for identifiers within OAI-PMH.
+ * The OAI identifier format is intended to provide persistent resource identifiers for items in repositories that
+ * implement OAI-PMH. This is just one possible format that may be used for identifiers within OAI-PMH.
  * 
  * @author Matthias Eichner
  */
 public class OAIIdentifierDescription implements Description {
 
-    final static String SCHEME = "oai";
+    private final static String SCHEME = "oai";
 
-    final static String DELIMITER = ":";
+    private final static String DELIMITER = ":";
 
     private String repositoryIdentifier;
 

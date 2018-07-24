@@ -38,7 +38,7 @@ public class Set {
     public Set(String spec, String name) {
         this.spec = spec;
         this.name = name;
-        this.descriptionList = new ArrayList<Description>();
+        this.descriptionList = new ArrayList<>();
     }
 
     /**
@@ -81,7 +81,7 @@ public class Set {
 
     @Override
     public boolean equals(Object obj) {
-        return obj != null && obj instanceof Set && this.spec.equals(((Set) obj).getSpec());
+        return obj instanceof Set && this.spec.equals(((Set) obj).getSpec());
     }
 
     @Override
