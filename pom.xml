@@ -4,10 +4,10 @@
   <parent>
     <groupId>org.mycore</groupId>
     <artifactId>mycore-parent</artifactId>
-    <version>37</version>
+    <version>38-SNAPSHOT</version>
   </parent>
   <artifactId>oaipmh</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <issueManagement>
     <system>GitHub</system>
     <url>https://github.com/MyCoRe-Org/${project.artifactId}/issues</url>
@@ -16,7 +16,7 @@
     <connection>scm:git:https://github.com/MyCoRe-Org/${project.artifactId}.git</connection>
     <developerConnection>scm:git:https://github.com/MyCoRe-Org/${project.artifactId}.git</developerConnection>
     <url>https://github.com/MyCoRe-Org/${project.artifactId}</url>
-    <tag>v1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <java.target.version>1.8</java.target.version>
