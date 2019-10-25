@@ -1,12 +1,20 @@
 language: java
 sudo: false
 dist: bionic
+before_install:
+      - sudo apt-get update
+      - sudo apt-get install -y openjdk-11-jdk-headless
+      - java -version && /usr/lib/jvm/java-11-openjdk-amd64/bin/java -version
+      - dpkg -L openjdk-11-jre-headless|grep bin/java
+      - dpkg -L openjdk-11-jdk-headless|grep bin/javac
 install: true
 cache:
   directories:
     - $HOME/.m2/repository
 env:
   global:
-    - MAVEN_OPTS="-Xmx1024M -Xss128M -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC"
+    - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+    - _JAVA_OPTIONS="-Djdk.net.URLClassPath.disableClassPathURLCheck=true -Xmx2048m -Xms512m"
+    - MAVEN_OPTS="-Xmx1024M -Xss128M -XX:+CMSClassUnloadingEnabled"
 script:
   - mvn -B clean install && mvn -B javadoc:javadoc
