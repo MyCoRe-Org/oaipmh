@@ -4,22 +4,24 @@
   <parent>
     <groupId>org.mycore</groupId>
     <artifactId>mycore-parent</artifactId>
-    <version>38-SNAPSHOT</version>
+    <version>42-SNAPSHOT</version>
   </parent>
-  <artifactId>oaipmh</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <artifactId>oai-parent</artifactId>
+  <version>2.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>OAI Parent POM</name>
   <issueManagement>
     <system>GitHub</system>
     <url>https://github.com/MyCoRe-Org/${project.artifactId}/issues</url>
   </issueManagement>
   <scm>
-    <connection>scm:git:https://github.com/MyCoRe-Org/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:https://github.com/MyCoRe-Org/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/MyCoRe-Org/${project.artifactId}</url>
+    <connection>scm:git:https://github.com/MyCoRe-Org/oaipmh.git</connection>
+    <developerConnection>scm:git:https://github.com/MyCoRe-Org/oaipmh.git</developerConnection>
+    <url>https://github.com/MyCoRe-Org/oaipmh</url>
     <tag>HEAD</tag>
   </scm>
   <properties>
-    <java.target.version>1.8</java.target.version>
+    <java.target.version>11</java.target.version>
   </properties>
   <repositories>
     <repository>
@@ -33,19 +35,77 @@
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </repository>
   </repositories>
-  <dependencies>
-    <dependency>
-      <groupId>org.jdom</groupId>
-      <artifactId>jdom2</artifactId>
-      <version>2.0.6</version>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.github.threeten-jaxb</groupId>
+        <artifactId>threeten-jaxb-core</artifactId>
+        <version>1.2</version>
+      </dependency>
+      <dependency>
+        <groupId>jakarta.xml.bind</groupId>
+        <artifactId>jakarta.xml.bind-api</artifactId>
+        <version>2.3.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.11.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.glassfish.jaxb</groupId>
+        <artifactId>jaxb-runtime</artifactId>
+        <version>2.3.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jdom</groupId>
+        <artifactId>jdom2</artifactId>
+        <version>2.0.6</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mycore</groupId>
+        <artifactId>oaipmh</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mycore</groupId>
+        <artifactId>oaipmh-dataprovider</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mycore</groupId>
+        <artifactId>oaipmh-dataprovider-impl</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mycore</groupId>
+        <artifactId>oaipmh-harvester</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mycore</groupId>
+        <artifactId>oaipmh-harvester-impl</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mycore</groupId>
+        <artifactId>oaipmh-jaxb</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.11.0</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <developers>
     <developer>
       <id>mcrmeich</id>
@@ -81,4 +141,12 @@
       <timezone>+1</timezone>
     </developer>
   </developers>
+  <modules>
+    <module>oaipmh</module>
+    <module>oaipmh-jaxb</module>
+    <module>oaipmh-dataprovider</module>
+    <module>oaipmh-dataprovider-impl</module>
+    <module>oaipmh-harvester</module>
+    <module>oaipmh-harvester-impl</module>
+  </modules>
 </project>

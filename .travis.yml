@@ -1,7 +1,6 @@
 language: java
 sudo: false
-dist: trusty
-group: beta
+dist: bionic
 install: true
 cache:
   directories:
