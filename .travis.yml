@@ -1,20 +1,20 @@
 language: java
 sudo: false
 dist: bionic
+env:
+  global:
+    - JAVA_HOME=${HOME}/jdk
+    - _JAVA_OPTIONS="-Djdk.net.URLClassPath.disableClassPathURLCheck=true -Xmx2048m -Xms512m"
+    - MAVEN_OPTS="-Xmx1024M -Xss128M -XX:+CMSClassUnloadingEnabled"
+    - JDK_URL='https://api.adoptopenjdk.net/v2/binary/releases/openjdk11?openjdk_impl=hotspot&os=linux&arch=x64&release=latest&heap_size=normal&type=jdk'
 before_install:
-      - sudo apt-get update
-      - sudo apt-get install -y openjdk-11-jdk-headless
+      - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
+      - chmod +x install-jdk.sh
+      - ./install-jdk.sh --url ${JDK_URL} --target ${JAVA_HOME} && PATH=${JAVA_HOME}/bin:${PATH}
       - java -version && /usr/lib/jvm/java-11-openjdk-amd64/bin/java -version
-      - dpkg -L openjdk-11-jre-headless|grep bin/java
-      - dpkg -L openjdk-11-jdk-headless|grep bin/javac
 install: true
 cache:
   directories:
     - $HOME/.m2/repository
-env:
-  global:
-    - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-    - _JAVA_OPTIONS="-Djdk.net.URLClassPath.disableClassPathURLCheck=true -Xmx2048m -Xms512m"
-    - MAVEN_OPTS="-Xmx1024M -Xss128M -XX:+CMSClassUnloadingEnabled"
 script:
   - mvn -B clean install && mvn -B javadoc:javadoc
