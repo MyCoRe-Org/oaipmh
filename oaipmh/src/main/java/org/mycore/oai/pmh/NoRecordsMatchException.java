@@ -1,7 +1,8 @@
 package org.mycore.oai.pmh;
 
 /**
- * Thrown if the combination of the values of the from, until, set and metadataPrefix arguments results in an empty list.
+ * Thrown if the combination of the values of the from, until, set
+ * and metadataPrefix arguments results in an empty list.
  * 
  * @author Matthias Eichner
  */
@@ -37,3 +38,4 @@ public class NoRecordsMatchException extends OAIException {
     }
 
 }
+

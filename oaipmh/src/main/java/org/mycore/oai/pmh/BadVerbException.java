@@ -1,7 +1,8 @@
 package org.mycore.oai.pmh;
 
 /**
- * Value of the verb argument is not a legal OAI-PMH verb, the verb argument is missing, or the verb argument is repeated.
+ * Value of the verb argument is not a legal OAI-PMH verb, the verb argument is missing,
+ * or the verb argument is repeated.
  * 
  * @author Matthias Eichner
  */
@@ -24,3 +25,4 @@ public class BadVerbException extends OAIException {
         return "Bad verb: " + this.badVerb;
     }
 }
+

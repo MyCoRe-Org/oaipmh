@@ -30,9 +30,10 @@ public class DefaultResumptionToken extends SimpleResumptionToken {
      * @param expirationDate
      *            when the resumptionToken ceases to be valid
      * @param completeListSize
-     *            indicating the cardinality of the complete list (i.e., the sum of the cardinalities of the incomplete lists). Because there may be changes in
-     *            a repository during a list request sequence, the value of completeListSize may be only an estimate of the actual cardinality of the complete
-     *            list and may be revised during the list request sequence.
+     *            indicating the cardinality of the complete list
+     *            (i.e., the sum of the cardinalities of the incomplete lists). Because there may be changes in
+     *            a repository during a list request sequence, the value of completeListSize may be only an estimate
+     *            of the actual cardinality of the complete list and may be revised during the list request sequence.
      * @param cursor
      *            a count of the number of elements of the complete list thus far returned (i.e. cursor starts at 0).
      */
@@ -83,3 +84,4 @@ public class DefaultResumptionToken extends SimpleResumptionToken {
     }
 
 }
+

@@ -1,7 +1,8 @@
 package org.mycore.oai.pmh;
 
 /**
- * Thrown if the {@link MetadataFormat} identified by the value given for the metadataPrefix argument is not supported by the item or by the repository.
+ * Thrown if the {@link MetadataFormat} identified by the value given for the metadataPrefix argument
+ * is not supported by the item or by the repository.
  * 
  * @author Matthias Eichner
  */
@@ -11,7 +12,7 @@ public class CannotDisseminateFormatException extends OAIException {
     private String metadataPrefix;
 
     private String id;
-    
+
     private String message;
 
     public CannotDisseminateFormatException setId(String id) {
@@ -23,7 +24,7 @@ public class CannotDisseminateFormatException extends OAIException {
         this.metadataPrefix = metadataPrefix;
         return this;
     }
-    
+
     public CannotDisseminateFormatException setMessage(String message) {
         this.message = message;
         return this;
@@ -44,9 +45,10 @@ public class CannotDisseminateFormatException extends OAIException {
 
     @Override
     public String getMessage() {
-        if(this.message != null) {
+        if (this.message != null) {
             return this.message;
-        } if (id != null && id.length() > 0 && metadataPrefix != null) {
+        }
+        if (id != null && id.length() > 0 && metadataPrefix != null) {
             return "The item " + this.id + " does not support the metadata format " + metadataPrefix;
         } else if (metadataPrefix != null) {
             return "The metadata prefix argument is not supported by the repository: " + metadataPrefix;

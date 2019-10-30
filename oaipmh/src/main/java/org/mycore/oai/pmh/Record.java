@@ -41,7 +41,8 @@ public class Record {
      * @param datestamp
      *            the date of creation, modification or deletion
      * @param status
-     *            status attribute with a value of deleted indicates the withdrawal of availability of the specified metadata format for the item
+     *            status attribute with a value of deleted indicates the withdrawal of availability
+     *            of the specified metadata format for the item
      */
     public Record(String id, Instant datestamp, Status status) {
         this.header = new Header(id, datestamp, status);
@@ -115,3 +116,4 @@ public class Record {
         return this.header.toString();
     }
 }
+

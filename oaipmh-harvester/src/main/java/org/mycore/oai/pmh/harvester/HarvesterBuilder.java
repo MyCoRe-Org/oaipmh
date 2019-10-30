@@ -10,7 +10,8 @@ import org.mycore.oai.pmh.FriendsDescription;
 import org.mycore.oai.pmh.OAIIdentifierDescription;
 
 /**
- * Use this builder to construct a {@link Harvester} instance. To use default config call {@link #createNewInstance(String)}, you can also create your own
+ * Use this builder to construct a {@link Harvester} instance.
+ * To use default config call {@link #createNewInstance(String)}, you can also create your own
  * config and call {@link #createNewInstance(String, HarvesterConfig)}.
  * 
  * @author Matthias Eichner

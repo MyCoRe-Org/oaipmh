@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A set is an optional construct for grouping items for the purpose of selective harvesting. Repositories may organize items into sets. Set organization may be
- * flat, i.e. a simple list, or hierarchical. Multiple hierarchies with distinct, independent top-level nodes are allowed.
+ * A set is an optional construct for grouping items for the purpose of selective harvesting.
+ * Repositories may organize items into sets.
+ * Set organization may be flat, i.e. a simple list, or hierarchical.
+ * Multiple hierarchies with distinct, independent top-level nodes are allowed.
  * 
  * @author Matthias Eichner
  */
@@ -21,7 +23,8 @@ public class Set {
      * Creates a new Set by spec.
      * 
      * @param spec
-     *            a colon [:] separated list indicating the path from the root of the set hierarchy to the respective node (e.g. institution:nebraska:lincoln)
+     *            a colon [:] separated list indicating the path from the root of the set hierarchy
+     *            to the respective node (e.g. institution:nebraska:lincoln)
      */
     public Set(String spec) {
         this(spec, "");
@@ -31,7 +34,8 @@ public class Set {
      * Creates a new Set by spec and name.
      * 
      * @param spec
-     *            a colon [:] separated list indicating the path from the root of the set hierarchy to the respective node (e.g. institution:nebraska:lincoln)
+     *            a colon [:] separated list indicating the path from the root of the set hierarchy
+     *            to the respective node (e.g. institution:nebraska:lincoln)
      * @param name
      *            a short human-readable string naming the set
      */
@@ -42,7 +46,8 @@ public class Set {
     }
 
     /**
-     * A colon [:] separated list indicating the path from the root of the set hierarchy to the respective node (e.g. institution:nebraska:lincoln).
+     * A colon [:] separated list indicating the path from the root of the set hierarchy
+     * to the respective node (e.g. institution:nebraska:lincoln).
      * 
      * @return spec of the set
      */
@@ -52,8 +57,8 @@ public class Set {
 
     /**
      * A list container that may hold community-specific XML-encoded data about the set; the accompanying <a
-     * href="http://www.openarchives.org/OAI/2.0/guidelines.htm">Implementation Guidelines</a> document provides suggestions regarding the usage of this
-     * container.
+     * href="http://www.openarchives.org/OAI/2.0/guidelines.htm">Implementation Guidelines</a> document
+     * provides suggestions regarding the usage of this container.
      * 
      * @return list of descriptions
      */
@@ -86,7 +91,7 @@ public class Set {
 
     @Override
     public String toString() {
-        String name = this.name != null ? " (" + this.name + ")" : "";        
+        String name = this.name != null ? " (" + this.name + ")" : "";
         return this.spec + name;
     }
 }

@@ -262,8 +262,9 @@ public class OAIRequest {
     private void checkIllegalArguments(Map<Argument, ArgumentType> argMap,
         Collection<Argument> requestArgCollection) throws BadArgumentException {
         for (Argument requestArgument : requestArgCollection) {
-            if (!argMap.containsKey(requestArgument))
+            if (!argMap.containsKey(requestArgument)) {
                 throw new BadArgumentException(Type.invalid, requestArgument.toString());
+            }
         }
     }
 
@@ -299,18 +300,24 @@ public class OAIRequest {
 
     private Map<Argument, String> getArguments() {
         Map<Argument, String> argumentList = new HashMap<>();
-        if (isIdentifier())
+        if (isIdentifier()) {
             argumentList.put(Argument.identifier, this.identifier);
-        if (isMetadataPrefix())
+        }
+        if (isMetadataPrefix()) {
             argumentList.put(Argument.metadataPrefix, this.metadataPrefix);
-        if (isFromDateSet())
+        }
+        if (isFromDateSet()) {
             argumentList.put(Argument.from, this.from);
-        if (isUntilDateSet())
+        }
+        if (isUntilDateSet()) {
             argumentList.put(Argument.until, this.until);
-        if (isSet())
+        }
+        if (isSet()) {
             argumentList.put(Argument.set, this.set);
-        if (isResumptionToken())
+        }
+        if (isResumptionToken()) {
             argumentList.put(Argument.resumptionToken, this.resumptionToken);
+        }
         return argumentList;
     }
 

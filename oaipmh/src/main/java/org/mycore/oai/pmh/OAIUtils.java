@@ -35,8 +35,9 @@ public abstract class OAIUtils {
      */
     public static OAIIdentifierDescription getIdentifierDescription(Identify identify) {
         for (Description d : identify.getDescriptionList()) {
-            if (d instanceof OAIIdentifierDescription)
+            if (d instanceof OAIIdentifierDescription) {
                 return (OAIIdentifierDescription) d;
+            }
         }
         return null;
     }
@@ -66,3 +67,4 @@ public abstract class OAIUtils {
         return builder.build(domElement);
     }
 }
+

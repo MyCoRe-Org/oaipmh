@@ -28,14 +28,18 @@ public abstract class HarvesterUtil {
      * Gets all records.
      * 
      * @param metadataPrefix
-     *            (required) Specifies that records should be returned only if the metadata format matching the supplied metadataPrefix is available or,
-     *            depending on the repository's support for deletions, has been deleted. The metadata formats supported by a repository and for a particular
-     *            item can be retrieved using the {@link Harvester#listMetadataFormats()} method. Optional parameters should be set to <code>null</code> if you don't want
-     *            to use them.
+     *            (required) Specifies that records should be returned only if the metadata format matching
+     *            the supplied metadataPrefix is available or, depending on the repository's support for deletions,
+     *            has been deleted.
+     *            The metadata formats supported by a repository and for a particular item can be retrieved
+     *            using the {@link Harvester#listMetadataFormats()} method.
+     *            Optional parameters should be set to <code>null</code> if you don't want to use them.
      * @param from
-     *            (optional) A UTCdatetime value, which specifies a lower bound for datestamp-based selective harvesting.
+     *            (optional) A UTCdatetime value,
+     *            which specifies a lower bound for datestamp-based selective harvesting.
      * @param until
-     *            (optional) A UTCdatetime value, which specifies a upper bound for datestamp-based selective harvesting.
+     *            (optional) A UTCdatetime value,
+     *            which specifies a upper bound for datestamp-based selective harvesting.
      * @param setSpec
      *            (optional) Specifies set criteria for selective harvesting.
      * @return Stream of records.
@@ -53,14 +57,18 @@ public abstract class HarvesterUtil {
      * Get all headers.
      * 
      * @param metadataPrefix
-     *            (required) Specifies that headers should be returned only if the metadata format matching the supplied metadataPrefix is available or,
-     *            depending on the repository's support for deletions, has been deleted. The metadata formats supported by a repository and for a particular
-     *            item can be retrieved using the {@link Harvester#listMetadataFormats()} method. Optional parameters should be set to <code>null</code> if you don't want
-     *            to use them.
+     *            (required) Specifies that headers should be returned only if the metadata format matching
+     *            the supplied metadataPrefix is available or, depending on the repository's support for deletions,
+     *            has been deleted.
+     *            The metadata formats supported by a repository and for a particular item can be retrieved using
+     *            the {@link Harvester#listMetadataFormats()} method.
+     *            Optional parameters should be set to <code>null</code> if you don't want to use them.
      * @param from
-     *            (optional) A UTCdatetime value, which specifies a lower bound for datestamp-based selective harvesting.
+     *            (optional) A UTCdatetime value,
+     *            which specifies a lower bound for datestamp-based selective harvesting.
      * @param until
-     *            (optional) A UTCdatetime value, which specifies a upper bound for datestamp-based selective harvesting.
+     *            (optional) A UTCdatetime value,
+     *            which specifies a upper bound for datestamp-based selective harvesting.
      * @param setSpec
      *            (optional) Specifies set criteria for selective harvesting.
      * @return Stream of headers.
@@ -94,7 +102,7 @@ public abstract class HarvesterUtil {
 
         private OAIDataSupplier<T> supplier;
 
-        public OAISpliterator(OAIDataSupplier<T> supplier) {
+        OAISpliterator(OAIDataSupplier<T> supplier) {
             this.supplier = supplier;
         }
 
@@ -152,7 +160,7 @@ public abstract class HarvesterUtil {
 
         protected String metadataPrefix, from, until, setSpec;
 
-        public ObjectSupplier(Harvester harvester, String metadataPrefix, String from, String until, String setSpec) {
+        ObjectSupplier(Harvester harvester, String metadataPrefix, String from, String until, String setSpec) {
             this.harvester = harvester;
             this.metadataPrefix = metadataPrefix;
             this.from = from;
@@ -164,7 +172,7 @@ public abstract class HarvesterUtil {
 
     private static class RecordSupplier extends ObjectSupplier<Record> {
 
-        public RecordSupplier(Harvester harvester, String metadataPrefix, String from, String until, String setSpec) {
+        RecordSupplier(Harvester harvester, String metadataPrefix, String from, String until, String setSpec) {
             super(harvester, metadataPrefix, from, until, setSpec);
         }
 
@@ -181,7 +189,7 @@ public abstract class HarvesterUtil {
 
     private static class IdentifiersSupplier extends ObjectSupplier<Header> {
 
-        public IdentifiersSupplier(Harvester harvester, String metadataPrefix, String from, String until,
+        IdentifiersSupplier(Harvester harvester, String metadataPrefix, String from, String until,
             String setSpec) {
             super(harvester, metadataPrefix, from, until, setSpec);
         }
@@ -201,7 +209,7 @@ public abstract class HarvesterUtil {
 
         protected Harvester harvester;
 
-        public SetsSupplier(Harvester harvester) {
+        SetsSupplier(Harvester harvester) {
             this.harvester = harvester;
         }
 
