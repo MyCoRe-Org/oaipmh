@@ -270,15 +270,13 @@ public class OAIRequest {
 
     private Instant checkDate(String dateAsString, Granularity reposGranularity, Argument argument)
         throws BadArgumentException {
+        Granularity dateGranularity = DateUtils.guessGranularity(dateAsString);
+        if (Granularity.YYYY_MM_DD_THH_MM_SS_Z.equals(dateGranularity)
+            && Granularity.YYYY_MM_DD.equals(reposGranularity)) {
+            throw getBadDateException(dateAsString, reposGranularity, argument);
+        }
         try {
-            Granularity dateGranularity = DateUtils.guessGranularity(dateAsString);
-            if (Granularity.YYYY_MM_DD_THH_MM_SS_Z.equals(dateGranularity)
-                && Granularity.YYYY_MM_DD.equals(reposGranularity)) {
-                throw getBadDateException(dateAsString, reposGranularity, argument);
-            }
             return DateUtils.parse(dateAsString);
-        } catch (BadArgumentException bae) {
-            throw bae;
         } catch (Exception exc) {
             throw getBadDateException(dateAsString, reposGranularity, argument);
         }
