@@ -97,8 +97,9 @@ public class ListMetadataFormatsHandler extends JAXBVerbHandler {
      */
     private boolean checkOAIDublinCore(List<? extends MetadataFormat> formatList) {
         for (MetadataFormat f : formatList) {
-            if (f.getNamespace().equals(OAIConstants.NS_OAI_DC.getURI()))
+            if (f.getNamespace().equals(OAIConstants.NS_OAI_DC.getURI())) {
                 return true;
+            }
         }
         return false;
     }

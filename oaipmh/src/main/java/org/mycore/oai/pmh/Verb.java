@@ -6,5 +6,5 @@ package org.mycore.oai.pmh;
  * @author Matthias Eichner
  */
 public enum Verb {
-	GetRecord, Identify, ListIdentifiers, ListMetadataFormats, ListRecords, ListSets
+    GetRecord, Identify, ListIdentifiers, ListMetadataFormats, ListRecords, ListSets
 }

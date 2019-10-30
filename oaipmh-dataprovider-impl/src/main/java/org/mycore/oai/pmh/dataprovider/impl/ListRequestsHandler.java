@@ -41,13 +41,13 @@ public abstract class ListRequestsHandler extends JAXBVerbHandler {
         rtt.setValue(resumptionToken.getToken());
         if (resumptionToken instanceof DefaultResumptionToken) {
             DefaultResumptionToken drt = (DefaultResumptionToken) resumptionToken;
-            if(drt.getCompleteListSize() != null) {
+            if (drt.getCompleteListSize() != null) {
                 rtt.setCompleteListSize(BigInteger.valueOf(drt.getCompleteListSize()));
             }
-            if(drt.getCursor() != null) {
+            if (drt.getCursor() != null) {
                 rtt.setCursor(BigInteger.valueOf(drt.getCursor()));
             }
-            if(drt.getExpirationDate() != null) {
+            if (drt.getExpirationDate() != null) {
                 rtt.setExpirationDate(drt.getExpirationDate());
             }
         }

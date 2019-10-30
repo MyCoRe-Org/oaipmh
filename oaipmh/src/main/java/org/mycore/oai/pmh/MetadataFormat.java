@@ -4,7 +4,8 @@ import org.jdom2.Namespace;
 import org.mycore.oai.pmh.dc.DCMetadataFormat;
 
 /**
- * MetadataFormat represents a metadata format with its prefix, namespace and schema. OAI-PMH supports the dissemination of records in multiple metadata formats
+ * MetadataFormat represents a metadata format with its prefix, namespace and schema.
+ * OAI-PMH supports the dissemination of records in multiple metadata formats
  * from a repository.
  * 
  * @see DCMetadataFormat
@@ -42,9 +43,11 @@ public class MetadataFormat {
     }
 
     /**
-     * Returns the unique metadata prefix, a string to specify the metadata format in OAI-PMH requests issued to the repository. The prefix consists of any
-     * valid URI unreserved characters. metadataPrefix arguments are used in ListRecords, ListIdentifiers, and GetRecord requests to retrieve records, or the
-     * headers of records that include metadata in the format specified by the metadataPrefix
+     * Returns the unique metadata prefix, a string to specify the metadata format in OAI-PMH requests
+     * issued to the repository.
+     * The prefix consists of any valid URI unreserved characters.
+     * metadataPrefix arguments are used in ListRecords, ListIdentifiers, and GetRecord requests to retrieve records,
+     * or the headers of records that include metadata in the format specified by the metadataPrefix
      * 
      * @return prefix of the namespace
      */
@@ -75,14 +78,15 @@ public class MetadataFormat {
     }
 
     public boolean equals(Object obj) {
-        if (super.equals(obj))
+        if (super.equals(obj)) {
             return true;
-        else if (obj == null)
+        } else if (obj == null) {
             return false;
-        else if (!(obj instanceof MetadataFormat))
+        } else if (!(obj instanceof MetadataFormat)) {
             return false;
-        else
+        } else {
             return ((MetadataFormat) obj).namespace.equals(this.namespace);
+        }
     }
 
     /* (non-Javadoc)
@@ -92,3 +96,4 @@ public class MetadataFormat {
         return namespace.getPrefix() + " (" + this.namespace.getURI() + ")";
     }
 }
+

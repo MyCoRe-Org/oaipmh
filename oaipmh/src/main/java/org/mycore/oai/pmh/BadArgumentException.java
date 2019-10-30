@@ -1,8 +1,8 @@
 package org.mycore.oai.pmh;
 
 /**
- * Thrown if the request includes illegal arguments, is missing required arguments, includes a repeated argument, or values for arguments have an illegal
- * syntax.
+ * Thrown if the request includes illegal arguments, is missing required arguments, includes a repeated argument,
+ * or values for arguments have an illegal syntax.
  * 
  * @author Matthias Eichner
  */
@@ -56,9 +56,11 @@ public class BadArgumentException extends OAIException {
         StringBuilder idBuf = new StringBuilder();
         for (int i = 0; i < arguments.length; i++) {
             idBuf.append("'").append(arguments[i]).append("'");
-            if (i != arguments.length - 1)
+            if (i != arguments.length - 1) {
                 idBuf.append(", ");
+            }
         }
         return idBuf.toString();
     }
 }
+

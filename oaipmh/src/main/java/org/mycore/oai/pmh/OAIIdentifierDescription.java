@@ -33,9 +33,11 @@ public class OAIIdentifierDescription implements Description {
         oaiIdentifier.setAttribute("schemaLocation", OAIConstants.SCHEMA_LOC_OAI_ID, OAIConstants.NS_XSI);
         oaiIdentifier.addNamespaceDeclaration(OAIConstants.NS_XSI);
         oaiIdentifier.addContent(new Element("scheme", OAIConstants.NS_OAI_ID).setText(SCHEME));
-        oaiIdentifier.addContent(new Element("repositoryIdentifier", OAIConstants.NS_OAI_ID).setText(this.repositoryIdentifier));
+        oaiIdentifier
+            .addContent(new Element("repositoryIdentifier", OAIConstants.NS_OAI_ID).setText(this.repositoryIdentifier));
         oaiIdentifier.addContent(new Element("delimiter", OAIConstants.NS_OAI_ID).setText(DELIMITER));
-        oaiIdentifier.addContent(new Element("sampleIdentifier", OAIConstants.NS_OAI_ID).setText(getSampleIdentifier()));
+        oaiIdentifier
+            .addContent(new Element("sampleIdentifier", OAIConstants.NS_OAI_ID).setText(getSampleIdentifier()));
         return oaiIdentifier;
     }
 
@@ -62,7 +64,8 @@ public class OAIIdentifierDescription implements Description {
     }
 
     public boolean isValid(String id) {
-        // TODO check pattern oai:[a-zA-Z][a-zA-Z0-9\-]*(\.[a-zA-Z][a-zA-Z0-9\-]*)+:[a-zA-Z0-9\-_\.!~\*'\(\);/\?:@&=\+$,%]+
+        // TODO check pattern
+        // oai:[a-zA-Z][a-zA-Z0-9\-]*(\.[a-zA-Z][a-zA-Z0-9\-]*)+:[a-zA-Z0-9\-_\.!~\*'\(\);/\?:@&=\+$,%]+
         return id != null && id.startsWith(getPrefix());
     }
 

@@ -244,7 +244,8 @@ public class JAXBConverter {
             Description description = this.config.createNewDescriptionInstance(name);
             if (description == null) {
                 LOGGER.warn(
-                    "Unable to find matching description for '{}'. Use HarvesterConfig#registerDescription() to add one.",
+                    "Unable to find matching description for '{}'."
+                        + " Use HarvesterConfig#registerDescription() to add one.",
                     name);
                 continue;
             }

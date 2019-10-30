@@ -253,7 +253,7 @@ public abstract class DateUtils {
      */
     public static boolean between(Instant isBetween, Instant from, Instant until) {
         return isBetween != null && (from == null || isBetween.isAfter(from)) && (until == null || isBetween
-                .isBefore(until));
+            .isBefore(until));
     }
 
 }

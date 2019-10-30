@@ -27,7 +27,8 @@ public class HarvesterConfig {
      *            Java class which represents the description
      * @return the previous value associated with descriptionName, or null if there was no mapping for descriptionName.
      */
-    public Class<? extends Description> registerDescription(String descriptionName, Class<? extends Description> descriptionClass) {
+    public Class<? extends Description> registerDescription(String descriptionName,
+        Class<? extends Description> descriptionClass) {
         return this.descriptionMap.put(descriptionName, descriptionClass);
     }
 

@@ -85,8 +85,9 @@ public class JAXBOAIProvider extends OAIBaseProvider<JAXBVerbHandler> {
             rt.setFrom(req.getFrom());
             rt.setUntil(req.getUntil());
             rt.setSet(req.getSet());
-            if (req.isResumptionToken())
+            if (req.isResumptionToken()) {
                 rt.setResumptionToken(req.getResumptionToken());
+            }
         }
         return rt;
     }

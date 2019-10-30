@@ -26,6 +26,7 @@ public interface Identify {
      */
     enum DeletedRecordPolicy {
         No, Persistent, Transient;
+
         public String value() {
             return this.name().toLowerCase(Locale.ENGLISH);
         }

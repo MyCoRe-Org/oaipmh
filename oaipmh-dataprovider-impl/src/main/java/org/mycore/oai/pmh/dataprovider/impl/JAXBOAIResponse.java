@@ -82,8 +82,10 @@ public class JAXBOAIResponse implements OAIResponse {
             SAXHandler saxHandler = new SAXHandler();
             outFilter.setContentHandler(saxHandler);
             Marshaller marshaller = createMarshaller();
-            marshaller.marshal(new JAXBElement<>(new QName(OAIConstants.NS_OAI.getURI(), OAIConstants.XML_OAI_ROOT), OAIPMHtype.class,
-                    this.oaipmh), outFilter);
+            marshaller.marshal(
+                new JAXBElement<>(new QName(OAIConstants.NS_OAI.getURI(), OAIConstants.XML_OAI_ROOT), OAIPMHtype.class,
+                    this.oaipmh),
+                outFilter);
             Element rootElement = saxHandler.getDocument().detachRootElement();
             moveNamespacesUp(rootElement);
             return rootElement;
@@ -133,7 +135,9 @@ public class JAXBOAIResponse implements OAIResponse {
     public String toString(Format format) {
         try {
             Element e = marshal();
-            XMLOutputter out = new XMLOutputter(Format.formatted.equals(format) ? org.jdom2.output.Format.getPrettyFormat() : org.jdom2.output.Format.getRawFormat());
+            XMLOutputter out = new XMLOutputter(
+                Format.formatted.equals(format) ? org.jdom2.output.Format.getPrettyFormat()
+                    : org.jdom2.output.Format.getRawFormat());
             StringWriter writer = new StringWriter();
             out.output(e, writer);
             return writer.toString();

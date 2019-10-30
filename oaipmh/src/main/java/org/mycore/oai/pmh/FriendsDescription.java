@@ -20,31 +20,31 @@ public class FriendsDescription implements Description {
     }
 
     public FriendsDescription(String... friends) {
-    	this.friendsList = new ArrayList<>();
-		Collections.addAll(friendsList, friends);
+        this.friendsList = new ArrayList<>();
+        Collections.addAll(friendsList, friends);
     }
 
-	@Override
-	public Element toXML() {
-		Element friends = new Element("friends", OAIConstants.NS_OAI_FRIENDS);
-		friends.setAttribute("schemaLocation", OAIConstants.SCHEMA_LOC_OAI_FRIENDS, OAIConstants.NS_XSI);
-		friends.addNamespaceDeclaration(OAIConstants.NS_XSI);
-		for(String friendURL : friendsList) {
-			friends.addContent(new Element("baseURL", OAIConstants.NS_OAI_FRIENDS).setText(friendURL));
-		}
-		return friends;
-	}
+    @Override
+    public Element toXML() {
+        Element friends = new Element("friends", OAIConstants.NS_OAI_FRIENDS);
+        friends.setAttribute("schemaLocation", OAIConstants.SCHEMA_LOC_OAI_FRIENDS, OAIConstants.NS_XSI);
+        friends.addNamespaceDeclaration(OAIConstants.NS_XSI);
+        for (String friendURL : friendsList) {
+            friends.addContent(new Element("baseURL", OAIConstants.NS_OAI_FRIENDS).setText(friendURL));
+        }
+        return friends;
+    }
 
-	@Override
-	public void fromXML(Element friends) {
+    @Override
+    public void fromXML(Element friends) {
         List<Element> friendList = friends.getChildren("baseURL", OAIConstants.NS_OAI_FRIENDS);
-        for(Element friend : friendList) {
+        for (Element friend : friendList) {
             this.friendsList.add(friend.getText());
         }
-	}
+    }
 
-	public List<String> getFriendsList() {
-		return friendsList;
-	}
+    public List<String> getFriendsList() {
+        return friendsList;
+    }
 
 }

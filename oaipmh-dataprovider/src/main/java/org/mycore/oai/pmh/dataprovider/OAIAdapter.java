@@ -50,7 +50,8 @@ public interface OAIAdapter {
      * @throws BadResumptionTokenException
      *             The value of the resumptionToken argument is invalid or expired.
      */
-    OAIDataList<? extends Set> getSets(String resumptionToken) throws NoSetHierarchyException, BadResumptionTokenException;
+    OAIDataList<? extends Set> getSets(String resumptionToken)
+        throws NoSetHierarchyException, BadResumptionTokenException;
 
     /**
      * Returns the {@link Set} by the given setSpec. If no set is found a {@link NoRecordsMatchException} is thrown.
@@ -88,8 +89,9 @@ public interface OAIAdapter {
      * Returns a list of metadata formats available in the repository.
      * 
      * @param identifier
-     *            Specifies the unique identifier of the item for which available metadata formats are being requested. The returning list includes all metadata
-     *            formats supported by this repository. Note that the fact that a metadata format is supported by a repository does not mean that it can be
+     *            Specifies the unique identifier of the item for which available metadata formats are being requested.
+     *            The returning list includes all metadata formats supported by this repository.
+     *            Note that the fact that a metadata format is supported by a repository does not mean that it can be
      *            disseminated from all items in the repository.
      * @return metadata formats available from the repository
      * @throws IdDoesNotExistException
@@ -104,7 +106,8 @@ public interface OAIAdapter {
      * Retrieve an individual metadata record from the repository.
      * 
      * @param identifier
-     *            specifies the unique identifier of the item in the repository from which the record must be disseminated
+     *            specifies the unique identifier of the item in the repository
+     *            from which the record must be disseminated
      * @param format
      *            format that should be included in the metadata part of the returned record
      * @return record from the repository
@@ -144,7 +147,8 @@ public interface OAIAdapter {
      * @throws NoSetHierarchyException
      *             The repository does not support sets.
      * @throws NoRecordsMatchException
-     *             The combination of the values of the from, until, set and metadataPrefix arguments results in an empty list.
+     *             The combination of the values of the from, until, set and metadataPrefix arguments
+     *             results in an empty list.
      */
     OAIDataList<? extends Record> getRecords(MetadataFormat format, Set set, Instant from, Instant until)
         throws CannotDisseminateFormatException, NoSetHierarchyException, NoRecordsMatchException;
@@ -164,8 +168,9 @@ public interface OAIAdapter {
      * Returns a list of headers.
      * 
      * @param format
-     *            (required) {@link MetadataFormat} specifies that headers should be returned only if the metadata format matching the supplied metadataPrefix
-     *            is available or, depending on the repository's support for deletions, has been deleted.
+     *            (required) {@link MetadataFormat} specifies that headers should be returned only
+     *            if the metadata format matching the supplied metadataPrefix is available or,
+     *            depending on the repository's support for deletions, has been deleted.
      * @param set
      *            (optional) {@link Set} argument, which specifies set criteria for selective harvesting.
      * @param from
@@ -178,7 +183,8 @@ public interface OAIAdapter {
      * @throws NoSetHierarchyException
      *             The repository does not support sets.
      * @throws NoRecordsMatchException
-     *             The combination of the values of the from, until, set and metadataPrefix arguments results in an empty list.
+     *             The combination of the values of the from, until, set and metadataPrefix arguments
+     *             results in an empty list.
      */
     OAIDataList<? extends Header> getHeaders(MetadataFormat format, Set set, Instant from, Instant until)
         throws CannotDisseminateFormatException, NoSetHierarchyException, NoRecordsMatchException;

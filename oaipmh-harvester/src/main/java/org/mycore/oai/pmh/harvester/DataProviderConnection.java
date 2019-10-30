@@ -126,7 +126,7 @@ public class DataProviderConnection {
             }
             // get content
             return getContent(con);
-        } catch(IOException ioExc) {
+        } catch (IOException ioExc) {
             throw new HarvestException("Unable to handle connection " + requestURL.toString(), ioExc);
         }
     }
@@ -166,25 +166,27 @@ public class DataProviderConnection {
         StringBuilder encodingBuf = new StringBuilder();
         for (int i = 0; i < Encoding.values().length; i++) {
             encodingBuf.append(Encoding.values()[i]);
-            if (i < Encoding.values().length)
+            if (i < Encoding.values().length) {
                 encodingBuf.append(", ");
+            }
         }
         con.setRequestProperty("Accept-Encoding", encodingBuf.toString());
     }
 
-    protected String addParameter(String URL, Argument arg, String value) {
+    protected String addParameter(String url, Argument arg, String value) {
         if (value == null || value.length() <= 0) {
-            return URL;
+            return url;
         }
-        int qpos = URL.indexOf('?');
-        int hpos = URL.indexOf('#');
+        int qpos = url.indexOf('?');
+        int hpos = url.indexOf('#');
         char sep = qpos == -1 ? '?' : '&';
         String seg = sep + encodeUrl(arg.name()) + '=' + encodeUrl(value);
-        return hpos == -1 ? URL + seg : URL.substring(0, hpos) + seg + URL.substring(hpos);
+        return hpos == -1 ? url + seg : url.substring(0, hpos) + seg + url.substring(hpos);
     }
 
     /**
-     * The same behaviour as Web.escapeUrl, only without the "funky encoding" of the characters ? and ; (uses JDK URLEncoder directly).
+     * The same behaviour as Web.escapeUrl, only without the "funky encoding" of the characters ? and ;
+     * (uses JDK URLEncoder directly).
      * 
      * @param url
      *            The string to encode.

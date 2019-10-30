@@ -45,7 +45,8 @@ public class Header {
      * @param datestamp
      *            the date of creation, modification or deletion
      * @param status
-     *            status attribute with a value of deleted indicates the withdrawal of availability of the specified metadata format for the item
+     *            status attribute with a value of deleted indicates the withdrawal of availability
+     *            of the specified metadata format for the item
      */
     public Header(String id, Instant datestamp, Status status) {
         this.id = id;
@@ -112,3 +113,4 @@ public class Header {
     }
 
 }
+

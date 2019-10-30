@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * OAI-PMH Data container, contains a {@link List} with a {@link ResumptionToken}. This is needed for ListSets, ListRecords and ListIdentifiers.
+ * OAI-PMH Data container, contains a {@link List} with a {@link ResumptionToken}.
+ * This is needed for ListSets, ListRecords and ListIdentifiers.
  * 
  * @author Matthias Eichner
  * @param <T> type of Data (e.g. {@link Record})
@@ -99,3 +100,4 @@ public class OAIDataList<T> extends ArrayList<T> implements Cloneable {
     }
 
 }
+
