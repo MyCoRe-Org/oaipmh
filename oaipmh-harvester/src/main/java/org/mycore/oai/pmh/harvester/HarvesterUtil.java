@@ -158,7 +158,13 @@ public abstract class HarvesterUtil {
 
         protected Harvester harvester;
 
-        protected String metadataPrefix, from, until, setSpec;
+        protected String metadataPrefix;
+
+        protected String from;
+
+        protected String until;
+
+        protected String setSpec;
 
         ObjectSupplier(Harvester harvester, String metadataPrefix, String from, String until, String setSpec) {
             this.harvester = harvester;

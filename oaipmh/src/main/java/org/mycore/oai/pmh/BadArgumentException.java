@@ -55,7 +55,7 @@ public class BadArgumentException extends OAIException {
     private String idsAsString() {
         StringBuilder idBuf = new StringBuilder();
         for (int i = 0; i < arguments.length; i++) {
-            idBuf.append("'").append(arguments[i]).append("'");
+            idBuf.append('\'').append(arguments[i]).append('\'');
             if (i != arguments.length - 1) {
                 idBuf.append(", ");
             }

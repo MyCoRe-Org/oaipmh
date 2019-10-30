@@ -58,7 +58,7 @@ public class HarvesterConfig {
         try {
             return descClass.getDeclaredConstructor().newInstance();
         } catch (ReflectiveOperationException exc) {
-            throw new RuntimeException("while creating description " + name, exc);
+            throw new HarvestException("while creating description " + name, exc);
         }
     }
 }
