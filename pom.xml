@@ -23,6 +23,33 @@
   <properties>
     <java.target.version>11</java.target.version>
   </properties>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <id>aggregate</id>
+            <reports>
+              <report>aggregate</report>
+            </reports>
+            <inherited>false</inherited>
+            <configuration>
+              <!-- does not work at all -->
+              <skip>true</skip>
+            </configuration>
+          </reportSet>
+          <reportSet>
+            <id>default</id>
+            <reports>
+              <report>javadoc</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
   <repositories>
     <repository>
       <releases>
