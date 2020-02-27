@@ -19,14 +19,14 @@ import org.mycore.oai.pmh.Set;
 
 /**
  * Utility class to simplify harvesting.
- * 
+ *
  * @author Matthias Eichner
  */
 public abstract class HarvesterUtil {
 
     /**
      * Gets all records.
-     * 
+     *
      * @param metadataPrefix
      *            (required) Specifies that records should be returned only if the metadata format matching
      *            the supplied metadataPrefix is available or, depending on the repository's support for deletions,
@@ -43,7 +43,7 @@ public abstract class HarvesterUtil {
      * @param setSpec
      *            (optional) Specifies set criteria for selective harvesting.
      * @return Stream of records.
-    
+
      * @throws HarvestException
      *             General exception that something went wrong. Most likely an HTTP error occurred.
      */
@@ -55,7 +55,7 @@ public abstract class HarvesterUtil {
 
     /**
      * Get all headers.
-     * 
+     *
      * @param metadataPrefix
      *            (required) Specifies that headers should be returned only if the metadata format matching
      *            the supplied metadataPrefix is available or, depending on the repository's support for deletions,
@@ -72,7 +72,7 @@ public abstract class HarvesterUtil {
      * @param setSpec
      *            (optional) Specifies set criteria for selective harvesting.
      * @return Stream of headers.
-    
+
      * @throws HarvestException
      *             General exception that something went wrong. Most likely an HTTP error occurred.
      */
@@ -84,7 +84,7 @@ public abstract class HarvesterUtil {
 
     /**
      * Get all sets
-     * 
+     *
      * @return Stream of sets.
      *
      * @throws HarvestException
@@ -102,12 +102,32 @@ public abstract class HarvesterUtil {
 
         private OAIDataSupplier<T> supplier;
 
+        private OAIDataList<T> dataList;
+
         OAISpliterator(OAIDataSupplier<T> supplier) {
             this.supplier = supplier;
+            try {
+                dataList = supplier.list();
+            } catch (OAIException e) {
+                throw new HarvestException(e);
+            }
         }
 
         @Override
         public boolean tryAdvance(Consumer<? super T> action) {
+            if (dataList != null) {
+                if (dataList.isEmpty()) {
+                    try {
+                        getNextChunk();
+                    } catch (OAIException e) {
+                        throw new HarvestException(e);
+                    }
+                }
+                if (dataList != null && !dataList.isEmpty()) {
+                    action.accept(dataList.remove(0));
+                    return true;
+                }
+            }
             return false;
         }
 
@@ -118,15 +138,17 @@ public abstract class HarvesterUtil {
             }
             try {
                 // use an iterative and not recursive approach
-                OAIDataList<T> dataList = this.supplier.list();
                 while (dataList != null) {
                     dataList.forEach(action::accept);
-                    dataList = dataList.isResumptionTokenSet() ? this.supplier.list(dataList.getResumptionToken())
-                        : null;
+                    getNextChunk();
                 }
             } catch (OAIException exc) {
                 throw new HarvestException(exc);
             }
+        }
+
+        private void getNextChunk() throws OAIException {
+            dataList = dataList.isResumptionTokenSet() ? this.supplier.list(dataList.getResumptionToken()) : null;
         }
 
         @Override
@@ -141,7 +163,7 @@ public abstract class HarvesterUtil {
 
         @Override
         public int characteristics() {
-            return Spliterator.IMMUTABLE;
+            return Spliterator.ORDERED | Spliterator.IMMUTABLE | Spliterator.NONNULL;
         }
 
     }

@@ -18,6 +18,7 @@
 
 package org.mycore.oai.pmh.harvester.impl;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -34,6 +35,10 @@ public class HarvesterUtilTest {
         Harvester harvester = HarvesterBuilder.createNewInstance(TEST_URL);
         assertTrue("there should be six or more records",
             HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "jportal_jpjournal_00001217").count() >= 6);
+        assertEquals("there should be 3 records", 3,
+            HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "jportal_jpjournal_00001217")
+                .limit(3)
+                .count());
     }
 
     @Test
