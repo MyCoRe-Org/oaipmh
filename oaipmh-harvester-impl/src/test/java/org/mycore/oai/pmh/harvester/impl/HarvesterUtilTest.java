@@ -28,15 +28,15 @@ import org.mycore.oai.pmh.harvester.HarvesterUtil;
 
 public class HarvesterUtilTest {
 
-    private static String TEST_URL = "https://zs.thulb.uni-jena.de/oai2";
+    private static String TEST_URL = "https://pub.uni-bielefeld.de/oai";
 
     @Test
     public void streamRecords() {
         Harvester harvester = HarvesterBuilder.createNewInstance(TEST_URL);
         assertTrue("there should be six or more records",
-            HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "jportal_jpjournal_00001217").count() >= 6);
+            HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "patent").count() >= 6);
         assertEquals("there should be 3 records", 3,
-            HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "jportal_jpjournal_00001217")
+            HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "patent")
                 .limit(3)
                 .count());
     }
@@ -44,7 +44,7 @@ public class HarvesterUtilTest {
     @Test
     public void streamSets() {
         Harvester harvester = HarvesterBuilder.createNewInstance(TEST_URL);
-        assertTrue("there should be more than 500 sets", HarvesterUtil.streamSets(harvester).count() > 500);
+        assertTrue("there should be more than 100 sets", HarvesterUtil.streamSets(harvester).count() > 100);
     }
 
 }

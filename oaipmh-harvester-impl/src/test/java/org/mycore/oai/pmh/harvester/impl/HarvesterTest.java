@@ -39,9 +39,9 @@ import org.mycore.oai.pmh.harvester.HarvesterBuilder;
 
 public class HarvesterTest {
 
-    private static String TEST_URL = "https://zs.thulb.uni-jena.de/oai2";
+    private static String TEST_URL = "https://pub.uni-bielefeld.de/oai";
 
-    private static String TEST_SET = "journal-type:parliamentDocuments";
+    private static String TEST_SET = "doc-type:doctoralThesis";
 
     private Harvester harvester;
 
@@ -55,7 +55,7 @@ public class HarvesterTest {
     @Test
     public void identify() {
         Identify identify = harvester.identify();
-        assertEquals("repository name differs", "JPortal",
+        assertEquals("repository name differs", "PUB - Publications at Bielefeld University",
             identify.getRepositoryName());
         assertEquals("deletion record policy should be 'No'", "Persistent", identify.getDeletedRecordPolicy().name());
     }
@@ -94,7 +94,7 @@ public class HarvesterTest {
 
     @Test
     public void getRecord() throws Exception {
-        Record record = harvester.getRecord("oai:zs.thulb.uni-jena.de:jportal_jparticle_00000001", "oai_dc");
+        Record record = harvester.getRecord("oai:pub.uni-bielefeld.de:1893305", "oai_dc");
         assertNotNull("the record should exist", record);
     }
 
