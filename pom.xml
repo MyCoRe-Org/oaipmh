@@ -65,11 +65,6 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.github.threeten-jaxb</groupId>
-        <artifactId>threeten-jaxb-core</artifactId>
-        <version>1.2</version>
-      </dependency>
-      <dependency>
         <groupId>jakarta.xml.bind</groupId>
         <artifactId>jakarta.xml.bind-api</artifactId>
         <version>2.3.2</version>

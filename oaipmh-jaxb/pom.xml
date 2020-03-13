@@ -52,16 +52,16 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>io.github.threeten-jaxb</groupId>
-      <artifactId>threeten-jaxb-core</artifactId>
-    </dependency>
-    <dependency>
       <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mycore</groupId>
+      <artifactId>oaipmh</artifactId>
     </dependency>
   </dependencies>
 </project>
