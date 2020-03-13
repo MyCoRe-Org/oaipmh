@@ -8,8 +8,8 @@
                xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb http://java.sun.com/xml/ns/jaxb/bindingschema_2_0.xsd"
                jaxb:extensionBindingPrefixes="xjc">
   <jaxb:globalBindings>
-    <xjc:javaType adapter="io.github.threetenjaxb.core.InstantXmlAdapter" name="java.time.Instant" xmlType="xs:dateTime" />
-    <xjc:javaType adapter="io.github.threetenjaxb.core.InstantXmlAdapter" name="java.time.Instant" xmlType="oai:UTCdatetimeType" />
+    <xjc:javaType adapter="org.mycore.oai.pmh.jaxb.XMLSchemaDateTimeAdapter" name="java.time.Instant" xmlType="xs:dateTime" />
+    <xjc:javaType adapter="org.mycore.oai.pmh.jaxb.OAIUTCDateTimeAdapter" name="java.time.Instant" xmlType="oai:UTCdatetimeType" />
   </jaxb:globalBindings>
   <jaxb:bindings schemaLocation="../schema/OAI-PMH.xsd">
   <!-- set package -->
