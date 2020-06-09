@@ -23,8 +23,10 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
 import java.util.List;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mycore.oai.pmh.Header;
@@ -39,17 +41,28 @@ import org.mycore.oai.pmh.harvester.HarvesterBuilder;
 
 public class HarvesterTest {
 
-    private static String TEST_URL = "https://pub.uni-bielefeld.de/oai";
+    private String testUrl = "https://pub.uni-bielefeld.de/oai";
+
+    private SimpleOAIProvider oaiProvider;
 
     private static String TEST_SET = "doc-type:doctoralThesis";
 
     private Harvester harvester;
 
     @Before
-    public void setUp() {
+    public void setUp() throws IOException {
+        oaiProvider = new SimpleOAIProvider();
+        testUrl = oaiProvider.getBaseURI() + "/oai";
         assertTrue(HarvesterBuilder.getHarvesterFactory().isPresent());
         assertEquals(HarvesterBuilder.getHarvesterFactory().get().getClass(), JAXBHarvesterFactory.class);
-        harvester = HarvesterBuilder.createNewInstance(TEST_URL);
+        harvester = HarvesterBuilder.createNewInstance(testUrl);
+    }
+
+    @After
+    public void tearDown() {
+        oaiProvider.close();
+        oaiProvider = null;
+        testUrl = null;
     }
 
     @Test
