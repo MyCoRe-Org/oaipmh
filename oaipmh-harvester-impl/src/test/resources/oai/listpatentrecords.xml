@@ -1,0 +1,2889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2020-06-09T09:05:44Z</responseDate>
+<request metadataPrefix="oai_dc" set="patent" verb="ListRecords">https://pub.uni-bielefeld.de/oai</request>
+
+<ListRecords>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2285492</identifier>
+    <datestamp>2018-07-24T12:58:08Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren und Einrichtung zur fehlercodierenden Datenübertragung</dc:title>
+   	<dc:creator>Marks, Karl Michael</dc:creator>
+   	<dc:creator>Rückert, Ulrich</dc:creator>
+   	<dc:creator>Staudt von, H.-M.</dc:creator>
+   	<dc:description>Marks KM, Rückert U, Staudt von H-M. Verfahren und Einrichtung zur fehlercodierenden Datenübertragung.  1993.</dc:description>
+   	<dc:description>Die Erfindung betrifft ein Verfahren und eine Einrichtung zur Erkennung und/oder Korrektur von 1- und mehr-Bit-Fehlern gemäß Oberbegriff der Patentansprüche 1 und 5. Um bei einem Verfahren sowie einer Einrichtung der gattungsgemäßen Art eine Optimierung der Fehlererkennung und Fehlerkorrektur bei gleichzeitiger Minimierung der Kodierungstiefe d. h. der Zahl der nötigen Gatterebenen zu erreichen, wird erfindungsgemäß vorgeschlagen, das Datenwort sowie das Prüfwort in jeweils 4-Bit breite Teilworte aufzuteilen, wobei das Prüfwort aus einer Anzahl von p Prüfbits, und das Datenwort aus einer Anzahl von d Datenbits gebildet ist.
+Zur Prüfwortgenerierung wird eine d*p Generatormatrix verwendet, bei der jeder Spaltenvektor das Generierungsgewicht Gs = d/4, und jeder Zeilenvektor das Generierungsgewicht Gz = p/4 aufweist, derart, daß zeilenweise jedes Datenbit maximal 2 Bit in einem Prüfteilwort beeinflußt.</dc:description>
+   	<dc:date>1993</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2285492</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2297896</identifier>
+    <datestamp>2018-07-24T13:01:12Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Robot with automatic selection of task-specific representations for imitation learning</dc:title>
+   	<dc:creator>Gienger, Michael</dc:creator>
+   	<dc:creator>Muehlig, Manuel</dc:creator>
+   	<dc:creator>Steil, Jochen J.</dc:creator>
+   	<dc:subject>CoR-Lab Publication</dc:subject>
+   	<dc:description>Gienger M, Muehlig M, Steil JJ. Robot with automatic selection of task-specific representations for imitation learning. &lt;em&gt;European Patent Office&lt;/em&gt;. 2011.</dc:description>
+   	<dc:date>2011</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2297896</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399023</identifier>
+    <datestamp>2018-07-24T13:00:54Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Precursors for PNA-Monomers</dc:title>
+   	<dc:creator>Martens, J.</dc:creator>
+   	<dc:creator>Maison, W.</dc:creator>
+   	<dc:creator>Schlemminger, I.</dc:creator>
+   	<dc:creator>Westerhoff, O.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Martens J, Maison W, Schlemminger I, Westerhoff O, Gröger H. Precursors for PNA-Monomers.  2000.</dc:description>
+   	<dc:date>2000</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399023</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399100</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von N-Phosphonomethyliminodiessigsäure</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Fleischer, F.</dc:creator>
+   	<dc:creator>Hammer, B.</dc:creator>
+   	<dc:creator>Hitzler, M.</dc:creator>
+   	<dc:description>Gröger H, Fleischer F, Hammer B, Hitzler M. Verfahren zur Herstellung von N-Phosphonomethyliminodiessigsäure.  2002.</dc:description>
+   	<dc:date>2002</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399100</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399111</identifier>
+    <datestamp>2018-07-24T13:00:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von N-Phosphonomethyliminodiessigsäure</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Thalhammer, F.</dc:creator>
+   	<dc:creator>Fleischer, F.</dc:creator>
+   	<dc:creator>Hammer, B.</dc:creator>
+   	<dc:description>Gröger H, Thalhammer F, Fleischer F, Hammer B. Verfahren zur Herstellung von N-Phosphonomethyliminodiessigsäure.  2000.</dc:description>
+   	<dc:date>2000</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399111</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399121</identifier>
+    <datestamp>2018-07-24T13:00:22Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for Producing Optically Active Cyanohydrins</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Vorlop, K.-D.</dc:creator>
+   	<dc:creator>Capan, E.</dc:creator>
+   	<dc:description>Gröger H, Vorlop K-D, Capan E. Method for Producing Optically Active Cyanohydrins.  2001.</dc:description>
+   	<dc:date>2001</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399121</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399126</identifier>
+    <datestamp>2018-07-24T13:00:22Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von Amiden oder Estern</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Sans, J.</dc:creator>
+   	<dc:creator>Barthuber, A.</dc:creator>
+   	<dc:creator>Haindl, R.</dc:creator>
+   	<dc:description>Gröger H, Sans J, Barthuber A, Haindl R. Verfahren zur Herstellung von Amiden oder Estern.  2001.</dc:description>
+   	<dc:date>2001</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399126</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399141</identifier>
+    <datestamp>2018-07-24T13:01:44Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von Amiden</dc:title>
+   	<dc:creator>Sans, J.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Sans J, Gröger H. Verfahren zur Herstellung von Amiden.  2002.</dc:description>
+   	<dc:date>2002</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399141</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399176</identifier>
+    <datestamp>2018-07-24T13:00:22Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von optisch aktiven Cyanhydrinen</dc:title>
+   	<dc:creator>Shibasaki, M.</dc:creator>
+   	<dc:creator>Kanai, M.</dc:creator>
+   	<dc:creator>Manickam, G.</dc:creator>
+   	<dc:creator>Nogami, H.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Shibasaki M, Kanai M, Manickam G, Nogami H, Gröger H. Verfahren zur Herstellung von optisch aktiven Cyanhydrinen.  2002.</dc:description>
+   	<dc:date>2002</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399176</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399205</identifier>
+    <datestamp>2018-07-24T13:00:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Kristallisation von Oxonorleucinacetal</dc:title>
+   	<dc:creator>Schwarm, M.</dc:creator>
+   	<dc:creator>Roos, J.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:creator>Rippel, C.</dc:creator>
+   	<dc:description>Schwarm M, Roos J, Gröger H, Werner H, Rippel C. Verfahren zur Kristallisation von Oxonorleucinacetal.  2003.</dc:description>
+   	<dc:date>2003</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399205</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399215</identifier>
+    <datestamp>2018-07-24T13:00:22Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von optisch aktiven ß-Aminocarbonsäuren aus racemischen N-acetylierten ß-Aminocarbonsäuren</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Trauthwein, H.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:creator>Buchholz, S.</dc:creator>
+   	<dc:creator>Sacherer, C.</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:description>Gröger H, Trauthwein H, Drauz K, Buchholz S, Sacherer C, Werner H. Verfahren zur Herstellung von optisch aktiven ß-Aminocarbonsäuren aus racemischen N-acetylierten ß-Aminocarbonsäuren.  2003.</dc:description>
+   	<dc:date>2003</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399215</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399543</identifier>
+    <datestamp>2018-07-24T13:01:06Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Perylene dyes with three orthogonal chromophores</dc:title>
+   	<dc:creator>Langhals, Heinz H.</dc:creator>
+   	<dc:creator>Rauscher, Maximilian</dc:creator>
+   	<dc:creator>Kuck, Dietmar</dc:creator>
+   	<dc:creator>Strübe, Jörg</dc:creator>
+   	<dc:description>Langhals HH, Rauscher M, Kuck D, Strübe J. Perylene dyes with three orthogonal chromophores. &lt;em&gt;Chemical Abstracts 2008, 148, 539882&lt;/em&gt;. 2008.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399543</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399663</identifier>
+    <datestamp>2018-07-24T13:01:06Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur enzymatischen Herstellung enantiomerenangereicherter ß-Aminosäuren</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:description>Gröger H, Werner H. Verfahren zur enzymatischen Herstellung enantiomerenangereicherter ß-Aminosäuren.  2003.</dc:description>
+   	<dc:date>2003</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399663</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399668</identifier>
+    <datestamp>2018-07-24T13:01:06Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Gekoppeltes enzymatisches Reaktionssystem</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:description>Gröger H, Hummel W. Gekoppeltes enzymatisches Reaktionssystem.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399668</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399670</identifier>
+    <datestamp>2018-07-24T13:01:06Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Gekoppeltes enzymatisches Reaktionssystem unter Einsatz einer Formiatdehydrogenase aus Candida boidinii</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:description>Gröger H, Hummel W. Gekoppeltes enzymatisches Reaktionssystem unter Einsatz einer Formiatdehydrogenase aus Candida boidinii.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399670</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399679</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verwendung von Malatdehydrogenase zur NADH-Regenerierung</dc:title>
+   	<dc:creator>Naamniek, S.</dc:creator>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Naamniek S, Hummel W, Gröger H. Verwendung von Malatdehydrogenase zur NADH-Regenerierung.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399679</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399682</identifier>
+    <datestamp>2018-07-24T13:01:06Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Enzymatisches Reaktionssystem</dc:title>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Hummel W, Gröger H. Enzymatisches Reaktionssystem.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399682</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399703</identifier>
+    <datestamp>2018-07-24T13:00:22Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Gekoppeltes cofaktorabhängiges enzymatisches Reaktionssystem</dc:title>
+   	<dc:creator>Rollmann, C.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Bommarius, A.B.</dc:creator>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:description>Rollmann C, Gröger H, Bommarius AB, Hummel W. Gekoppeltes cofaktorabhängiges enzymatisches Reaktionssystem.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399703</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399762</identifier>
+    <datestamp>2018-07-24T13:00:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von D-Aminosäuren</dc:title>
+   	<dc:creator>Hummel, H.</dc:creator>
+   	<dc:creator>Geueke, B.</dc:creator>
+   	<dc:creator>Kuzu, M.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Hummel H, Geueke B, Kuzu M, Gröger H. Verfahren zur Herstellung von D-Aminosäuren.  2005.</dc:description>
+   	<dc:date>2005</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399762</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399843</identifier>
+    <datestamp>2018-07-24T13:01:45Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Enzymatische Reaktionen in Gegenwart ionischer Additive</dc:title>
+   	<dc:creator>Wallert, S.</dc:creator>
+   	<dc:creator>Grayson, J.I.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Bolm, C.</dc:creator>
+   	<dc:creator>Dominguez de Maria, P.</dc:creator>
+   	<dc:creator>Chamouleau, F.</dc:creator>
+   	<dc:description>Wallert S, Grayson JI, Drauz K, et al. Enzymatische Reaktionen in Gegenwart ionischer Additive.  2005.</dc:description>
+   	<dc:date>2005</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399843</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399875</identifier>
+    <datestamp>2018-07-24T13:00:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von enantiomer angereicherten alpha-Hydroxyketonen</dc:title>
+   	<dc:creator>Dominguez de Maria, P.</dc:creator>
+   	<dc:creator>Trauthwein, H.</dc:creator>
+   	<dc:creator>May, O.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:description>Dominguez de Maria P, Trauthwein H, May O, Gröger H, Drauz K. Verfahren zur Herstellung von enantiomer angereicherten alpha-Hydroxyketonen.  2006.</dc:description>
+   	<dc:date>2006</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399875</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399880</identifier>
+    <datestamp>2018-07-24T13:00:22Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Alkoholdehydrogenase aus Nocardia globulera und deren Verwendung</dc:title>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:creator>Schümers, J.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Hummel W, Schümers J, Gröger H. Alkoholdehydrogenase aus Nocardia globulera und deren Verwendung.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399880</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2399883</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von überwiegend ein Enantiomer enthaltendem 1,1,1-Trifluorpropanol</dc:title>
+   	<dc:creator>Doderer, K.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>May, O.</dc:creator>
+   	<dc:description>Doderer K, Gröger H, May O. Verfahren zur Herstellung von überwiegend ein Enantiomer enthaltendem 1,1,1-Trifluorpropanol.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2399883</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2400139</identifier>
+    <datestamp>2018-07-24T13:00:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Aufarbeitung von Reaktionslösungen aus Ganzzell-Biotransformationen</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Rollmann, C.</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:creator>Chamouleau, F.-C.</dc:creator>
+   	<dc:creator>Orzewski, D.</dc:creator>
+   	<dc:description>Gröger H, Rollmann C, Werner H, Chamouleau F-C, Orzewski D. Aufarbeitung von Reaktionslösungen aus Ganzzell-Biotransformationen.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2400139</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2372537</identifier>
+    <datestamp>2018-07-24T13:01:04Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>A post-natal periodontal-derived neural stem cell</dc:title>
+   	<dc:creator>Kaltschmidt, Barbara</dc:creator>
+   	<dc:creator>Widera, Darius ; https://orcid.org/0000-0003-1686-130X</dc:creator>
+   	<dc:creator>Grimm, Wolf-Dieter</dc:creator>
+   	<dc:creator>Kaltschmidt, Christian</dc:creator>
+   	<dc:description>Kaltschmidt B, Widera D, Grimm W-D, Kaltschmidt C. A post-natal periodontal-derived neural stem cell.  2006.</dc:description>
+   	<dc:date>2006</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2372537</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2372541</identifier>
+    <datestamp>2018-07-24T13:01:42Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>A method for generating human nervous system cells, tissues, or neural stem cell progenitors from haematopoietic stem cells</dc:title>
+   	<dc:creator>Piechaczek, Christoph</dc:creator>
+   	<dc:creator>Widera, Darius ; https://orcid.org/0000-0003-1686-130X</dc:creator>
+   	<dc:creator>Bethke, Ulf</dc:creator>
+   	<dc:creator>Schmitz, Jürgen</dc:creator>
+   	<dc:description>Piechaczek C, Widera D, Bethke U, Schmitz J. A method for generating human nervous system cells, tissues, or neural stem cell progenitors from haematopoietic stem cells.  2003.</dc:description>
+   	<dc:date>2003</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2372541</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2375304</identifier>
+    <datestamp>2018-07-24T13:01:16Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Diagnosis and treatment of multiple sulfatase deficiency and other sulfatase deficiencies</dc:title>
+   	<dc:creator>von Figura, Kurt</dc:creator>
+   	<dc:creator>Schmidt, Bernhard</dc:creator>
+   	<dc:creator>Dierks, Thomas</dc:creator>
+   	<dc:creator>Heartlein, Michael</dc:creator>
+   	<dc:creator>Ballabio, Andrea</dc:creator>
+   	<dc:creator>Cosma, Maria Pia</dc:creator>
+   	<dc:description>von Figura K, Schmidt B, Dierks T, Heartlein M, Ballabio A, Cosma MP. Diagnosis and treatment of multiple sulfatase deficiency and other sulfatase deficiencies.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2375304</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2401802</identifier>
+    <datestamp>2018-07-24T13:01:45Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for treatment of biomass from biological processes and use of the obtained products</dc:title>
+   	<dc:creator>Friehs, Karl</dc:creator>
+   	<dc:creator>Flaschel, Erwin</dc:creator>
+   	<dc:creator>Risse, Joe Max</dc:creator>
+   	<dc:description>Friehs K, Flaschel E, Risse JM. Method for treatment of biomass from biological processes and use of the obtained products.  1999.</dc:description>
+   	<dc:date>1999</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2401802</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2338105</identifier>
+    <datestamp>2018-07-24T13:01:20Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Rekonfigurierbare magnetische Logikschaltungsanordnung und Verfahren zur Herstellung und Betreiben derartiger Logikeinrichtungen</dc:title>
+   	<dc:creator>Höink, Volker</dc:creator>
+   	<dc:creator>Meyners, Dirk</dc:creator>
+   	<dc:creator>Schmalhorst, Jan-Michael</dc:creator>
+   	<dc:creator>Reiss, Günter ; https://orcid.org/0000-0002-0918-5940</dc:creator>
+   	<dc:creator>Ehresmann, Arno</dc:creator>
+   	<dc:description>Höink V, Meyners D, Schmalhorst J-M, Reiss G, Ehresmann A. Rekonfigurierbare magnetische Logikschaltungsanordnung und Verfahren zur Herstellung und Betreiben derartiger Logikeinrichtungen.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2338105</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:1961391</identifier>
+    <datestamp>2018-07-24T13:00:36Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Detektion und Verfolgung von Objekten in Bildsequenzen</dc:title>
+   	<dc:creator>Barrois, Björn</dc:creator>
+   	<dc:creator>Beuter, Niklas</dc:creator>
+   	<dc:creator>Hahn, Markus</dc:creator>
+   	<dc:creator>Hermes, Christoph</dc:creator>
+   	<dc:creator>Kreßel, Ulrich</dc:creator>
+   	<dc:creator>Krüger, Lars</dc:creator>
+   	<dc:creator>Kummert, Franz</dc:creator>
+   	<dc:creator>Ott, Rainer</dc:creator>
+   	<dc:creator>Sagerer, Gerhard</dc:creator>
+   	<dc:creator>Wöhler, Christian</dc:creator>
+   	<dc:description>Barrois B, Beuter N, Hahn M, et al. Verfahren zur Detektion und Verfolgung von Objekten in Bildsequenzen.  09.09.2010.</dc:description>
+   	<dc:description>Die Erfindung betrifft ein Verfahren zur Detektion und Verfolgung von Objekten in Bildsequenzen, wobei anhand einer Bilderfassungsvorrichtung zumindest zwei Bilder stereoskopisch erfasst und verarbeitet werden und anhand eines Filters eine Schätzung und/oder Vorhersage eines Objektzustands ausgeführt wird. Erfindungsgemäß werden Zustandsdaten des Objekts dreidimensional verarbeitet, wobei eine erste horizontale Koordinate (x) und eine zweite vertikale Koordinate (y) einer Position des Objekts ermittelt werden und eine dritte Koordinate (z-1) aus einem Kehrwert einer Entfernung des Objekts zu der Bilderfassungsvorrichtung gebildet wird.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/1961391</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607040</identifier>
+    <datestamp>2018-07-24T13:01:15Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>System zum Training von Personen und zur Überprüfung deren Lernfortschritts</dc:title>
+   	<dc:creator>Kreßel, Ulrich</dc:creator>
+   	<dc:creator>Krüger, Lars</dc:creator>
+   	<dc:creator>Progscha, Werner</dc:creator>
+   	<dc:creator>Wöhler, Christian</dc:creator>
+   	<dc:creator>Kummert, Franz</dc:creator>
+   	<dc:creator>Sagerer, Gerhard</dc:creator>
+   	<dc:creator>Schmidt, Joachim</dc:creator>
+   	<dc:creator>Ott, Rainer</dc:creator>
+   	<dc:description>Kreßel U, Krüger L, Progscha W, et al. System zum Training von Personen und zur Überprüfung deren Lernfortschritts.  2008.</dc:description>
+   	<dc:description>Obwohl mittlerweile industrielle Fertigungsprozesse vielfach vollautomatisch ablaufen, werden hochwertige Industriegüter, welche für gewöhnlich wechselnde individuelle Merkmale aufweisen und komplexen Fertigungsschritten unterliegen, häufig noch manuell bearbeitet. Aus wirtschaftlichen Gründen ist es sinnvoll, einen manuellen Bearbeiter ohne notwendiges Beisein eines menschlichen Trainers in Arbeitsabläufe einzuarbeiten und auch nach Abschluss dieses Trainings einer automatischen, qualifizierten Kontrolle hinsichtlich der Qualität seines Arbeitsablaufes zu unterziehen. Hierzu wird zum Training dieser Person und zur Überprüfung deren Lernfortschritts mittels einer Präsentationseinrichtung (2) auf zumindest einer Anzeigeeinheit (3) in einer Datenbank (4) abgelegte, einen Arbeitsablauf darstellende Bildinformation (5) dargeboten. Diesem Training nachfolgend wird die Person (1) mittels eines mit einem Bildverarbeitungssystem (6) in Verbindung stehenden Kamerasystems (7) bei der Ausführung des Arbeitsablaufs beobachtet. Hierbei vergleicht das Bildverarbeitungssystem (6) die von dem Kamerasystem erfasste Bildinformation mit der zu dem Arbeitsablauf in der Datenbank (4) abgelegten Information. Wenn ein Vergleich ergibt, dass die von dem Kamerasystem erfasste Bildinformation über ein bestimmtes Maß von der in der Datenbank (4) abgelegten Bildinformation abweicht, wird hierüber mittels Signalmitteln (8, 9), insbesondere optische Leuchtmittel (9) oder Lautsprecher bzw. Hupen (8), ...</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607040</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607048</identifier>
+    <datestamp>2018-07-24T13:01:19Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Beobachtung einer Person in einem industriellen Umfeld</dc:title>
+   	<dc:creator>Kreßel, Ulrich</dc:creator>
+   	<dc:creator>Krüger, Lars</dc:creator>
+   	<dc:creator>Progscha, Werner</dc:creator>
+   	<dc:creator>Wöhler, Christian</dc:creator>
+   	<dc:creator>Kummert, Franz</dc:creator>
+   	<dc:creator>Sagerer, Gerhard</dc:creator>
+   	<dc:creator>Schmidt, Joachim</dc:creator>
+   	<dc:creator>Ott, Rainer</dc:creator>
+   	<dc:description>Kreßel U, Krüger L, Progscha W, et al. Verfahren zur Beobachtung einer Person in einem industriellen Umfeld.  2008.</dc:description>
+   	<dc:description>Fertigungsprozesse profitieren von einer engen Zusammenarbeit zwischen Mensch und Maschine in hohem Maße. Während sich der Mensch flexibel und anpassungsfähig verhält, bei sich wiederholenden Arbeitsvorgängen jedoch zu Fehlern neigt, arbeiten Maschinen zwar schnell und exakt, hierbei jedoch statisch und wenig flexibel. Um eine verbesserte Gefahrenabsicherung im Kontext einer sicheren Mensch-Maschine-Interaktion zu ermöglichen, wird überwachten Raumbereichen, abhängig von der aktuellen Position und dem aktuellen Bewegungszustand einer Maschine oder eines Maschinenelementes sowie der beobachteten Person, ein orts- und zeitabhängiger variabler Gefährdungsgrad zugewiesen. Hierbei werden mittels eines Mehrkamerasystems Bilddaten der Person erfasst, um möglichst detaillierte Informationen über die Position und Ausrichtung einer Person, insbesondere auch in Bezug auf deren Körperteile, in einem industriellen Umfeld zu erhalten. Diese Bilddaten werden sodann hinsichtlich der Abbildung einer Person untersucht, so dass dann, wenn eine Person in den Bilddaten detektiert wurde, dieser Personen-Hypothese ein artikuliertes, virtuelles 3-D-Modell des menschlichen Körpers angepasst wird. Nachfolgend wird dieses virtuelle Körpermodell fortlaufend an das Bewegungsverhalten der in den Bilddaten detektierten Person angepasst. In Kenntnis der Position und des Bewegungsverhatlens des virtuellen Körpermodells im Raum wird ein Gefährdungspotential ermittelt. Das so ermittelte ...</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607048</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607058</identifier>
+    <datestamp>2018-07-24T13:01:19Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zum Betrieb eines Fahrerassistenzsystems und Vorrichtung zur Durchführung des Verfahrens</dc:title>
+   	<dc:creator>Barrois, Björn</dc:creator>
+   	<dc:creator>Beuter, Niklas</dc:creator>
+   	<dc:creator>Hahn, Markus</dc:creator>
+   	<dc:creator>Hermes, Christoph</dc:creator>
+   	<dc:creator>Kreßel, Ulrich</dc:creator>
+   	<dc:creator>Krüger, Lars</dc:creator>
+   	<dc:creator>Kummert, Franz</dc:creator>
+   	<dc:creator>Ott, Rainer</dc:creator>
+   	<dc:creator>Sagerer, Gerhard</dc:creator>
+   	<dc:creator>Wöhler, Christian</dc:creator>
+   	<dc:description>Barrois B, Beuter N, Hahn M, et al. Verfahren zum Betrieb eines Fahrerassistenzsystems und Vorrichtung zur Durchführung des Verfahrens.  2010.</dc:description>
+   	<dc:description>Die Erfindung betrifft ein Verfahren zum Betrieb eines Fahrerassistenzsystems mit einer Mehrzahl von Sensoren (R, K) und eine Vorrichtung zur Durchführung des Verfahrens.$A Erfindungsgemäß wird anhand von Sensordaten der Sensoren (R, K) eine Komplexität einer von den Sensoren (R, K) erfassten Verkehrssituation bestimmt und in Abhängigkeit von der bestimmten Komplexität der Verkehrssituation und/oder in Abhängigkeit von den Sensordaten zumindest eines Sensors (R, K) für jeden Sensor (R, K) eine Zuverlässigkeit für dessen Sensordaten ermittelt.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607058</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607067</identifier>
+    <datestamp>2018-07-24T13:01:19Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Künstliche Gesichtspartie und Verfahren zum Bewegen der künstlichen Gesichtspartie</dc:title>
+   	<dc:creator>Hegel, Frank</dc:creator>
+   	<dc:creator>Hackel, Matthias</dc:creator>
+   	<dc:creator>Wrede, Britta</dc:creator>
+   	<dc:creator>Sagerer, Gerhard</dc:creator>
+   	<dc:description>Hegel F, Hackel M, Wrede B, Sagerer G. Künstliche Gesichtspartie und Verfahren zum Bewegen der künstlichen Gesichtspartie.  2011.</dc:description>
+   	<dc:description>Die vorliegende Patentanmeldung befasst sich mit einer künstlichen Gesichtspartie, insbesondere für einen humanoiden Roboter. Die künstliche Gesichtspartie umfasst ein sichtbares Gesichtspartieteil (102; 112, 122) mit zumindest einem magnetisch wirksamen Abschnitt (103; 113, 123), einen Antriebsmagneten (104; 114, 115), und einen Aktuator, der mit dem Antriebsmagnet wirkgekoppelt und eingerichtet und konfiguriert ist, den Antriebsmagnet (104; 114, 115) zu bewegen. Eine Bewegung des Antriebsmagnets (104; 114, 115) bewirkt durch Magnetfeldwechselwirkung eine Bewegung des magnetisch wirksamen Abschnitts (103; 113, 123). Bei einer alternativen Ausführungsform ist ein Magnet in dem Gesichtspartieteil (102; 112, 122) und ein magnetisch wirksamer Abschnitt auf der Antriebsseite vorgesehen. Die vorliegende Patentanmeldung betrifft auch ein Verfahren zum Bewegen einer künstlichen Gesichtspartie.</dc:description>
+   	<dc:date>2011</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607067</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607070</identifier>
+    <datestamp>2018-07-24T13:01:01Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>A method for multi modal object recognition based on self-referential classification strategies</dc:title>
+   	<dc:creator>Kummert, Franz</dc:creator>
+   	<dc:creator>Grahl, Miranda</dc:creator>
+   	<dc:creator>Joublin, Frank</dc:creator>
+   	<dc:description>Kummert F, Grahl M, Joublin F. A method for multi modal object recognition based on self-referential classification strategies.  2011.</dc:description>
+   	<dc:date>2011</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607070</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607076</identifier>
+    <datestamp>2018-07-24T13:01:15Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Estimating Objects Proper Motion Using Optical Flow, Kinematics and Depth Information</dc:title>
+   	<dc:creator>Eggert, Julian</dc:creator>
+   	<dc:creator>Rebhan, Sven</dc:creator>
+   	<dc:creator>Willert, Volker</dc:creator>
+   	<dc:creator>Schmüdderich, Jens</dc:creator>
+   	<dc:description>Eggert J, Rebhan S, Willert V, Schmüdderich J. Estimating Objects Proper Motion Using Optical Flow, Kinematics and Depth Information.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607076</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2607082</identifier>
+    <datestamp>2018-07-24T13:01:01Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Using child directed speech to bootstrap a model based speech segmentation and recognition system</dc:title>
+   	<dc:creator>Brandl, Holger</dc:creator>
+   	<dc:creator>Joublin, Frank</dc:creator>
+   	<dc:subject>emergence</dc:subject>
+   	<dc:subject>speech acquisition</dc:subject>
+   	<dc:description>Brandl H, Joublin F. Using child directed speech to bootstrap a model based speech segmentation and recognition system.  2008.</dc:description>
+   	<dc:description>he present invention relates to a technique
+which exploits the properties of child directed speech to
+learn the acoustical structure of speech using distinct
+models for each unit of speech. The resulting acoustic
+model may e.g. be used for speech segmentation, syllable
+detection or speech recognition in multi-modal systems.
+Inherent to the invention proposed here is a system
+which is able to recognize and learn the structure of
+speech, which can find application in automatic speech
+recognition systems and synthetic speech synthesizing
+systems.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2607082</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2637639</identifier>
+    <datestamp>2018-07-24T13:01:07Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Robot control with bootstrapping inverse kinematics</dc:title>
+   	<dc:creator>Rolf, Matthias</dc:creator>
+   	<dc:creator>Gienger, Michael</dc:creator>
+   	<dc:creator>Steil, Jochen J.</dc:creator>
+   	<dc:description>Rolf M, Gienger M, Steil JJ. Robot control with bootstrapping inverse kinematics.  2013.</dc:description>
+   	<dc:date>2013</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2637639</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2637645</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Adaptive scene dependent filters in online learning environments</dc:title>
+   	<dc:creator>Wersing, Heiko</dc:creator>
+   	<dc:creator>Götting, Michael</dc:creator>
+   	<dc:creator>Steil, Jochen J.</dc:creator>
+   	<dc:description>Wersing H, Götting M, Steil JJ. Adaptive scene dependent filters in online learning environments.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2637645</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2494087</identifier>
+    <datestamp>2018-07-24T13:00:30Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Mehrprozessor-Computersystem</dc:title>
+   	<dc:creator>Christmann, W.</dc:creator>
+   	<dc:creator>Strugholtz, M.</dc:creator>
+   	<dc:creator>Hagemeyer, Jens</dc:creator>
+   	<dc:creator>Porrmann, Mario ; https://orcid.org/0000-0003-1005-5753</dc:creator>
+   	<dc:description>Christmann W, Strugholtz M, Hagemeyer J, Porrmann M. Mehrprozessor-Computersystem.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2494087</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2494093</identifier>
+    <datestamp>2018-07-24T12:59:57Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Flexible Beschleunigungseinheit für die Verarbeitung von Datenpaketen</dc:title>
+   	<dc:creator>Niemann, J.-C.</dc:creator>
+   	<dc:creator>Sauer, C.</dc:creator>
+   	<dc:creator>Porrmann, Mario ; https://orcid.org/0000-0003-1005-5753</dc:creator>
+   	<dc:creator>Rückert, Ulrich</dc:creator>
+   	<dc:description>Niemann J-C, Sauer C, Porrmann M, Rückert U. Flexible Beschleunigungseinheit für die Verarbeitung von Datenpaketen.  2006.</dc:description>
+   	<dc:date>2006</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2494093</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2458477</identifier>
+    <datestamp>2018-07-24T13:00:37Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von enantiomerenangereicherten Azoverbindungen, Aminoalkoholen und Aminosäuren mit einem quartären Kohlenstoffzentrum</dc:title>
+   	<dc:creator>Heinrich, M.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Prechter, A.</dc:creator>
+   	<dc:creator>Dietz, F.</dc:creator>
+   	<dc:description>Heinrich M, Gröger H, Prechter A, Dietz F. Verfahren zur Herstellung von enantiomerenangereicherten Azoverbindungen, Aminoalkoholen und Aminosäuren mit einem quartären Kohlenstoffzentrum.  2011.</dc:description>
+   	<dc:date>2011</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2458477</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2907839</identifier>
+    <datestamp>2020-05-12T12:54:27Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Biological preparation of 5-aminovalerate</dc:title>
+   	<dc:creator>Jorge, João</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:description>Jorge J, Wendisch VF. Biological preparation of 5-aminovalerate.  28.06.2016.</dc:description>
+   	<dc:date>2016</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2907839</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906679</identifier>
+    <datestamp>2020-05-07T10:32:45Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Selective isolation of bacterial mRNA</dc:title>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Kustu, Sydney</dc:creator>
+   	<dc:description>Wendisch VF, Kustu S. Selective isolation of bacterial mRNA.  05.06.2001.</dc:description>
+   	<dc:date>1999</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906679</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906680</identifier>
+    <datestamp>2020-05-07T10:33:44Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Microbiological production of 3-hydroxypropionic acid</dc:title>
+   	<dc:creator>Marx, Achim</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Ritmmann, Doris</dc:creator>
+   	<dc:creator>Buchholz, Stefan</dc:creator>
+   	<dc:description>Marx A, Wendisch VF, Ritmmann D, Buchholz S. Microbiological production of 3-hydroxypropionic acid.  22.11.2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906680</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906684</identifier>
+    <datestamp>2020-05-07T10:34:48Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Process for the fermentative preparation of organic chemical compounds using coryneform bacteria in which the SugR gene is present in attenuated form</dc:title>
+   	<dc:creator>Bathe, Brigitte</dc:creator>
+   	<dc:creator>Blombach, Bastion</dc:creator>
+   	<dc:creator>Eikmanns, Bernhard</dc:creator>
+   	<dc:creator>Engels, Verena</dc:creator>
+   	<dc:creator>Thierbach, Georg</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:description>Bathe B, Blombach B, Eikmanns B, Engels V, Thierbach G, Wendisch VF. Process for the fermentative preparation of organic chemical compounds using coryneform bacteria in which the SugR gene is present in attenuated form.  13.03.2012.</dc:description>
+   	<dc:date>2012</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906684</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906685</identifier>
+    <datestamp>2018-07-24T13:01:27Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Procede pour produire des acides l-amines par fermentation au moyen de bacteries coryneformes</dc:title>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Rittmann, Doris</dc:creator>
+   	<dc:creator>Sahm, Hermann</dc:creator>
+   	<dc:creator>Kreutzer, Caroline</dc:creator>
+   	<dc:description>Wendisch VF, Rittmann D, Sahm H, Kreutzer C. Procede pour produire des acides l-amines par fermentation au moyen de bacteries coryneformes.  02.08.2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906685</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906686</identifier>
+    <datestamp>2020-02-19T08:22:32Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for fermentatively preparing L-amino acids</dc:title>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Lindner, Steffen</dc:creator>
+   	<dc:creator>Bathe, Brigitte</dc:creator>
+   	<dc:creator>Claes, Wilfried</dc:creator>
+   	<dc:description>Wendisch VF, Lindner S, Bathe B, Claes W. Method for fermentatively preparing L-amino acids.  29.10.2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906686</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906687</identifier>
+    <datestamp>2020-05-07T10:35:47Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Novel methanol dehydrogenase enzymes from bacillus</dc:title>
+   	<dc:creator>Brautaset, Trygve</dc:creator>
+   	<dc:creator>HEGGESET, Tonje Marita Bjerkan</dc:creator>
+   	<dc:creator>KROG, Anne</dc:creator>
+   	<dc:creator>Quax, Wilhelmus Johannes</dc:creator>
+   	<dc:creator>SIBBALD, Mark Jan Jacobus Bernhard</dc:creator>
+   	<dc:creator>VORHOLT, Julia</dc:creator>
+   	<dc:creator>Müller, Jonas</dc:creator>
+   	<dc:creator>Kiefer, Patrick</dc:creator>
+   	<dc:creator>POTTHOFF, Eva</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>LESSMEIER, Lennart</dc:creator>
+   	<dc:creator>HEUX, Stéphanie</dc:creator>
+   	<dc:creator>PORTAIS, Jean-Charles</dc:creator>
+   	<dc:description>Brautaset T, HEGGESET TMB, KROG A, et al. Novel methanol dehydrogenase enzymes from bacillus.  01.08.2013.</dc:description>
+   	<dc:date>2013</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906687</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906688</identifier>
+    <datestamp>2020-05-07T10:31:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Production of L-lysine and L-lysine-containing feed additives</dc:title>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Bathe, Brigitte</dc:creator>
+   	<dc:description>Wendisch VF, Bathe B. Production of L-lysine and L-lysine-containing feed additives.  07.08.2008.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906688</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906689</identifier>
+    <datestamp>2020-05-07T10:34:14Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for the Fermentative Production of L-Amino Acids With the Aid of Coryneform Bacteria Capable of Using Glycerin as the Only Carbon Source</dc:title>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Rittmann, Doris</dc:creator>
+   	<dc:creator>Sahm, Hermann</dc:creator>
+   	<dc:creator>Kreutzer, Caroline</dc:creator>
+   	<dc:description>Wendisch VF, Rittmann D, Sahm H, Kreutzer C. Method for the Fermentative Production of L-Amino Acids With the Aid of Coryneform Bacteria Capable of Using Glycerin as the Only Carbon Source.  27.11.2008.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906689</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906690</identifier>
+    <datestamp>2020-05-07T10:35:20Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Preparing dihydroxyacetone, useful e.g. in cosmetic composition, comprises cultivating microorganisms in growth medium, adjusting pH of the medium, contacting cells with a base and culturing the microorganism in presence of carbohydrates</dc:title>
+   	<dc:creator>MARX, Achim</dc:creator>
+   	<dc:creator>Li, LI</dc:creator>
+   	<dc:creator>OBUCH, JURAJ</dc:creator>
+   	<dc:creator>HAAS, THOMAS</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:description>MARX A, Li LI, OBUCH JURAJ, HAAS THOMAS, Wendisch VF. Preparing dihydroxyacetone, useful e.g. in cosmetic composition, comprises cultivating microorganisms in growth medium, adjusting pH of the medium, contacting cells with a base and culturing the microorganism in presence of carbohydrates.  12.11.2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906690</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906691</identifier>
+    <datestamp>2020-05-07T10:32:21Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for the fermentative production of L-amino acids, using coryneform bacteria</dc:title>
+   	<dc:creator>Sindelar, Georg</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Sahm, Hermann</dc:creator>
+   	<dc:description>Sindelar G, Wendisch VF, Sahm H. Method for the fermentative production of L-amino acids, using coryneform bacteria.  14.04.2005.</dc:description>
+   	<dc:date>2005</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906691</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906692</identifier>
+    <datestamp>2018-07-24T13:01:27Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Process for preparing terminal amino carboxylic acids and amino aldehydes by means of a recombinant microorganism</dc:title>
+   	<dc:creator>Kind, Stefanie ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Jorge, João</dc:creator>
+   	<dc:description>Kind S, Jorge J. Process for preparing terminal amino carboxylic acids and amino aldehydes by means of a recombinant microorganism.  11.09.2015.</dc:description>
+   	<dc:date>2015</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906692</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2906899</identifier>
+    <datestamp>2018-07-24T13:01:27Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>System for Controlling an Automated Device</dc:title>
+   	<dc:creator>Wersing, Heiko</dc:creator>
+   	<dc:creator>Queißer, Jeffrey ; https://orcid.org/0000-0002-9725-6971</dc:creator>
+   	<dc:subject>classifier combination</dc:subject>
+   	<dc:subject>learning</dc:subject>
+   	<dc:subject>robot</dc:subject>
+   	<dc:subject>incremetal learning</dc:subject>
+   	<dc:description>Wersing H, Queißer J. System for Controlling an Automated Device.  01.06.2016.</dc:description>
+   	<dc:description>The present invention uses context information, in order to control an incremental learning process of a system 1 for controlling an automated device even in an unexpected environment. The system 1 is able to correct errors, which are produced by a pre-trained mapping unit 4 that maps an input obtained by primary sensors 2 onto a first control signal 4a for controlling the automated device. The context information obtained by context sensors 3 helps to constrain the learning process of a learning unit 8 to situations, which can be uniquely identified and cannot be covered by the mapping unit 4. A control signal 9a of the combined control signals 4a and 8a of the mapping unit 4 and the learning unit 8, respectively, is computed in a fusion unit 9 by evaluating the confidence values of the two control signals 4a, 8a, and by either choosing one of the two control signals or interpolating between the two control signals. The confidence value evaluation can be done by quantizing the input space according to the incremental learning data, and using the quantized regions for evaluating the performance of both the learned and pre-trained unit within each region.</dc:description>
+   	<dc:date>2014</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2906899</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2900721</identifier>
+    <datestamp>2018-07-24T13:00:57Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Systems and Methods for Automated Vessel Navigation Using Sea State Prediction</dc:title>
+   	<dc:creator>Huntsberger, Terrance</dc:creator>
+   	<dc:creator>Rankin, Arturo</dc:creator>
+   	<dc:creator>Aghazarian, Hrand</dc:creator>
+   	<dc:creator>Howard, Andrew B.</dc:creator>
+   	<dc:creator>Reinhart, Felix</dc:creator>
+   	<dc:description>Huntsberger T, Rankin A, Aghazarian H, Howard AB, Reinhart F. Systems and Methods for Automated Vessel Navigation Using Sea State Prediction.  24.03.2015.</dc:description>
+   	<dc:date>2015</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2900721</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2442715</identifier>
+    <datestamp>2018-07-24T13:01:01Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Staining-free UV-Detection of Proteins in Gels</dc:title>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Rögener, Jan</dc:creator>
+   	<dc:creator>Schierenberg, Marc-Oliver</dc:creator>
+   	<dc:creator>Kalman, F.</dc:creator>
+   	<dc:description>Anselmetti D, Rögener J, Schierenberg M-O, Kalman F. Staining-free UV-Detection of Proteins in Gels.  2004.</dc:description>
+   	<dc:date>2004</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2442715</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2442737</identifier>
+    <datestamp>2018-07-24T13:00:23Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for Controlling the Current Density Tolerance of High-Tc Superconductors</dc:title>
+   	<dc:creator>Gerber, Ch.</dc:creator>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Bednorz, G.</dc:creator>
+   	<dc:creator>Schlom, D.</dc:creator>
+   	<dc:creator>Mannhart, J.</dc:creator>
+   	<dc:creator>Müller, K.A.</dc:creator>
+   	<dc:description>Gerber C, Anselmetti D, Bednorz G, Schlom D, Mannhart J, Müller KA. Method for Controlling the Current Density Tolerance of High-Tc Superconductors.  23.12.1992.</dc:description>
+   	<dc:date>1991</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2442737</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2442746</identifier>
+    <datestamp>2018-07-24T13:01:01Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>The Controlled Introduction and Use of Dislocations as Pinning Sites in High-Tc Superconductors</dc:title>
+   	<dc:creator>Gerber, Ch.</dc:creator>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Bednorz, G.</dc:creator>
+   	<dc:creator>Schlom, D.</dc:creator>
+   	<dc:creator>Mannhart, J.</dc:creator>
+   	<dc:creator>Müller, K. A.</dc:creator>
+   	<dc:description>Gerber C, Anselmetti D, Bednorz G, Schlom D, Mannhart J, Müller KA. The Controlled Introduction and Use of Dislocations as Pinning Sites in High-Tc Superconductors.  1991.</dc:description>
+   	<dc:date>1991</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2442746</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2443358</identifier>
+    <datestamp>2018-07-24T13:00:52Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Stabilisierung eines Laserstrahls (Beam Point Stabilizer)</dc:title>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Sischka, Andy</dc:creator>
+   	<dc:creator>Tönsing, Katja</dc:creator>
+   	<dc:description>Anselmetti D, Sischka A, Tönsing K. Verfahren zur Stabilisierung eines Laserstrahls (Beam Point Stabilizer).  2006.</dc:description>
+   	<dc:date>2006</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2443358</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2443360</identifier>
+    <datestamp>2018-07-24T13:00:52Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Beam Point und Beam Profile Stabilizer</dc:title>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Sischka, Andy</dc:creator>
+   	<dc:creator>Tönsing, Katja</dc:creator>
+   	<dc:description>Anselmetti D, Sischka A, Tönsing K. Beam Point und Beam Profile Stabilizer.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2443360</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2443367</identifier>
+    <datestamp>2018-07-24T13:00:23Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Kraftmessung in Rücksteuerung an Optischer Pinzette</dc:title>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Sischka, Andy</dc:creator>
+   	<dc:description>Anselmetti D, Sischka A. Kraftmessung in Rücksteuerung an Optischer Pinzette.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2443367</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2443373</identifier>
+    <datestamp>2018-07-24T13:01:32Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren und Vorrichtung zur Messung der Kraft, die auf ein in einer optischen Fallenanordnung gefangenes Objekt wirkt</dc:title>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Sischka, Andy</dc:creator>
+   	<dc:description>Anselmetti D, Sischka A. Verfahren und Vorrichtung zur Messung der Kraft, die auf ein in einer optischen Fallenanordnung gefangenes Objekt wirkt.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2443373</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2443638</identifier>
+    <datestamp>2018-07-24T13:01:32Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Vorrichtung zur optischen in vitro und in vivo Diagnose von Knorpelgewebe</dc:title>
+   	<dc:creator>Anselmetti, Dario ; https://orcid.org/0000-0002-8720-4369</dc:creator>
+   	<dc:creator>Bergmann, Thorsten</dc:creator>
+   	<dc:creator>Jörg, Martini</dc:creator>
+   	<dc:creator>Michael, Dickob</dc:creator>
+   	<dc:description>Anselmetti D, Bergmann T, Jörg M, Michael D. Vorrichtung zur optischen in vitro und in vivo Diagnose von Knorpelgewebe.  Submitted.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2443638</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2452763</identifier>
+    <datestamp>2018-07-24T13:00:39Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Oberflächenmodifiziertes Schichtsystem</dc:title>
+   	<dc:creator>Gölzhäuser, Armin ; https://orcid.org/0000-0002-0838-9028</dc:creator>
+   	<dc:creator>Geyer, W.</dc:creator>
+   	<dc:creator>Grunze, M.</dc:creator>
+   	<dc:creator>Eck, W.</dc:creator>
+   	<dc:creator>Stadler, V.</dc:creator>
+   	<dc:creator>Zharnikov, M.</dc:creator>
+   	<dc:description>Gölzhäuser A, Geyer W, Grunze M, Eck W, Stadler V, Zharnikov M. Oberflächenmodifiziertes Schichtsystem.  1999.</dc:description>
+   	<dc:date>1999</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2452763</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2452796</identifier>
+    <datestamp>2018-07-24T13:00:37Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Nano-Mikrophon</dc:title>
+   	<dc:creator>Gölzhäuser, Armin ; https://orcid.org/0000-0002-0838-9028</dc:creator>
+   	<dc:description>Gölzhäuser A. Nano-Mikrophon.  2006.</dc:description>
+   	<dc:date>2006</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2452796</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2452978</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Transfer von Nanoschichten</dc:title>
+   	<dc:creator>Gölzhäuser, Armin ; https://orcid.org/0000-0002-0838-9028</dc:creator>
+   	<dc:creator>Nottbohm, C.</dc:creator>
+   	<dc:creator>Beyer, André ; https://orcid.org/0000-0002-9569-0344</dc:creator>
+   	<dc:description>Gölzhäuser A, Nottbohm C, Beyer A. Transfer von Nanoschichten.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2452978</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2452985</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Graphitschichten</dc:title>
+   	<dc:creator>Turchanin, Andrey</dc:creator>
+   	<dc:creator>Gölzhäuser, Armin ; https://orcid.org/0000-0002-0838-9028</dc:creator>
+   	<dc:description>Turchanin A, Gölzhäuser A. Graphitschichten.  2008.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2452985</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2452995</identifier>
+    <datestamp>2018-07-24T13:00:26Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Vollständig vernetzte chemisch strukturierte Monoschichten</dc:title>
+   	<dc:creator>Gölzhäuser, Armin ; https://orcid.org/0000-0002-0838-9028</dc:creator>
+   	<dc:creator>Beyer, André ; https://orcid.org/0000-0002-9569-0344</dc:creator>
+   	<dc:creator>Godt, Adelheid</dc:creator>
+   	<dc:description>Gölzhäuser A, Beyer A, Godt A. Vollständig vernetzte chemisch strukturierte Monoschichten.  xx.xx.xxxx.</dc:description>
+   	<dc:description>Die vorliegende Erfindung betrifft eine strukturierte Monoschicht, die aus niedermolekularen Aromaten aufgebaut und in lateraler Richtung vollständig vernetzt ist, wobei die Monoschicht auf einer der beiden Oberflächen ein Muster aus funktionellen Gruppen aufweist, ein Verfahren zur Herstellung einer solchen strukturierten Monoschicht sowie deren Verwendung.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2452995</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2452997</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Filtration mit Nanomembranen</dc:title>
+   	<dc:creator>Gölzhäuser, Armin ; https://orcid.org/0000-0002-0838-9028</dc:creator>
+   	<dc:creator>Edinger, K.</dc:creator>
+   	<dc:description>Gölzhäuser A, Edinger K. Filtration mit Nanomembranen.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2452997</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453000</identifier>
+    <datestamp>2018-07-24T13:01:34Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>ADH aus Rhodococcus erythropolis</dc:title>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:creator>Abokitse, K.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:description>Hummel W, Abokitse K, Gröger H. ADH aus Rhodococcus erythropolis.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453000</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453012</identifier>
+    <datestamp>2018-07-24T13:01:34Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur enzymatischen Herstellung enantiomerenangereicherter ß-Aminosäuren</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:description>Gröger H, Werner H. Verfahren zur enzymatischen Herstellung enantiomerenangereicherter ß-Aminosäuren.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453012</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453051</identifier>
+    <datestamp>2018-07-24T13:00:26Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Gekoppeltes cofaktorabhängiges enzymatisches Reaktionssystem</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Hüsken, H.</dc:creator>
+   	<dc:creator>Rollmann, C.</dc:creator>
+   	<dc:creator>Chamouleau, F.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:creator>Hagedorn, C.</dc:creator>
+   	<dc:description>Gröger H, Hüsken H, Rollmann C, et al. Gekoppeltes cofaktorabhängiges enzymatisches Reaktionssystem.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453051</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453130</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von optisch aktiven Aminosäuren mittels eines Ganzzellkatalysators</dc:title>
+   	<dc:creator>Altenbuchner, J.</dc:creator>
+   	<dc:creator>Menzel, A.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:creator>Hummel, W.</dc:creator>
+   	<dc:description>Altenbuchner J, Menzel A, Gröger H, Werner H, Hummel W. Verfahren zur Herstellung von optisch aktiven Aminosäuren mittels eines Ganzzellkatalysators.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453130</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453151</identifier>
+    <datestamp>2018-07-24T13:01:34Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Neue Alkoholdehydrogenasen</dc:title>
+   	<dc:creator>Schulze, R.</dc:creator>
+   	<dc:creator>Lorenz, P.</dc:creator>
+   	<dc:creator>Eck, J.</dc:creator>
+   	<dc:creator>May, O.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Trauthwein, H.</dc:creator>
+   	<dc:description>Schulze R, Lorenz P, Eck J, May O, Gröger H, Trauthwein H. Neue Alkoholdehydrogenasen.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453151</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453169</identifier>
+    <datestamp>2018-07-24T13:00:26Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Herstellung optisch aktiver Alkohole mit Hilfe von Ganzzellkatalsatoren</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>May, O.</dc:creator>
+   	<dc:creator>Rollmann, C.</dc:creator>
+   	<dc:creator>Chamouleau, F.</dc:creator>
+   	<dc:creator>Orologas, N.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:description>Gröger H, May O, Rollmann C, Chamouleau F, Orologas N, Drauz K. Herstellung optisch aktiver Alkohole mit Hilfe von Ganzzellkatalsatoren.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453169</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453180</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung primärer Alkohole</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Chamouleau, F.</dc:creator>
+   	<dc:creator>Hagedorn, C.</dc:creator>
+   	<dc:description>Gröger H, Chamouleau F, Hagedorn C. Verfahren zur Herstellung primärer Alkohole.  2007.</dc:description>
+   	<dc:date>2007</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453180</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453216</identifier>
+    <datestamp>2018-07-24T13:00:39Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von enantiomerenangereicherten Aminen und Amiden durch enzymatische Racematspaltung</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>May, O.</dc:creator>
+   	<dc:creator>Rossen, K.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:description>Gröger H, May O, Rossen K, Drauz K. Verfahren zur Herstellung von enantiomerenangereicherten Aminen und Amiden durch enzymatische Racematspaltung.  2008.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453216</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453245</identifier>
+    <datestamp>2018-07-24T13:01:34Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von enantiomerenangereicherten Alkylencarbonaten</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Wienand, W.</dc:creator>
+   	<dc:creator>Rollmann, C.</dc:creator>
+   	<dc:creator>Werner, H.</dc:creator>
+   	<dc:creator>Reichert, D.</dc:creator>
+   	<dc:description>Gröger H, Wienand W, Rollmann C, Werner H, Reichert D. Verfahren zur Herstellung von enantiomerenangereicherten Alkylencarbonaten.  2008.</dc:description>
+   	<dc:date>2008</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453245</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453286</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Herstellung von enantimerenangereicherten Aminen</dc:title>
+   	<dc:creator>Doderer, K.</dc:creator>
+   	<dc:creator>Wienand, W.</dc:creator>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Rollmann, C.</dc:creator>
+   	<dc:description>Doderer K, Wienand W, Gröger H, Rollmann C. Verfahren zur Herstellung von enantimerenangereicherten Aminen.  2009.</dc:description>
+   	<dc:date>2009</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453286</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453301</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur enzymatischen Umsetzung von Alkanen</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Burda, E.</dc:creator>
+   	<dc:creator>Schwaneberg, U.</dc:creator>
+   	<dc:creator>Marienhagen, J.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:description>Gröger H, Burda E, Schwaneberg U, Marienhagen J, Drauz K. Verfahren zur enzymatischen Umsetzung von Alkanen.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453301</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2453495</identifier>
+    <datestamp>2018-07-24T13:01:03Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Enzymreaktionen in Miniemulsionen</dc:title>
+   	<dc:creator>Gröger, Harald</dc:creator>
+   	<dc:creator>Hüsken, H.</dc:creator>
+   	<dc:creator>Drauz, K.</dc:creator>
+   	<dc:creator>Landfester, K.</dc:creator>
+   	<dc:description>Gröger H, Hüsken H, Drauz K, Landfester K. Enzymreaktionen in Miniemulsionen.  2011.</dc:description>
+   	<dc:date>2011</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2453495</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2448440</identifier>
+    <datestamp>2018-07-24T13:00:37Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verbindungen mit (Perfluoralkyl)perfluorohydrogenphosphat-Anionen</dc:title>
+   	<dc:creator>Hoge, Berthold</dc:creator>
+   	<dc:creator>Bader, Julia</dc:creator>
+   	<dc:creator>Nikolai, Ignatyev</dc:creator>
+   	<dc:creator>Michael, Schulte</dc:creator>
+   	<dc:description>Hoge B, Bader J, Nikolai I, Michael S. Verbindungen mit (Perfluoralkyl)perfluorohydrogenphosphat-Anionen.  2011.</dc:description>
+   	<dc:date>2011</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2448440</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2448443</identifier>
+    <datestamp>2018-07-24T13:01:33Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Bis(perfluoralkyl)phosphinige Säuren und Derivate sowie deren Anwendung</dc:title>
+   	<dc:creator>Hoge, Berthold</dc:creator>
+   	<dc:creator>Bader, Julia</dc:creator>
+   	<dc:creator>Kurscheid, Boris</dc:creator>
+   	<dc:creator>Nikolai, Ignatyev</dc:creator>
+   	<dc:creator>Emil, Aust</dc:creator>
+   	<dc:description>Hoge B, Bader J, Kurscheid B, Nikolai I, Emil A. Bis(perfluoralkyl)phosphinige Säuren und Derivate sowie deren Anwendung.  2010.</dc:description>
+   	<dc:date>2010</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2448443</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2913087</identifier>
+    <datestamp>2018-07-24T13:01:52Z</datestamp>
+    <setSpec>patent</setSpec>
+    <setSpec>ddc:640</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Unterstützung einer Getränke- und/oder Speisenzubereitung und Assistenzsystem</dc:title>
+   	<dc:creator>Stahl, Matthias</dc:creator>
+   	<dc:creator>Rüther, Stefan</dc:creator>
+   	<dc:creator>Kutscher-Lux, Tabea</dc:creator>
+   	<dc:creator>Ückermann, André</dc:creator>
+   	<dc:creator>Neumann, Alexander ; https://orcid.org/0000-0002-2190-5576</dc:creator>
+   	<dc:creator>Carlmeyer, Birte ; https://orcid.org/0000-0002-0957-2406</dc:creator>
+   	<dc:creator>Schade, Michael</dc:creator>
+   	<dc:creator>Kõiva, Risto ; https://orcid.org/0000-0002-7219-775X</dc:creator>
+   	<dc:creator>Wachsmuth, Sven</dc:creator>
+   	<dc:creator>Ritter, Helge</dc:creator>
+   	<dc:creator>Wrede, Britta</dc:creator>
+   	<dc:creator>Pfeiffer-Leßmann, Nadine</dc:creator>
+   	<dc:subject>Assistenzsystem</dc:subject>
+   	<dc:subject>ddc:640</dc:subject>
+   	<dc:description>Stahl M, Rüther S, Kutscher-Lux T, et al. Verfahren zur Unterstützung einer Getränke- und/oder Speisenzubereitung und Assistenzsystem.  15.02.2018.</dc:description>
+   	<dc:date>2018</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2913087</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2917497</identifier>
+    <datestamp>2018-11-13T08:46:34Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Tür-Sicherheitsvorrichtung für eine Tür</dc:title>
+   	<dc:creator>Kõiva, Risto ; https://orcid.org/0000-0002-7219-775X</dc:creator>
+   	<dc:creator>Hermann, Thomas ; https://orcid.org/0000-0001-7975-4363</dc:creator>
+   	<dc:creator>Elbrechter, Christof</dc:creator>
+   	<dc:creator>Neumann, Alexander ; https://orcid.org/0000-0002-2190-5576</dc:creator>
+   	<dc:creator>Ückermann, André</dc:creator>
+   	<dc:creator>Ritter, Helge</dc:creator>
+   	<dc:creator>Kemper, Britta</dc:creator>
+   	<dc:creator>Kramme, Andreas</dc:creator>
+   	<dc:creator>Laux, Ralf</dc:creator>
+   	<dc:description>Kõiva R, Hermann T, Elbrechter C, et al. Tür-Sicherheitsvorrichtung für eine Tür.  30.11.2017.</dc:description>
+   	<dc:description>Eine Tür-Sicherheitsvorrichtung für eine Tür (1) hat mindestens eine Lichtquelle und mindestens einen Lichtsensor (20). Diese sind so zueinander an einem Türblatt (2) und/oder einer Türzarge (3) der Tür (1) anordenbar, dass in mindestens einer vorgegebenen Überwachungs-Zwischenschließstellung des zwischen einer Offenstellung und einer Schließstellung schwenkbaren Türblatts (2) relativ zur Türzarge (3) ein Lichtweg zwischen der Lichtquelle und dem Lichtsensor (20) von einem externen Gegenstand zwischen dem Türblatt (2) und der Türzarge (3) unterbrechbar ist. Eine Auswerteschaltung (19) dient zur Auswertung des Vorliegens einer Lichtweg-Unterbrechung. Die Auswerteschaltung (19) steht mit dem Lichtsensor (20) in Signalverbindung. Eine Sicherheitseinrichtung (10) dient zum Verhindern eines Türschließens beim Vorliegen der Lichtweg-Unterbrechung. Die Auswerteschaltung (19) steht mit der Sicherheitseinrichtung (10) in Signalverbindung. Es resultiert eine Tür-Sicherheitsvorrichtung, bei der ein sicherer Klemmschutz gewährleistet ist.</dc:description>
+   	<dc:date>2017</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2917497</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2913225</identifier>
+    <datestamp>2018-11-16T11:06:28Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method for operating a household appliance, control device and household appliance</dc:title>
+   	<dc:title>Verfahren zum Betreiben eines Haushaltsgeräts, Steuergerät und Haushaltgerät</dc:title>
+   	<dc:creator>Kõiva, Risto ; https://orcid.org/0000-0002-7219-775X</dc:creator>
+   	<dc:creator>Stahl, Matthias</dc:creator>
+   	<dc:creator>Rüther, Stefan</dc:creator>
+   	<dc:creator>Ritter, Helge</dc:creator>
+   	<dc:description>Kõiva R, Stahl M, Rüther S, Ritter H. Method for operating a household appliance, control device and household appliance.  13.04.2017.</dc:description>
+   	<dc:description>The invention relates to a method for operating a household applicance comprising at least one cooking field, a working plate and a sensor device for detecting force acting on the cooking field and/or the working plate. A sensor signal representing the force is read in. In another step, a control signal for controlling the cooking field is provided using the sensor signal.</dc:description>
+   	<dc:date>2017</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2913225</dc:identifier>
+   	<dc:language>eng</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2917273</identifier>
+    <datestamp>2018-11-15T15:06:08Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verfahren zur Bestückung und zum Ausräumen einer Spülmaschine</dc:title>
+   	<dc:creator>Hermann, Thomas ; https://orcid.org/0000-0001-7975-4363</dc:creator>
+   	<dc:creator>Kopp, Stefan ; https://orcid.org/0000-0002-4047-9277</dc:creator>
+   	<dc:creator>Mracek, Maik</dc:creator>
+   	<dc:creator>Rüther, Stefan</dc:creator>
+   	<dc:creator>Steil, Jochen J.</dc:creator>
+   	<dc:description>Hermann T, Kopp S, Mracek M, Rüther S, Steil JJ. Verfahren zur Bestückung und zum Ausräumen einer Spülmaschine.  13.11.2014.</dc:description>
+   	<dc:description>Die Erfindung betrifft ein Verfahren zur Bestückung und zum Ausräumen einer Spülmaschine mit Spülgut, insbesondere einer Spülmaschine zur Reinigung medizinischer Geräte, durch einen Nutzer, wobei bei der Bestückung der Spülmaschine mindestens einer der folgenden Verfahrensschritte ausgeführt wird
+* manuelles Vorreinigen des Spülgutes,
+* Zerlegen des Spülgutes in Einzelteile,
+* Positionieren des Spülgutes in einem Spülkorb der Spülmaschine,
+ 
+ und wobei beim Ausräumen der Spülmaschine mindestens einer der folgenden Verfahrensschritte ausgeführt wird  
+* Entnehmen des gereinigten Spülgutes aus dem Spülkorb,
+* Zusammenfügen der Einzelteile des Spülgutes,
+und wobei der Nutzer Informationen und Handlungsanweisungen zu dem Spülgut erhält.</dc:description>
+   	<dc:date>2014</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2917273</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2943222</identifier>
+    <datestamp>2020-05-07T10:33:09Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Method and means for producing aminolevulinic acid </dc:title>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Irla, Marta</dc:creator>
+   	<dc:creator>Paul, Lidia</dc:creator>
+   	<dc:description>Wendisch VF, Irla M, Paul L. Method and means for producing aminolevulinic acid .  15.03.2018.</dc:description>
+   	<dc:date>2018</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2943222</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2943224</identifier>
+    <datestamp>2020-05-12T12:53:58Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Carotenoid and amino acid biosynthesis using recombinant Corynebacterium glutamicum </dc:title>
+   	<dc:creator>Peters-Wendisch, Petra</dc:creator>
+   	<dc:creator>Wendisch, Volker F. ; https://orcid.org/0000-0003-3473-0012</dc:creator>
+   	<dc:creator>Henke, Nadja Alina</dc:creator>
+   	<dc:description>Peters-Wendisch P, Wendisch VF, Henke NA. Carotenoid and amino acid biosynthesis using recombinant Corynebacterium glutamicum .  04.03.2020.</dc:description>
+   	<dc:date>2020</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2943224</dc:identifier>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2935552</identifier>
+    <datestamp>2019-05-15T13:57:23Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Fluoralkylfluorphosphoran-Addukte</dc:title>
+   	<dc:creator>Bader, Julia</dc:creator>
+   	<dc:creator>Hoge, Berthold</dc:creator>
+   	<dc:creator>Ignatyev, Nikolai</dc:creator>
+   	<dc:creator>Schulte, Michael</dc:creator>
+   	<dc:description>Bader J, Hoge B, Ignatyev N, Schulte M. Fluoralkylfluorphosphoran-Addukte.  05.04.2012.</dc:description>
+   	<dc:date>2012</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2935552</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2935553</identifier>
+    <datestamp>2019-05-15T13:58:19Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Funktionalisierte Fluoralkylfluorphosphat-Salze</dc:title>
+   	<dc:creator>Bader, Julia</dc:creator>
+   	<dc:creator>Hoge, Berthold</dc:creator>
+   	<dc:creator>Ignatyev, Nikolai</dc:creator>
+   	<dc:creator>Schulte, Michael</dc:creator>
+   	<dc:creator>Hierse, Wolfgang</dc:creator>
+   	<dc:creator>Wiebe, Waldemar</dc:creator>
+   	<dc:creator>Willner, Helge</dc:creator>
+   	<dc:description>Bader J, Hoge B, Ignatyev N, et al. Funktionalisierte Fluoralkylfluorphosphat-Salze.  19.04.2012.</dc:description>
+   	<dc:date>2012</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2935553</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2935554</identifier>
+    <datestamp>2019-05-15T13:59:06Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Verbindungen mit Fluoralkyl­(cyano­methyl)­fluorophosphat-Anionen</dc:title>
+   	<dc:creator>Bader, Julia</dc:creator>
+   	<dc:creator>Hoge, Berthold</dc:creator>
+   	<dc:creator>Ignatyev, Nikolai</dc:creator>
+   	<dc:description>Bader J, Hoge B, Ignatyev N. Verbindungen mit Fluoralkyl­(cyano­methyl)­fluorophosphat-Anionen.  23.06.2016.</dc:description>
+   	<dc:date>2015</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2935554</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2935555</identifier>
+    <datestamp>2019-05-15T13:59:41Z</datestamp>
+    <setSpec>patent</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Bismutverbindungen enthaltend Perfluor­alkyl­gruppen als Lewis-Säure-Katalysatoren</dc:title>
+   	<dc:creator>Bader, Julia</dc:creator>
+   	<dc:creator>Hoge, Berthold</dc:creator>
+   	<dc:creator>Solyntjes, Sven</dc:creator>
+   	<dc:creator>Ignatyev, Nikolai</dc:creator>
+   	<dc:description>Bader J, Hoge B, Solyntjes S, Ignatyev N. Bismutverbindungen enthaltend Perfluor­alkyl­gruppen als Lewis-Säure-Katalysatoren.  30.03.2017.</dc:description>
+   	<dc:date>2017</dc:date>
+   	<dc:type>info:eu-repo/semantics/patent</dc:type>
+   	<dc:type>doc-type:patent</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/2935555</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+<resumptionToken cursor="0" completeListSize="94"/>
+</ListRecords>
+</OAI-PMH>
+

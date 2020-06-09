@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2020-06-09T09:36:32Z</responseDate>
+<request identifier="oai:pub.uni-bielefeld.de:1893305" metadataPrefix="oai_dc" verb="GetRecord">https://pub.uni-bielefeld.de/oai</request>
+
+<GetRecord>
+<record>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:1893305</identifier>
+    <datestamp>2018-07-24T13:00:11Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<metadata>
+<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+   	<dc:title>Automatische Tiefenbestimmung aus Grauwertstereobildern</dc:title>
+   	<dc:creator>Posch, Stefan</dc:creator>
+   	<dc:subject>diss</dc:subject>
+   	<dc:subject>Stereo</dc:subject>
+   	<dc:description>Posch S. &lt;em&gt;Automatische Tiefenbestimmung aus Grauwertstereobildern&lt;/em&gt;. DUV : Informatik. Wiesbaden: Deutscher Universitäts-Verlag; 1990.</dc:description>
+   	<dc:publisher>Deutscher Universitäts-Verlag</dc:publisher>
+   	<dc:date>1990</dc:date>
+   	<dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
+   	<dc:type>doc-type:doctoralThesis</dc:type>
+   	<dc:type>text</dc:type>
+   	<dc:identifier>https://pub.uni-bielefeld.de/record/1893305</dc:identifier>
+   	<dc:language>deu</dc:language>
+   	<dc:rights>info:eu-repo/semantics/closedAccess</dc:rights>
+</oai_dc:dc>
+
+</metadata>
+</record>
+</GetRecord>
+</OAI-PMH>
+

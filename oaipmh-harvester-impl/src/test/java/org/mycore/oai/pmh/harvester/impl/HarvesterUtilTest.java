@@ -21,6 +21,10 @@ package org.mycore.oai.pmh.harvester.impl;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
+
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.mycore.oai.pmh.harvester.Harvester;
 import org.mycore.oai.pmh.harvester.HarvesterBuilder;
@@ -28,11 +32,26 @@ import org.mycore.oai.pmh.harvester.HarvesterUtil;
 
 public class HarvesterUtilTest {
 
-    private static String TEST_URL = "https://pub.uni-bielefeld.de/oai";
+    private String testUrl = "https://pub.uni-bielefeld.de/oai";
+
+    private SimpleOAIProvider oaiProvider;
+
+    @Before
+    public void setUp() throws IOException {
+        oaiProvider = new SimpleOAIProvider();
+        testUrl = oaiProvider.getBaseURI() + "/oai";
+    }
+
+    @After
+    public void tearDown() {
+        oaiProvider.close();
+        oaiProvider = null;
+        testUrl = null;
+    }
 
     @Test
     public void streamRecords() {
-        Harvester harvester = HarvesterBuilder.createNewInstance(TEST_URL);
+        Harvester harvester = HarvesterBuilder.createNewInstance(testUrl);
         assertTrue("there should be six or more records",
             HarvesterUtil.streamRecords(harvester, "oai_dc", null, null, "patent").count() >= 6);
         assertEquals("there should be 3 records", 3,
@@ -43,7 +62,7 @@ public class HarvesterUtilTest {
 
     @Test
     public void streamSets() {
-        Harvester harvester = HarvesterBuilder.createNewInstance(TEST_URL);
+        Harvester harvester = HarvesterBuilder.createNewInstance(testUrl);
         assertTrue("there should be more than 100 sets", HarvesterUtil.streamSets(harvester).count() > 100);
     }
 

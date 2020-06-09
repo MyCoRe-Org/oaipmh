@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2020-06-09T09:40:23Z</responseDate>
+<request verb="ListIdentifiers" resumptionToken="doc-type:doctoralThesis!!!oai_dc!200">https://pub.uni-bielefeld.de/oai</request>
+
+<ListIdentifiers>
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428678</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428680</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428682</identifier>
+    <datestamp>2018-07-24T13:00:42Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428684</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428686</identifier>
+    <datestamp>2018-07-24T13:00:08Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428688</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428690</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428692</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428694</identifier>
+    <datestamp>2018-07-24T13:00:42Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428696</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428698</identifier>
+    <datestamp>2018-07-24T13:00:08Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428700</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428702</identifier>
+    <datestamp>2018-07-24T13:00:42Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428704</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428706</identifier>
+    <datestamp>2018-07-24T13:00:08Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428710</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428712</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428716</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428718</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428720</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428722</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428724</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428726</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428730</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428732</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428734</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428736</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428738</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428740</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428742</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428744</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428746</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428748</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428750</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428752</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428754</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428756</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428758</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428760</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428762</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428764</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428766</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428768</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428770</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428772</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428774</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428776</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428778</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428780</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428782</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428784</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428786</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428788</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428790</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428793</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428795</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428797</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428799</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428803</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428805</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428807</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428809</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428811</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428813</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428815</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428817</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428819</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428821</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428823</identifier>
+    <datestamp>2019-03-01T08:56:49Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428825</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428827</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428829</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428831</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428834</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428836</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428838</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428840</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428842</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428844</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428846</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428848</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428850</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428852</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428855</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428857</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428861</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428867</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428869</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428871</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428873</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428875</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428877</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428879</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428881</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428883</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428885</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428887</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428889</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428891</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428893</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428895</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428897</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428899</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428901</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428903</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428905</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428907</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428909</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428911</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428913</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428915</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428917</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428919</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428921</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428923</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428925</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428927</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428929</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428931</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428933</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428935</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428936</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428938</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428940</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428942</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428944</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428946</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428948</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428950</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428952</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428956</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428958</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428960</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428962</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428964</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428966</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428968</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428970</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428972</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428974</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428976</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428978</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428980</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428982</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428984</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428986</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428988</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428990</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428992</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428994</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428996</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2428998</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429000</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429002</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429004</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429006</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429008</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429010</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429012</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429014</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429016</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429018</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429020</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429022</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429024</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429026</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429028</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429030</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429032</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429034</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429036</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429038</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429040</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429042</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429044</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429048</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429052</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429054</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429056</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429060</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429062</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429064</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429066</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429070</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429072</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429074</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429076</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429078</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429080</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429082</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429084</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429086</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429090</identifier>
+    <datestamp>2018-07-24T13:00:10Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429092</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429094</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429096</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429098</identifier>
+    <datestamp>2018-07-24T13:00:27Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429100</identifier>
+    <datestamp>2018-07-24T13:00:55Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429102</identifier>
+    <datestamp>2018-07-24T13:01:40Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<header>
+    <identifier>oai:pub.uni-bielefeld.de:2429104</identifier>
+    <datestamp>2018-07-24T13:00:43Z</datestamp>
+    <setSpec>dissertation</setSpec>
+</header>
+
+<resumptionToken cursor="200" completeListSize="3405">doc-type:doctoralThesis!!!oai_dc!400</resumptionToken>
+</ListIdentifiers>
+</OAI-PMH>
+
