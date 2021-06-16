@@ -10,12 +10,12 @@
     <property name="fileNamePattern" value="[\\/]generated-sources[\\/]|module\-info\.java$"/>
   </module>
   <module name="NewlineAtEndOfFile"/>
+  <module name="LineLength">
+    <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://|@see|^\s*\* MCR.|^\s*\*.*?.*&amp;"/>
+    <property name="max" value="120"/>
+  </module>
   <module name="TreeWalker">
     <property name="tabWidth" value="4"/>
-    <module name="LineLength">
-      <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://|@see|^\s*\* MCR.|^\s*\*.*?.*&amp;"/>
-      <property name="max" value="120"/>
-    </module>
     <module name="ModifiedControlVariable" />
     <module name="InnerTypeLast" />
     <module name="AvoidStarImport"/>
