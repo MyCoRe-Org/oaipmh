@@ -19,8 +19,6 @@
 package org.mycore.oai.pmh.dataprovider.impl;
 
 import java.io.StringWriter;
-import java.util.HashMap;
-import java.util.Map;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -31,8 +29,6 @@ import javax.xml.namespace.QName;
 import org.apache.logging.log4j.LogManager;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
-import org.jdom2.Namespace;
-import org.jdom2.filter.ElementFilter;
 import org.jdom2.input.sax.SAXHandler;
 import org.jdom2.output.XMLOutputter;
 import org.mycore.oai.pmh.OAIConstants;
@@ -87,38 +83,10 @@ public class JAXBOAIResponse implements OAIResponse {
                     this.oaipmh),
                 outFilter);
             Element rootElement = saxHandler.getDocument().detachRootElement();
-            moveNamespacesUp(rootElement);
             return rootElement;
         } catch (Exception exc) {
             throw new JDOMException("while marshalling", exc);
         }
-    }
-
-    /**
-     * Moves all namespace declarations in the children of target to the target.
-     *
-     * @param target the namespace are bundled here
-     */
-    private void moveNamespacesUp(Element target) {
-        Map<String, Namespace> existingNamespaces = getNamespaceMap(target);
-        Map<String, Namespace> newNamespaces = new HashMap<>();
-        target.getDescendants(new ElementFilter()).forEach(child -> {
-            Map<String, Namespace> childNamespaces = getNamespaceMap(child);
-            childNamespaces.forEach((prefix, ns) -> {
-                if (existingNamespaces.containsKey(prefix) || newNamespaces.containsKey(prefix)) {
-                    return;
-                }
-                newNamespaces.put(prefix, ns);
-            });
-        });
-        newNamespaces.forEach((prefix, ns) -> target.addNamespaceDeclaration(ns));
-    }
-
-    private Map<String, Namespace> getNamespaceMap(Element element) {
-        Map<String, Namespace> map = new HashMap<>();
-        map.put(element.getNamespace().getPrefix(), element.getNamespace());
-        element.getAdditionalNamespaces().forEach(ns -> map.put(ns.getPrefix(), ns));
-        return map;
     }
 
     @Override
