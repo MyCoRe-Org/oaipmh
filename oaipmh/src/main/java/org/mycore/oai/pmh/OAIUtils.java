@@ -1,6 +1,5 @@
 package org.mycore.oai.pmh;
 
-import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.DOMBuilder;
@@ -52,8 +51,8 @@ public abstract class OAIUtils {
      */
     public static org.w3c.dom.Element jdomToDOM(Element jdomElement) throws JDOMException {
         DOMOutputter outputter = new DOMOutputter();
-        org.w3c.dom.Document doc = outputter.output(new Document(jdomElement));
-        return doc.getDocumentElement();
+        org.w3c.dom.Element element = outputter.output(jdomElement);
+        return element;
     }
 
     /**
