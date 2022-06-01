@@ -7,7 +7,7 @@
     <version>48</version>
   </parent>
   <artifactId>oai-parent</artifactId>
-  <version>2.3-SNAPSHOT</version>
+  <version>2.3</version>
   <packaging>pom</packaging>
   <name>OAI Parent POM</name>
   <issueManagement>
@@ -18,7 +18,7 @@
     <connection>scm:git:https://github.com/MyCoRe-Org/oaipmh.git</connection>
     <developerConnection>scm:git:https://github.com/MyCoRe-Org/oaipmh.git</developerConnection>
     <url>https://github.com/MyCoRe-Org/oaipmh</url>
-    <tag>HEAD</tag>
+    <tag>v2.3</tag>
   </scm>
   <properties>
     <java.target.version>11</java.target.version>
