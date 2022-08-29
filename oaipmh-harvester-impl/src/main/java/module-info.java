@@ -1,5 +1,5 @@
 module org.mycore.oai.pmh.harvester.impl {
-    requires java.xml.bind;
+    requires jakarta.xml.bind;
     requires org.mycore.oai.pmh;
     requires org.mycore.oai.pmh.harvester;
     requires org.mycore.oai.pmh.jaxb;

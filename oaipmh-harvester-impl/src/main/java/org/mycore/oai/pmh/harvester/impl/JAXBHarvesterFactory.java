@@ -20,7 +20,7 @@ package org.mycore.oai.pmh.harvester.impl;
 
 import java.net.URL;
 
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 import org.mycore.oai.pmh.harvester.HarvestException;
 import org.mycore.oai.pmh.harvester.Harvester;

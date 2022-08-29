@@ -21,7 +21,7 @@ package org.mycore.oai.pmh.jaxb;
 import java.time.Instant;
 import java.util.function.Function;
 
-import javax.xml.bind.annotation.adapters.XmlAdapter;
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 
 /**
  * This class is used to marshall and unmarshall {@link Instant} as <a href="http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#Dates">dateTime</a>.

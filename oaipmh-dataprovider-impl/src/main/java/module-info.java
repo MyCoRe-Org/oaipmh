@@ -1,5 +1,5 @@
 module org.mycore.oai.pmh.dataprovider.impl {
-    requires java.xml.bind;
+    requires jakarta.xml.bind;
     requires org.mycore.oai.pmh;
     requires org.mycore.oai.pmh.dataprovider;
     requires org.mycore.oai.pmh.jaxb;
