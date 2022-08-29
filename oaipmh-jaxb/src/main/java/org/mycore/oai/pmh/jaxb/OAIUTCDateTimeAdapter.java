@@ -27,7 +27,7 @@ import org.mycore.oai.pmh.DateUtils;
  * <p>
  * String format details: {@link DateUtils#format(Instant)}
  *
- * @see javax.xml.bind.annotation.adapters.XmlAdapter
+ * @see jakarta.xml.bind.annotation.adapters.XmlAdapter
  * @see java.time.Instant
  */
 public class OAIUTCDateTimeAdapter extends DateTimeAdapter {

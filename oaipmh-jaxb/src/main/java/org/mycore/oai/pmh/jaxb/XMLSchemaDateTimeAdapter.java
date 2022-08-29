@@ -20,7 +20,7 @@ package org.mycore.oai.pmh.jaxb;
 
 import java.time.Instant;
 
-import javax.xml.bind.annotation.adapters.XmlAdapter;
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 
 import org.mycore.oai.pmh.DateUtils;
 
