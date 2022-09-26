@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.mycore</groupId>
     <artifactId>mycore-parent</artifactId>
-    <version>49</version>
+    <version>51</version>
   </parent>
   <artifactId>oai-parent</artifactId>
   <version>3.0-SNAPSHOT</version>
