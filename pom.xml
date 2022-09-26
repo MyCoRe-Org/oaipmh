@@ -7,7 +7,7 @@
     <version>51</version>
   </parent>
   <artifactId>oai-parent</artifactId>
-  <version>3.0</version>
+  <version>3.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>OAI Parent POM</name>
   <issueManagement>
